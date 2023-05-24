@@ -1,9 +1,9 @@
 {
-  "Severity": "MODERATE",
-  "UpdatedAt": "2022-04-29T04:33:51Z",
+  "Severity": "HIGH",
+  "UpdatedAt": "2023-05-24T16:37:09Z",
   "Package": {
     "Ecosystem": "MAVEN",
-    "Name": "rg.jenkins-ci.plugins:matrix-project"
+    "Name": "org.jenkins-ci.plugins:matrix-project"
   },
   "Advisory": {
     "DatabaseId": 8855,
@@ -23,6 +23,9 @@
         "Url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
       },
       {
+        "Url": "https://github.com/CVEProject/cvelist/blob/2d78eb36f4d084db7fb35f1535d8d84fdcb7d859/2022/20xxx/CVE-2022-20615.json"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-vqwg-4v6f-h6x5"
       }
     ],
@@ -36,24 +39,30 @@
         "Value": "CVE-2022-20615"
       }
     ],
-    "Description": "Jenkins Matrix Project Plugin 1.19 and earlier does not escape HTML metacharacters in node and label names, and label descriptions, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Agent/Configure permission.",
+    "Description": "Jenkins Matrix Project Plugin prior to 1.20 and 1.18.1 does not escape HTML metacharacters in node and label names, and label descriptions.\n\nThis results in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Agent/Configure permission.\n\nMatrix Project Plugin 1.20 and 1.18.1 escapes HTML metacharacters in node and label names, and label descriptions.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-13T00:01:04Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Stored XSS vulnerability in Matrix Project Plugin",
-    "UpdatedAt": "2023-02-03T05:04:27Z",
+    "UpdatedAt": "2023-05-24T16:37:09Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 5.4,
-      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+      "Score": 8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [
     {
       "FirstPatchedVersion": {
+        "Identifier": "1.18.1"
+      },
+      "VulnerableVersionRange": "\u003c 1.18.1"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": "1.20"
       },
-      "VulnerableVersionRange": "\u003c 1.20"
+      "VulnerableVersionRange": "= 1.19"
     }
   ]
 }

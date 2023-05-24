@@ -17,6 +17,9 @@
         "Url": "https://github.com/xerial/sqlite-jdbc/releases/tag/3.41.2.2"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32697"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-6phf-6h5g-97j2"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2023-05-23T20:07:58Z",
     "Severity": "HIGH",
     "Summary": "Sqlite-jdbc vulnerable to remote code execution when JDBC url is attacker controlled",
-    "UpdatedAt": "2023-05-23T20:07:59Z",
+    "UpdatedAt": "2023-05-24T17:03:56Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

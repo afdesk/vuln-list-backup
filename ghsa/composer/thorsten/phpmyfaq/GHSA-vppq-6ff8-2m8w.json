@@ -1,5 +1,5 @@
 {
-  "Severity": "HIGH",
+  "Severity": "MODERATE",
   "UpdatedAt": "2023-05-17T17:04:44Z",
   "Package": {
     "Ecosystem": "COMPOSER",
@@ -36,13 +36,13 @@
     "Description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.0-beta.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-05-17T09:30:16Z",
-    "Severity": "HIGH",
+    "Severity": "MODERATE",
     "Summary": "phpMyFAQ vulnerable to stored Cross-site Scripting",
-    "UpdatedAt": "2023-05-17T17:04:44Z",
+    "UpdatedAt": "2023-05-24T17:08:58Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 7.2,
-      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [
