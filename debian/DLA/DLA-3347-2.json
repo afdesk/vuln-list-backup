@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[03 Mar 2023] DLA-3347-2 spip - regression update",
-    "Line": 245,
+    "Line": 248,
     "ID": "DLA-3347-2",
     "Description": "spip - regression update"
   },
   "Annotations": [
     {
       "Original": "[buster] - spip 3.2.4-1+deb10u11",
-      "Line": 246,
+      "Line": 249,
       "Type": "package",
       "Release": "buster",
       "Package": "spip",

@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[09 Aug 2016] DLA-590-1 python-django - security update",
-    "Line": 8669,
+    "Line": 8672,
     "ID": "DLA-590-1",
     "Description": "python-django - security update"
   },
   "Annotations": [
     {
       "Original": "[wheezy] - python-django 1.4.22-1",
-      "Line": 8670,
+      "Line": 8673,
       "Type": "package",
       "Release": "wheezy",
       "Package": "python-django",

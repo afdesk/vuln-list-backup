@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[31 Mar 2018] DLA-1333-1 dovecot - security update",
-    "Line": 6407,
+    "Line": 6410,
     "ID": "DLA-1333-1",
     "Description": "dovecot - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2017-14461 CVE-2017-15130 CVE-2017-15132}",
-      "Line": 6408,
+      "Line": 6411,
       "Type": "xref",
       "Bugs": [
         "CVE-2017-14461",
@@ -18,7 +18,7 @@
     },
     {
       "Original": "[wheezy] - dovecot 1:2.1.7-7+deb7u2",
-      "Line": 6409,
+      "Line": 6412,
       "Type": "package",
       "Release": "wheezy",
       "Package": "dovecot",

@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[02 Oct 2018] DLA-1528-1 strongswan - security update",
-    "Line": 5814,
+    "Line": 5817,
     "ID": "DLA-1528-1",
     "Description": "strongswan - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2018-17540}",
-      "Line": 5815,
+      "Line": 5818,
       "Type": "xref",
       "Bugs": [
         "CVE-2018-17540"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[jessie] - strongswan 5.2.1-6+deb8u8",
-      "Line": 5816,
+      "Line": 5819,
       "Type": "package",
       "Release": "jessie",
       "Package": "strongswan",
