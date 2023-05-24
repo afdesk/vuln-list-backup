@@ -159,6 +159,21 @@
         "Operation": "less than"
       },
       "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20233216001",
+      "Version": "637",
+      "Arch": {
+        "Text": "x86_64",
+        "Datatype": "string",
+        "Operation": "equals"
+      },
+      "Evr": {
+        "Text": "0:1.23.5-11.rhaos4.10.gitfc32aac.el7",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
     }
   ],
   "RpmverifyfileStates": [

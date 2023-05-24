@@ -4726,221 +4726,6 @@
       "Name": "rh-python38-python-numpy-f2py"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202133621001",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-irb"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621002",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygems-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621003",
-      "Version": "636",
-      "Name": "rh-ruby27-ruby-doc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621004",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-xmlrpc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621005",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-rbs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621006",
-      "Version": "636",
-      "Name": "rh-ruby30-ruby-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621007",
-      "Version": "636",
-      "Name": "rh-ruby27-ruby-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621008",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-rdoc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621009",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-rake"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621010",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-psych"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621011",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-json"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621012",
-      "Version": "636",
-      "Name": "rh-ruby30-ruby-doc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621013",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-minitest"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621014",
-      "Version": "636",
-      "Name": "rh-ruby27-ruby"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621015",
-      "Version": "636",
-      "Name": "rh-ruby30-ruby-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621016",
-      "Version": "636",
-      "Name": "rh-ruby27-ruby-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621017",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-power_assert"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621018",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-json"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621019",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-did_you_mean"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621020",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-bundler"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621021",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-minitest"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621022",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-net-telnet"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621023",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-psych"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621024",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-rss"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621025",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygems"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621026",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-irb"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621027",
-      "Version": "636",
-      "Name": "rh-ruby30-ruby"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621028",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-power_assert"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621029",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-test-unit"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621030",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-io-console"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621031",
-      "Version": "636",
-      "Name": "rh-ruby30-ruby-default-gems"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621032",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-bigdecimal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621033",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-test-unit"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621034",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-bundler"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621035",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-rake"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621036",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-io-console"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621037",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygems-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621038",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-bigdecimal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621039",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-typeprof"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621040",
-      "Version": "636",
-      "Name": "rh-ruby30-rubygem-rexml"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621041",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-racc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621042",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygems"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202133621043",
-      "Version": "636",
-      "Name": "rh-ruby27-rubygem-openssl"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202133813001",
       "Version": "636",
       "Name": "rh-maven36-jdom2"
@@ -7641,6 +7426,116 @@
       "Name": "rh-nodejs12-nodejs-nodemon"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20212229001",
+      "Version": "638",
+      "Name": "rh-ruby27-ruby"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229002",
+      "Version": "638",
+      "Name": "rh-ruby27-ruby-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229003",
+      "Version": "638",
+      "Name": "rh-ruby27-ruby-doc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229004",
+      "Version": "638",
+      "Name": "rh-ruby27-ruby-libs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229005",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-bigdecimal"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229006",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-bundler"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229007",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-did_you_mean"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229008",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-io-console"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229009",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-irb"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229010",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-json"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229011",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-minitest"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229012",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-net-telnet"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229013",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-openssl"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229014",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-power_assert"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229015",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-psych"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229016",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-racc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229017",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-rake"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229018",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-rdoc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229019",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-test-unit"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229020",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygem-xmlrpc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229021",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygems"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20212229022",
+      "Version": "638",
+      "Name": "rh-ruby27-rubygems-devel"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20212932005",
       "Version": "636",
       "Name": "rh-nodejs14-nodejs-nodemon"
@@ -7679,6 +7574,111 @@
       "ID": "oval:com.redhat.rhsa:obj:20213254006",
       "Version": "642",
       "Name": "rh-python38-python-lxml"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982001",
+      "Version": "635",
+      "Name": "rh-ruby30-ruby"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982002",
+      "Version": "635",
+      "Name": "rh-ruby30-ruby-default-gems"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982003",
+      "Version": "635",
+      "Name": "rh-ruby30-ruby-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982004",
+      "Version": "635",
+      "Name": "rh-ruby30-ruby-doc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982005",
+      "Version": "635",
+      "Name": "rh-ruby30-ruby-libs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982006",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-bigdecimal"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982007",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-bundler"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982008",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-io-console"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982009",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-irb"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982010",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-json"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982011",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-minitest"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982012",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-power_assert"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982013",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-psych"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982014",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-rake"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982015",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-rbs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982016",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-rexml"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982017",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-rss"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982018",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-test-unit"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982019",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygem-typeprof"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982020",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygems"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213982021",
+      "Version": "635",
+      "Name": "rh-ruby30-rubygems-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20214039001",
@@ -7954,6 +7954,16 @@
       "ID": "oval:com.redhat.rhsa:obj:20231744003",
       "Version": "635",
       "Name": "rh-nodejs14-scldevel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233269001",
+      "Version": "637",
+      "Name": "devtoolset-12-binutils"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233269002",
+      "Version": "637",
+      "Name": "devtoolset-12-binutils-devel"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20132099001",

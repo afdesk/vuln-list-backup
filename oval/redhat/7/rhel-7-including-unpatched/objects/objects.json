@@ -15001,16 +15001,6 @@
       "Name": "python-flask"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202331038001",
-      "Version": "636",
-      "Name": "log4cxx"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202331038002",
-      "Version": "636",
-      "Name": "log4cxx-devel"
-    },
-    {
       "ID": "oval:com.redhat.rhba:obj:20150364008",
       "Version": "641",
       "Name": "nss-util"
@@ -20784,6 +20774,16 @@
       "ID": "oval:com.redhat.unaffected:obj:202327478002",
       "Version": "635",
       "Name": "libmemcached-devel"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202331038001",
+      "Version": "635",
+      "Name": "log4cxx"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202331038002",
+      "Version": "635",
+      "Name": "log4cxx-devel"
     }
   ],
   "RpmverifyfileObjects": [

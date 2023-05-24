@@ -56714,6 +56714,54 @@
     },
     {
       "Check": "at least one",
+      "Comment": "devtoolset-12-binutils is earlier than 0:2.36.1-6.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233269001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233269001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233269001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "devtoolset-12-binutils is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233269002",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233269001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20190772002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "devtoolset-12-binutils-devel is earlier than 0:2.36.1-6.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233269003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233269002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233269001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "devtoolset-12-binutils-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233269004",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233269002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20190772002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "rh-git227-git is earlier than 0:2.27.0-6.el7",
       "ID": "oval:com.redhat.rhsa:tst:20233280001",
       "Version": "639",
@@ -56914,6 +56962,366 @@
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20233280003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby is earlier than 0:2.7.8-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-devel is earlier than 0:2.7.8-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-doc is earlier than 0:2.7.8-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-libs is earlier than 0:2.7.8-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-bigdecimal is earlier than 0:2.0.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-bundler is earlier than 0:2.2.24-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-did_you_mean is earlier than 0:1.4.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-io-console is earlier than 0:0.5.6-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291007"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-irb is earlier than 0:1.2.6-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291008"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-json is earlier than 0:2.3.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291009"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-minitest is earlier than 0:5.13.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291010"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-net-telnet is earlier than 0:0.2.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291023",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291011"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-openssl is earlier than 0:2.1.4-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291025",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291012"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-power_assert is earlier than 0:1.1.7-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291027",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291013"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-psych is earlier than 0:3.1.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291029",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291014"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-racc is earlier than 0:1.4.16-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291031",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291015"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-rake is earlier than 0:13.0.1-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291033",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291016"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-rdoc is earlier than 0:6.2.1.1-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291035",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291017"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-test-unit is earlier than 0:3.3.4-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291037",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291018"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-xmlrpc is earlier than 0:0.3.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291039",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291019"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygems is earlier than 0:3.1.6-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291041",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291020"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygems-devel is earlier than 0:3.1.6-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291043",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291020"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-httpd is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205280001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-httpd-devel is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205280002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-httpd-manual is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205280003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-httpd-tools is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205280004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-mod_ldap is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205280005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-mod_proxy_html is earlier than 1:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205280006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-mod_session is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205280007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-mod_ssl is earlier than 1:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205280008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292004"
       }
     }
   ],

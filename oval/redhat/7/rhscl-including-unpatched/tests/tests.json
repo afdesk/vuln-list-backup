@@ -20792,952 +20792,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-irb is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-irb is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygems-devel is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygems-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621004",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-ruby-doc is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-ruby-doc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621006",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-xmlrpc is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621007",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621004"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-xmlrpc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621008",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-rbs is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621005"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-rbs is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621010",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby-libs is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621011",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621006"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby-libs is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621012",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-ruby-devel is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621013",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621007"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-ruby-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621014",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621007"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-rdoc is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621015",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-rdoc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621016",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621008"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-rake is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621017",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621009"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-rake is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621018",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621009"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-psych is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621019",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621010"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-psych is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621020",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621010"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-json is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621021",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621011"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-json is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621022",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby-doc is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621023",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621012"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby-doc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621024",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621012"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-minitest is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621025",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621013"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-minitest is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621026",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621013"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-ruby is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621027",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621014"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-ruby is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621028",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621014"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby-devel is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621029",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621015"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621030",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621015"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-ruby-libs is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621031",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621016"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-ruby-libs is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621032",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621016"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-power_assert is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621033",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621017"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-power_assert is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621034",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621017"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-json is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621035",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621018"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-json is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621036",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621018"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-did_you_mean is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621037",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621019"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-did_you_mean is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621038",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621019"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-bundler is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621039",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621020"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-bundler is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621040",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621020"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-minitest is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621041",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621021"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-minitest is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621042",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621021"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-net-telnet is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621043",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621022"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-net-telnet is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621044",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621022"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-psych is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621045",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621023"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-psych is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621046",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621023"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-rss is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621047",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621024"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-rss is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621048",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621024"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygems is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621049",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621025"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygems is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621050",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621025"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-irb is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621051",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621026"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-irb is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621052",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621026"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621053",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621027"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621054",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621027"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-power_assert is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621055",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621028"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-power_assert is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621056",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621028"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-test-unit is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621057",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621029"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-test-unit is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621058",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621029"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-io-console is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621059",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621030"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-io-console is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621060",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621030"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby-default-gems is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621061",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621031"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-ruby-default-gems is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621062",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621031"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-bigdecimal is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621063",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621032"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-bigdecimal is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621064",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621032"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-test-unit is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621065",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621033"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-test-unit is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621066",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621033"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-bundler is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621067",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621034"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-bundler is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621068",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621034"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-rake is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621069",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621035"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-rake is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621070",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621035"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-io-console is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621071",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621036"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-io-console is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621072",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621036"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygems-devel is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621073",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621037"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygems-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621074",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621037"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-bigdecimal is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621075",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621038"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-bigdecimal is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621076",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621038"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-typeprof is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621077",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621039"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-typeprof is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621078",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621039"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-rexml is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621079",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621040"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby30-rubygem-rexml is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621080",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621040"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-racc is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621081",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621041"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-racc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621082",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621041"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygems is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621083",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621042"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygems is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621084",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621042"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-openssl is installed",
-      "ID": "oval:com.redhat.cve:tst:202133621085",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621043"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rh-ruby27-rubygem-openssl is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202133621086",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621043"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:200620001001"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "rh-maven36-jdom2 is installed",
       "ID": "oval:com.redhat.cve:tst:202133813001",
       "Version": "636",
@@ -65104,10 +64158,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229001",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621014"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229002",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65116,10 +64182,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229003",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621007"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229004",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65128,10 +64206,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229005",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621003"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-doc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229006",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65140,10 +64230,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229007",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621016"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-libs is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229008",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65152,10 +64254,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229009",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621038"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-bigdecimal is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229010",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65164,10 +64278,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229011",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621034"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-bundler is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229012",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65176,10 +64302,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229013",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621019"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-did_you_mean is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229014",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65188,10 +64326,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229015",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621036"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229007"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-io-console is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229016",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65200,10 +64350,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229017",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621001"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229008"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-irb is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229018",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65212,10 +64374,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229019",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621011"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229009"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-json is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229020",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65224,10 +64398,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229021",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621013"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229010"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-minitest is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229022",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65236,10 +64422,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229023",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621022"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229011"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-net-telnet is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229024",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65248,10 +64446,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229025",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621043"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229012"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-openssl is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229026",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65260,10 +64470,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229027",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621017"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229013"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-power_assert is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229028",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65272,10 +64494,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229029",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621023"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229014"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-psych is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229030",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65284,10 +64518,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229031",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621041"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229015"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-racc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229032",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65296,10 +64542,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229033",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621035"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229016"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-rake is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229034",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65308,10 +64566,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229035",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229018"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229017"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-rdoc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229036",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65320,10 +64590,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229037",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621029"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229019"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229018"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-test-unit is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229038",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65332,10 +64614,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229039",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621004"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229020"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229019"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-xmlrpc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229040",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65344,10 +64638,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229041",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621042"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229021"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229020"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygems is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229042",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -65356,10 +64662,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20212229043",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621002"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229022"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20212229020"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygems-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20212229044",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67348,7 +66666,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621014"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559001"
@@ -67360,7 +66678,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621007"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559001"
@@ -67372,7 +66690,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621003"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559003"
@@ -67384,7 +66702,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559007",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621016"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559001"
@@ -67396,7 +66714,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559009",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621038"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559004"
@@ -67408,7 +66726,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559011",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621034"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559005"
@@ -67420,7 +66738,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559013",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621019"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559006"
@@ -67432,7 +66750,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559015",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621036"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559007"
@@ -67444,7 +66762,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559017",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621001"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559008"
@@ -67456,7 +66774,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559019",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621011"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559009"
@@ -67468,7 +66786,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559021",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621013"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559010"
@@ -67480,7 +66798,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559023",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621022"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559011"
@@ -67492,7 +66810,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559025",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621043"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559012"
@@ -67504,7 +66822,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559027",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621017"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559013"
@@ -67516,7 +66834,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559029",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621023"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559014"
@@ -67528,7 +66846,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559031",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621041"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559015"
@@ -67540,7 +66858,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559033",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621035"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559016"
@@ -67552,7 +66870,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559035",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229018"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559017"
@@ -67564,7 +66882,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559037",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621029"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229019"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559018"
@@ -67576,7 +66894,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559039",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621004"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229020"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559019"
@@ -67588,7 +66906,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559041",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621042"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229021"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559020"
@@ -67600,7 +66918,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20213559043",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621002"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229022"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213559020"
@@ -67840,10 +67158,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621027"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67852,10 +67182,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621031"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby-default-gems is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67864,10 +67206,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621015"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67876,10 +67230,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621012"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby-doc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67888,10 +67254,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982009",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621006"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby-libs is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67900,10 +67278,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982011",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621032"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-bigdecimal is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982012",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67912,10 +67302,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982013",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621020"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-bundler is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982014",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67924,10 +67326,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982015",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621030"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-io-console is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982016",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67936,10 +67350,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982017",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621026"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982007"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-irb is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982018",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67948,10 +67374,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982019",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621018"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982008"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-json is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982020",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67960,10 +67398,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982021",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621021"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982009"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-minitest is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982022",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67972,10 +67422,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982023",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621028"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982010"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-power_assert is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982024",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67984,10 +67446,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982025",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621010"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982011"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-psych is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982026",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -67996,10 +67470,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982027",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621009"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982012"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-rake is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982028",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -68008,10 +67494,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982029",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621005"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982013"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-rbs is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982030",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -68020,10 +67518,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982031",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621040"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982014"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-rexml is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982032",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -68032,10 +67542,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982033",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621024"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982015"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-rss is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982034",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -68044,10 +67566,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982035",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621033"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982018"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982016"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-test-unit is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982036",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -68056,10 +67590,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982037",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621039"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982019"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982017"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-typeprof is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982038",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -68068,10 +67614,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982039",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621025"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982020"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982018"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygems is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982040",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -68080,10 +67638,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20213982041",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621037"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982021"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20213982018"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygems-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213982042",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
       }
     },
     {
@@ -72676,7 +72246,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621027"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855001"
@@ -72688,7 +72258,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621031"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855003"
@@ -72700,7 +72270,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621015"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855001"
@@ -72712,7 +72282,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621012"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855003"
@@ -72724,7 +72294,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855009",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621006"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855001"
@@ -72736,7 +72306,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855011",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621032"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855004"
@@ -72748,7 +72318,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855013",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621020"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855005"
@@ -72760,7 +72330,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855015",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621030"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855006"
@@ -72772,7 +72342,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855017",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621026"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855007"
@@ -72784,7 +72354,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855019",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621018"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855008"
@@ -72796,7 +72366,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855021",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621021"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855009"
@@ -72808,7 +72378,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855023",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621028"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855010"
@@ -72820,7 +72390,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855025",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621010"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855011"
@@ -72832,7 +72402,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855027",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621009"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855012"
@@ -72844,7 +72414,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855029",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621005"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855013"
@@ -72856,7 +72426,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855031",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621040"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855014"
@@ -72868,7 +72438,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855033",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621024"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855015"
@@ -72880,7 +72450,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855035",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621033"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982018"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855016"
@@ -72892,7 +72462,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855037",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621039"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982019"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855017"
@@ -72904,7 +72474,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855039",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621025"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982020"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855018"
@@ -72916,7 +72486,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226855041",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621037"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982021"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226855018"
@@ -72928,7 +72498,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621014"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856001"
@@ -72940,7 +72510,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621007"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856001"
@@ -72952,7 +72522,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621003"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856003"
@@ -72964,7 +72534,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621016"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856001"
@@ -72976,7 +72546,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856009",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621038"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856004"
@@ -72988,7 +72558,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856011",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621034"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856005"
@@ -73000,7 +72570,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856013",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621019"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856006"
@@ -73012,7 +72582,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856015",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621036"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856007"
@@ -73024,7 +72594,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856017",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621001"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856008"
@@ -73036,7 +72606,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856019",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621011"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856009"
@@ -73048,7 +72618,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856021",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621013"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856010"
@@ -73060,7 +72630,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856023",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621022"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856011"
@@ -73072,7 +72642,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856025",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621043"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856012"
@@ -73084,7 +72654,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856027",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621017"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856013"
@@ -73096,7 +72666,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856029",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621023"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856014"
@@ -73108,7 +72678,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856031",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621041"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856015"
@@ -73120,7 +72690,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856033",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621035"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856016"
@@ -73132,7 +72702,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856035",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229018"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856017"
@@ -73144,7 +72714,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856037",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621029"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229019"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856018"
@@ -73156,7 +72726,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856039",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621004"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229020"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856019"
@@ -73168,7 +72738,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856041",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621042"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229021"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856020"
@@ -73180,7 +72750,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226856043",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621002"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229022"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856020"
@@ -74052,6 +73622,54 @@
     },
     {
       "Check": "at least one",
+      "Comment": "devtoolset-12-binutils is earlier than 0:2.36.1-6.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233269001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233269001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233269001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "devtoolset-12-binutils is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233269002",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233269001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "devtoolset-12-binutils-devel is earlier than 0:2.36.1-6.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233269003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233269002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233269001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "devtoolset-12-binutils-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233269004",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233269002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:200620001001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "rh-git227-git is earlier than 0:2.27.0-6.el7",
       "ID": "oval:com.redhat.rhsa:tst:20233280001",
       "Version": "639",
@@ -74252,6 +73870,366 @@
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20233280003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby is earlier than 0:2.7.8-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-devel is earlier than 0:2.7.8-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-doc is earlier than 0:2.7.8-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-libs is earlier than 0:2.7.8-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-bigdecimal is earlier than 0:2.0.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-bundler is earlier than 0:2.2.24-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-did_you_mean is earlier than 0:1.4.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-io-console is earlier than 0:0.5.6-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291007"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-irb is earlier than 0:1.2.6-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291008"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-json is earlier than 0:2.3.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291009"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-minitest is earlier than 0:5.13.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291010"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-net-telnet is earlier than 0:0.2.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291023",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291011"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-openssl is earlier than 0:2.1.4-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291025",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291012"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-power_assert is earlier than 0:1.1.7-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291027",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291013"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-psych is earlier than 0:3.1.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291029",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291014"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-racc is earlier than 0:1.4.16-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291031",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291015"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-rake is earlier than 0:13.0.1-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291033",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291016"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-rdoc is earlier than 0:6.2.1.1-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291035",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291017"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-test-unit is earlier than 0:3.3.4-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291037",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291018"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-xmlrpc is earlier than 0:0.3.0-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291039",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291019"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygems is earlier than 0:3.1.6-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291041",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291020"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygems-devel is earlier than 0:3.1.6-132.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20233291043",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233291020"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-httpd is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:200620001007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-httpd-devel is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:200620001006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-httpd-manual is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:200620001003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-httpd-tools is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:200620001002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-mod_ldap is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:200620001001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-mod_proxy_html is earlier than 1:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:200620001008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-mod_session is earlier than 0:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:200620001004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "httpd24-mod_ssl is earlier than 1:2.4.34-23.el7.6",
+      "ID": "oval:com.redhat.rhsa:tst:20233292015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:200620001009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233292004"
       }
     },
     {
@@ -80302,12 +80280,32 @@
     },
     {
       "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-rexml is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982016"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "rh-ruby30-rubygem-rexml is not installed",
       "ID": "oval:com.redhat.unaffected:tst:20162338002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621040"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982016"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-io-console is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229008"
       },
       "State": {}
     },
@@ -80318,7 +80316,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621036"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby-libs is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982005"
       },
       "State": {}
     },
@@ -80329,7 +80337,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621006"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-net-telnet is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229012"
       },
       "State": {}
     },
@@ -80340,7 +80358,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621022"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229012"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-io-console is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982008"
       },
       "State": {}
     },
@@ -80351,7 +80379,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621030"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-test-unit is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229019"
       },
       "State": {}
     },
@@ -80362,7 +80400,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621029"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229019"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-racc is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229016"
       },
       "State": {}
     },
@@ -80373,7 +80421,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621041"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229016"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-test-unit is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982018"
       },
       "State": {}
     },
@@ -80384,7 +80442,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621033"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982018"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygems is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982020"
       },
       "State": {}
     },
@@ -80395,7 +80463,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621025"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982020"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-json is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229010"
       },
       "State": {}
     },
@@ -80406,7 +80484,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621011"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-doc is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229003"
       },
       "State": {}
     },
@@ -80417,7 +80505,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621003"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-minitest is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338023",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229011"
       },
       "State": {}
     },
@@ -80428,7 +80526,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621013"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygems is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338025",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229021"
       },
       "State": {}
     },
@@ -80439,7 +80547,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621042"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229021"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygems-devel is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338027",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982021"
       },
       "State": {}
     },
@@ -80450,7 +80568,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621037"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982021"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby-default-gems is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338029",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982002"
       },
       "State": {}
     },
@@ -80461,7 +80589,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621031"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-minitest is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338031",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982011"
       },
       "State": {}
     },
@@ -80472,7 +80610,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621021"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-bigdecimal is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338033",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229005"
       },
       "State": {}
     },
@@ -80483,7 +80631,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621038"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby-doc is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338035",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982004"
       },
       "State": {}
     },
@@ -80494,7 +80652,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621012"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-libs is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338037",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229004"
       },
       "State": {}
     },
@@ -80505,7 +80673,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621016"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-irb is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338039",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229009"
       },
       "State": {}
     },
@@ -80516,7 +80694,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621001"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229009"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-did_you_mean is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338041",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229007"
       },
       "State": {}
     },
@@ -80527,7 +80715,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621019"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-xmlrpc is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338043",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229020"
       },
       "State": {}
     },
@@ -80538,7 +80736,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621004"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229020"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-openssl is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338045",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229013"
       },
       "State": {}
     },
@@ -80549,7 +80757,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621043"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229013"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-typeprof is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338047",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982019"
       },
       "State": {}
     },
@@ -80560,7 +80778,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621039"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982019"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-rake is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338049",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982014"
       },
       "State": {}
     },
@@ -80571,7 +80799,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621009"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982014"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-rbs is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338051",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982015"
       },
       "State": {}
     },
@@ -80582,7 +80820,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621005"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982015"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-bigdecimal is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338053",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982006"
       },
       "State": {}
     },
@@ -80593,7 +80841,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621032"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338055",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982001"
       },
       "State": {}
     },
@@ -80604,7 +80862,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621027"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338057",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229001"
       },
       "State": {}
     },
@@ -80615,7 +80883,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621014"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-psych is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338059",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229015"
       },
       "State": {}
     },
@@ -80626,7 +80904,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621023"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229015"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-rss is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338061",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982017"
       },
       "State": {}
     },
@@ -80637,7 +80925,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621024"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982017"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-rake is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338063",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229017"
       },
       "State": {}
     },
@@ -80648,7 +80946,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621035"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229017"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-power_assert is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338065",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229014"
       },
       "State": {}
     },
@@ -80659,7 +80967,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621017"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229014"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygems-devel is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338067",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229022"
       },
       "State": {}
     },
@@ -80670,7 +80988,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621002"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229022"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-bundler is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338069",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982007"
       },
       "State": {}
     },
@@ -80681,7 +81009,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621020"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-bundler is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338071",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229006"
       },
       "State": {}
     },
@@ -80692,7 +81030,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621034"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-ruby-devel is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338073",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229002"
       },
       "State": {}
     },
@@ -80703,7 +81051,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621007"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby27-rubygem-rdoc is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338075",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229018"
       },
       "State": {}
     },
@@ -80714,7 +81072,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20212229018"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-power_assert is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338077",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982012"
       },
       "State": {}
     },
@@ -80725,7 +81093,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621028"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982012"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-irb is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338079",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982009"
       },
       "State": {}
     },
@@ -80736,7 +81114,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621026"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982009"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-psych is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338081",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982013"
       },
       "State": {}
     },
@@ -80747,7 +81135,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621010"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982013"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-rubygem-json is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338083",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982010"
       },
       "State": {}
     },
@@ -80758,7 +81156,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621018"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-ruby30-ruby-devel is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20162338085",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982003"
       },
       "State": {}
     },
@@ -80769,7 +81177,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202133621015"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213982003"
       },
       "State": {}
     },

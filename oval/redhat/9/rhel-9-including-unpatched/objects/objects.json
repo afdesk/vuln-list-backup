@@ -7453,17 +7453,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202328204002",
       "Version": "636",
-      "Name": "webkit2gtk3-jsc"
+      "Name": "webkit2gtk3-jsc-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202328204003",
       "Version": "636",
-      "Name": "webkit2gtk3-jsc-devel"
+      "Name": "webkit2gtk3-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202328204004",
       "Version": "636",
-      "Name": "webkit2gtk3-devel"
+      "Name": "webkit2gtk3-jsc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202328450001",
@@ -7618,12 +7618,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202332681002",
       "Version": "636",
-      "Name": "python3-requests+security"
+      "Name": "python3-requests+socks"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202332681003",
       "Version": "636",
-      "Name": "python3-requests+socks"
+      "Name": "python3-requests+security"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202333204001",

@@ -126,11 +126,6 @@
       "Name": "json-smart"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202321971001",
-      "Version": "636",
-      "Name": "mysql-connector-java"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20232454001",
       "Version": "636",
       "Name": "postgresql"
@@ -324,6 +319,11 @@
       "ID": "oval:com.redhat.unaffected:obj:202320883001",
       "Version": "635",
       "Name": "spring-boot"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202321971001",
+      "Version": "635",
+      "Name": "mysql-connector-java"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202324815001",

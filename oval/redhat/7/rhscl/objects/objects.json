@@ -5584,6 +5584,16 @@
       "ID": "oval:com.redhat.rhsa:obj:20231744003",
       "Version": "635",
       "Name": "rh-nodejs14-scldevel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233269001",
+      "Version": "637",
+      "Name": "devtoolset-12-binutils"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233269002",
+      "Version": "637",
+      "Name": "devtoolset-12-binutils-devel"
     }
   ],
   "RpmverifyfileObjects": [
