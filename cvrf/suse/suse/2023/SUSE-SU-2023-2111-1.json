@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/bci-init:15.5-2023-2111,Container bci/bci-init:latest-2023-2111,Container bci/bci-micro:15.5-2023-2111,Container bci/bci-micro:latest-2023-2111,Container bci/bci-minimal:15.5-2023-2111,Container bci/bci-minimal:latest-2023-2111,Container bci/dotnet-aspnet:6.0-2023-2111,Container bci/dotnet-aspnet:latest-2023-2111,Container bci/dotnet-runtime:6.0-2023-2111,Container bci/dotnet-runtime:latest-2023-2111,Container bci/dotnet-sdk:6.0-2023-2111,Container bci/dotnet-sdk:latest-2023-2111,Container bci/golang:1.19-2023-2111,Container bci/golang:latest-2023-2111,Container bci/node:16-2023-2111,Container bci/nodejs:latest-2023-2111,Container bci/openjdk-devel:11-2023-2111,Container bci/openjdk-devel:latest-2023-2111,Container bci/openjdk:11-2023-2111,Container bci/openjdk:latest-2023-2111,Container bci/php-apache:8-2023-2111,Container bci/php-fpm:8-2023-2111,Container bci/php:8-2023-2111,Container bci/python:3-2023-2111,Container bci/python:latest-2023-2111,Container bci/ruby:latest-2023-2111,Container bci/rust:1.68-2023-2111,Container bci/rust:latest-2023-2111,Container rancher/elemental-builder-image/5.3:latest-2023-2111,Container rancher/elemental-operator/5.3:latest-2023-2111,Container rancher/elemental-teal/5.3:latest-2023-2111,Container rancher/seedimage-builder/5.3:latest-2023-2111,Container ses/7.1/ceph/haproxy:latest-2023-2111,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-2111,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-2111,Container ses/7.1/ceph/prometheus-server:latest-2023-2111,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-2111,Container ses/7.1/cephcsi/cephcsi:latest-2023-2111,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2023-2111,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2023-2111,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2023-2111,Container ses/7.1/rook/ceph:latest-2023-2111,Container suse/389-ds:latest-2023-2111,Container suse/pcp:latest-2023-2111,Container suse/registry:latest-2023-2111,Container suse/sle-micro-rancher/5.2:latest-2023-2111,Container suse/sle-micro-rancher/5.3:latest-2023-2111,Container suse/sle-micro-rancher/5.4:latest-2023-2111,Container suse/sle-micro/5.1/toolbox:latest-2023-2111,Container suse/sle-micro/5.2/toolbox:latest-2023-2111,Container suse/sle-micro/5.3/toolbox:latest-2023-2111,Container suse/sle-micro/5.4/toolbox:latest-2023-2111,Container suse/sle15:15.1-2023-2111,Container suse/sle15:15.2-2023-2111,Container suse/sle15:15.3-2023-2111,Container suse/sle15:15.4-2023-2111,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-2111,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-2111,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-2111,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-2111,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-2111,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-2111,Image SLES15-SP4-2023-2111,Image SLES15-SP4-Azure-Basic-2023-2111,Image SLES15-SP4-Azure-Standard-2023-2111,Image SLES15-SP4-BYOS-2023-2111,Image SLES15-SP4-BYOS-Azure-2023-2111,Image SLES15-SP4-CHOST-BYOS-2023-2111,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2111,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2111,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2111,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2111,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2111,Image SLES15-SP4-HPC-2023-2111,Image SLES15-SP4-HPC-Azure-2023-2111,Image SLES15-SP4-HPC-BYOS-2023-2111,Image SLES15-SP4-HPC-BYOS-Azure-2023-2111,Image SLES15-SP4-HPC-BYOS-GCE-2023-2111,Image SLES15-SP4-HPC-GCE-2023-2111,Image SLES15-SP4-SAP-BYOS-2023-2111,Image SLES15-SP4-SAP-BYOS-Azure-2023-2111,Image SLES15-SP4-SAP-Hardened-2023-2111,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2111,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2111,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2111,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2111,Image SLES15-SP4-SAP-Hardened-EC2-2023-2111,SUSE-2023-2111,SUSE-SLE-Micro-5.3-2023-2111,SUSE-SLE-Micro-5.4-2023-2111,SUSE-SLE-Module-Basesystem-15-SP4-2023-2111,SUSE-SLE-Module-Development-Tools-15-SP4-2023-2111,SUSE-SLE-Module-Legacy-15-SP4-2023-2111,SUSE-SLE-Product-RT-15-SP3-2023-2111,SUSE-SUSE-MicroOS-5.1-2023-2111,SUSE-SUSE-MicroOS-5.2-2023-2111,openSUSE-Leap-Micro-5.3-2023-2111,openSUSE-SLE-15.4-2023-2111",
+      "Text": "Container bci/bci-init:15.5-2023-2111,Container bci/bci-init:latest-2023-2111,Container bci/bci-micro:15.5-2023-2111,Container bci/bci-micro:latest-2023-2111,Container bci/bci-minimal:15.5-2023-2111,Container bci/bci-minimal:latest-2023-2111,Container bci/dotnet-aspnet:6.0-2023-2111,Container bci/dotnet-aspnet:latest-2023-2111,Container bci/dotnet-runtime:6.0-2023-2111,Container bci/dotnet-runtime:latest-2023-2111,Container bci/dotnet-sdk:6.0-2023-2111,Container bci/dotnet-sdk:latest-2023-2111,Container bci/golang:1.19-2023-2111,Container bci/golang:latest-2023-2111,Container bci/node:16-2023-2111,Container bci/nodejs:latest-2023-2111,Container bci/openjdk-devel:11-2023-2111,Container bci/openjdk-devel:latest-2023-2111,Container bci/openjdk:11-2023-2111,Container bci/openjdk:latest-2023-2111,Container bci/php-apache:8-2023-2111,Container bci/php-fpm:8-2023-2111,Container bci/php:8-2023-2111,Container bci/python:3-2023-2111,Container bci/python:latest-2023-2111,Container bci/ruby:latest-2023-2111,Container bci/rust:1.68-2023-2111,Container bci/rust:latest-2023-2111,Container rancher/elemental-builder-image/5.3:latest-2023-2111,Container rancher/elemental-operator/5.3:latest-2023-2111,Container rancher/elemental-teal/5.3:latest-2023-2111,Container rancher/seedimage-builder/5.3:latest-2023-2111,Container ses/7.1/ceph/haproxy:latest-2023-2111,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-2111,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-2111,Container ses/7.1/ceph/prometheus-server:latest-2023-2111,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-2111,Container ses/7.1/cephcsi/cephcsi:latest-2023-2111,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2023-2111,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2023-2111,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2023-2111,Container ses/7.1/rook/ceph:latest-2023-2111,Container suse/389-ds:latest-2023-2111,Container suse/pcp:latest-2023-2111,Container suse/registry:latest-2023-2111,Container suse/sle-micro-rancher/5.2:latest-2023-2111,Container suse/sle-micro-rancher/5.3:latest-2023-2111,Container suse/sle-micro-rancher/5.4:latest-2023-2111,Container suse/sle-micro/5.1/toolbox:latest-2023-2111,Container suse/sle-micro/5.2/toolbox:latest-2023-2111,Container suse/sle-micro/5.3/toolbox:latest-2023-2111,Container suse/sle-micro/5.4/toolbox:latest-2023-2111,Container suse/sle15:15.1-2023-2111,Container suse/sle15:15.2-2023-2111,Container suse/sle15:15.3-2023-2111,Container suse/sle15:15.4-2023-2111,Container suse/sles/15.5/cdi-apiserver:1.55.0-2023-2111,Container suse/sles/15.5/cdi-cloner:1.55.0-2023-2111,Container suse/sles/15.5/cdi-controller:1.55.0-2023-2111,Container suse/sles/15.5/cdi-importer:1.55.0-2023-2111,Container suse/sles/15.5/cdi-operator:1.55.0-2023-2111,Container suse/sles/15.5/cdi-uploadproxy:1.55.0-2023-2111,Container suse/sles/15.5/cdi-uploadserver:1.55.0-2023-2111,Container suse/sles/15.5/libguestfs-tools:0.58.0-2023-2111,Container suse/sles/15.5/virt-api:0.58.0-2023-2111,Container suse/sles/15.5/virt-controller:0.58.0-2023-2111,Container suse/sles/15.5/virt-exportproxy:0.58.0-2023-2111,Container suse/sles/15.5/virt-exportserver:0.58.0-2023-2111,Container suse/sles/15.5/virt-handler:0.58.0-2023-2111,Container suse/sles/15.5/virt-launcher:0.58.0-2023-2111,Container suse/sles/15.5/virt-operator:0.58.0-2023-2111,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-2111,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-2111,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-2111,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-2111,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-2111,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-2111,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-2111,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-2111,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-2111,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-2111,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-2111,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-2111,Image SLES15-SP4-2023-2111,Image SLES15-SP4-Azure-Basic-2023-2111,Image SLES15-SP4-Azure-Standard-2023-2111,Image SLES15-SP4-BYOS-2023-2111,Image SLES15-SP4-BYOS-Azure-2023-2111,Image SLES15-SP4-CHOST-BYOS-2023-2111,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2111,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2111,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2111,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2111,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2111,Image SLES15-SP4-HPC-2023-2111,Image SLES15-SP4-HPC-Azure-2023-2111,Image SLES15-SP4-HPC-BYOS-2023-2111,Image SLES15-SP4-HPC-BYOS-Azure-2023-2111,Image SLES15-SP4-HPC-BYOS-GCE-2023-2111,Image SLES15-SP4-HPC-GCE-2023-2111,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2111,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2111,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2111,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2111,Image SLES15-SP4-SAP-BYOS-2023-2111,Image SLES15-SP4-SAP-BYOS-Azure-2023-2111,Image SLES15-SP4-SAP-Hardened-2023-2111,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2111,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2111,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2111,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2111,Image SLES15-SP4-SAP-Hardened-EC2-2023-2111,SUSE-2023-2111,SUSE-SLE-Micro-5.3-2023-2111,SUSE-SLE-Micro-5.4-2023-2111,SUSE-SLE-Module-Basesystem-15-SP4-2023-2111,SUSE-SLE-Module-Development-Tools-15-SP4-2023-2111,SUSE-SLE-Module-Legacy-15-SP4-2023-2111,SUSE-SLE-Product-RT-15-SP3-2023-2111,SUSE-SUSE-MicroOS-5.1-2023-2111,SUSE-SUSE-MicroOS-5.2-2023-2111,openSUSE-Leap-Micro-5.3-2023-2111,openSUSE-SLE-15.4-2023-2111",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -855,6 +855,311 @@
       },
       {
         "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-apiserver:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-apiserver:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-apiserver:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-cloner:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-cloner:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-cloner:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-controller:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-controller:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-controller:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-importer:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-importer:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-importer:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-operator:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-operator:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-operator:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-uploadproxy:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-uploadproxy:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-uploadproxy:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-uploadserver:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-uploadserver:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/cdi-uploadserver:1.55.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/libguestfs-tools:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/libguestfs-tools:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/libguestfs-tools:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-api:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-api:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-api:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-controller:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-controller:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-controller:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-exportproxy:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-exportproxy:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-exportproxy:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-exportserver:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-exportserver:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-exportserver:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-handler:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-handler:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-handler:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-launcher:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-launcher:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-launcher:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-operator:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-operator:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Container suse/sles/15.5/virt-operator:0.58.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
@@ -971,6 +1276,46 @@
       {
         "ProductReference": "terminfo-base-6.1-150000.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -1311,6 +1656,86 @@
       {
         "ProductReference": "terminfo-base-6.1-150000.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -1969,6 +2394,67 @@
             "Container suse/sle15:15.4:libncurses6-6.1-150000.5.15.1",
             "Container suse/sle15:15.4:ncurses-utils-6.1-150000.5.15.1",
             "Container suse/sle15:15.4:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-apiserver:1.55.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-apiserver:1.55.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-apiserver:1.55.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-cloner:1.55.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-cloner:1.55.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-cloner:1.55.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-controller:1.55.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-controller:1.55.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-controller:1.55.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-importer:1.55.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-importer:1.55.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-importer:1.55.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-operator:1.55.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-operator:1.55.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-operator:1.55.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-uploadproxy:1.55.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-uploadproxy:1.55.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-uploadproxy:1.55.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-uploadserver:1.55.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-uploadserver:1.55.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/cdi-uploadserver:1.55.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/libguestfs-tools:0.58.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/libguestfs-tools:0.58.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/libguestfs-tools:0.58.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-api:0.58.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-api:0.58.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-api:0.58.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-controller:0.58.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-controller:0.58.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-controller:0.58.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-exportproxy:0.58.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-exportproxy:0.58.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-exportproxy:0.58.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-exportserver:0.58.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-exportserver:0.58.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-exportserver:0.58.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-handler:0.58.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-handler:0.58.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-handler:0.58.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-launcher:0.58.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-launcher:0.58.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-launcher:0.58.0:terminfo-base-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-operator:0.58.0:libncurses6-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-operator:0.58.0:ncurses-utils-6.1-150000.5.15.1",
+            "Container suse/sles/15.5/virt-operator:0.58.0:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:terminfo-base-6.1-150000.5.15.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libncurses6-6.1-150000.5.15.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:ncurses-utils-6.1-150000.5.15.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:terminfo-6.1-150000.5.15.1",
@@ -1993,6 +2479,14 @@
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:ncurses-utils-6.1-150000.5.15.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:terminfo-6.1-150000.5.15.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:terminfo-base-6.1-150000.5.15.1",
             "Image SLES15-SP4-Azure-Basic:libncurses6-6.1-150000.5.15.1",
             "Image SLES15-SP4-Azure-Basic:ncurses-utils-6.1-150000.5.15.1",
             "Image SLES15-SP4-Azure-Basic:terminfo-6.1-150000.5.15.1",
@@ -2057,6 +2551,22 @@
             "Image SLES15-SP4-HPC:ncurses-utils-6.1-150000.5.15.1",
             "Image SLES15-SP4-HPC:terminfo-6.1-150000.5.15.1",
             "Image SLES15-SP4-HPC:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:terminfo-base-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libncurses6-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:ncurses-utils-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:terminfo-6.1-150000.5.15.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:terminfo-base-6.1-150000.5.15.1",
             "Image SLES15-SP4-SAP-BYOS-Azure:libncurses6-6.1-150000.5.15.1",
             "Image SLES15-SP4-SAP-BYOS-Azure:ncurses-utils-6.1-150000.5.15.1",
             "Image SLES15-SP4-SAP-BYOS-Azure:terminfo-6.1-150000.5.15.1",

@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2171,SUSE-SLE-SERVER-12-SP5-2023-2171",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2171,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2171,SUSE-2023-2171,SUSE-SLE-SERVER-12-SP5-2023-2171",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "ntp-4.2.8p15-100.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-4.2.8p15-100.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "ntp-4.2.8p15-100.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
@@ -130,6 +140,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:ntp-4.2.8p15-100.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:ntp-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-doc-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:ntp-4.2.8p15-100.1",
@@ -162,6 +174,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:ntp-4.2.8p15-100.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:ntp-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-doc-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:ntp-4.2.8p15-100.1",
@@ -194,6 +208,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:ntp-4.2.8p15-100.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:ntp-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-doc-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:ntp-4.2.8p15-100.1",
@@ -226,6 +242,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:ntp-4.2.8p15-100.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:ntp-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-doc-4.2.8p15-100.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:ntp-4.2.8p15-100.1",

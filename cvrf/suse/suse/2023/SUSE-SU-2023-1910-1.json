@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-EC2-BYOS-2023-1910,Image SLES12-SP5-EC2-ECS-On-Demand-2023-1910,Image SLES12-SP5-EC2-On-Demand-2023-1910,Image SLES12-SP5-EC2-SAP-BYOS-2023-1910,Image SLES12-SP5-GCE-On-Demand-2023-1910,SUSE-2023-1910,SUSE-SLE-SDK-12-SP5-2023-1910,SUSE-SLE-SERVER-12-SP5-2023-1910,SUSE-SLE-WE-12-SP5-2023-1910",
+      "Text": "Image SLES12-SP5-EC2-BYOS-2023-1910,Image SLES12-SP5-EC2-ECS-On-Demand-2023-1910,Image SLES12-SP5-EC2-On-Demand-2023-1910,Image SLES12-SP5-EC2-SAP-BYOS-2023-1910,Image SLES12-SP5-GCE-On-Demand-2023-1910,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-1910,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-1910,SUSE-2023-1910,SUSE-SLE-SDK-12-SP5-2023-1910,SUSE-SLE-SERVER-12-SP5-2023-1910,SUSE-SLE-WE-12-SP5-2023-1910",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -166,6 +166,66 @@
       {
         "ProductReference": "libgobject-2_0-0-2.48.2-12.31.1",
         "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgthread-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgthread-2_0-0-2.48.2-12.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -390,6 +450,18 @@
             "Image SLES12-SP5-GCE-On-Demand:libglib-2_0-0-2.48.2-12.31.1",
             "Image SLES12-SP5-GCE-On-Demand:libgmodule-2_0-0-2.48.2-12.31.1",
             "Image SLES12-SP5-GCE-On-Demand:libgobject-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:glib2-tools-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgio-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libglib-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgmodule-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgobject-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgthread-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:glib2-tools-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libgio-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libglib-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libgmodule-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libgobject-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libgthread-2_0-0-2.48.2-12.31.1",
             "SUSE Linux Enterprise Server 12 SP5:glib2-lang-2.48.2-12.31.1",
             "SUSE Linux Enterprise Server 12 SP5:glib2-tools-2.48.2-12.31.1",
             "SUSE Linux Enterprise Server 12 SP5:libgio-2_0-0-2.48.2-12.31.1",
@@ -472,6 +544,18 @@
             "Image SLES12-SP5-GCE-On-Demand:libglib-2_0-0-2.48.2-12.31.1",
             "Image SLES12-SP5-GCE-On-Demand:libgmodule-2_0-0-2.48.2-12.31.1",
             "Image SLES12-SP5-GCE-On-Demand:libgobject-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:glib2-tools-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgio-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libglib-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgmodule-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgobject-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgthread-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:glib2-tools-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libgio-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libglib-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libgmodule-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libgobject-2_0-0-2.48.2-12.31.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libgthread-2_0-0-2.48.2-12.31.1",
             "SUSE Linux Enterprise Server 12 SP5:glib2-lang-2.48.2-12.31.1",
             "SUSE Linux Enterprise Server 12 SP5:glib2-tools-2.48.2-12.31.1",
             "SUSE Linux Enterprise Server 12 SP5:libgio-2_0-0-2.48.2-12.31.1",

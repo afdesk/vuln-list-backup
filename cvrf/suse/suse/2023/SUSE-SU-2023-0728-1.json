@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-728,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-728,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-728,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-728",
+      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-728,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-728,SUSE-2023-728,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-728,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-728,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-728",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "MozillaFirefox-102.9.0-150000.150.79.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.9.0-150000.150.79.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "MozillaFirefox-102.9.0-150000.150.79.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
@@ -190,6 +200,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -226,6 +238,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -262,6 +276,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -298,6 +314,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -334,6 +352,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -370,6 +390,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -406,6 +428,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -442,6 +466,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -478,6 +504,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -514,6 +542,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -550,6 +580,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -586,6 +618,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -622,6 +656,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",

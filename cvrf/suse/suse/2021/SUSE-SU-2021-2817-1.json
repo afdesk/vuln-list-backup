@@ -1634,6 +1634,16 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-boto3-1.17.9-19.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-botocore-1.20.9-33.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-cffi-1.13.2-3.2.5",
         "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
         "RelationType": "Default Component Of"
@@ -1665,6 +1675,16 @@
       },
       {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-boto3-1.17.9-19.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-botocore-1.20.9-33.1",
         "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
@@ -2839,6 +2859,16 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-boto3-1.17.9-19.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-botocore-1.20.9-33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-cffi-1.13.2-3.2.5",
         "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
         "RelationType": "Default Component Of"
@@ -2860,6 +2890,16 @@
       },
       {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-boto3-1.17.9-19.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-botocore-1.20.9-33.1",
         "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
@@ -4514,6 +4554,16 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-boto3-1.17.9-19.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-botocore-1.20.9-33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-cffi-1.13.2-3.2.5",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
         "RelationType": "Default Component Of"
@@ -4534,6 +4584,16 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-boto3-1.17.9-19.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-botocore-1.20.9-33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-cffi-1.13.2-3.2.5",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
         "RelationType": "Default Component Of"
@@ -4554,6 +4614,16 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-boto3-1.17.9-19.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-botocore-1.20.9-33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-cffi-1.13.2-3.2.5",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
         "RelationType": "Default Component Of"
@@ -4570,6 +4640,16 @@
       },
       {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-boto3-1.17.9-19.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-botocore-1.20.9-33.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
@@ -6286,6 +6366,8 @@
             "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:python3-pycparser-2.17-3.2.1",
             "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:python3-urllib3-1.25.10-9.14.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-asn1crypto-0.24.0-3.2.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-boto3-1.17.9-19.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-cryptography-2.8-10.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-pyOpenSSL-17.5.0-8.3.1",
@@ -6293,6 +6375,8 @@
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-pycparser-2.17-3.2.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-urllib3-1.25.10-9.14.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python3-asn1crypto-0.24.0-3.2.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python3-boto3-1.17.9-19.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python3-cryptography-2.8-10.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python3-pyOpenSSL-17.5.0-8.3.1",
@@ -6524,11 +6608,15 @@
             "Image SLES15-SP3-Micro-BYOS-GCE:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-Micro-BYOS-GCE:python3-pycparser-2.17-3.2.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-asn1crypto-0.24.0-3.2.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-boto3-1.17.9-19.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-pycparser-2.17-3.2.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-asn1crypto-0.24.0-3.2.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-boto3-1.17.9-19.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-pyasn1-0.4.2-3.2.1",
@@ -6849,18 +6937,26 @@
             "Image SLES15-SP4-Micro-5-4:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-Micro-5-4:python3-pycparser-2.17-3.2.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:python3-asn1crypto-0.24.0-3.2.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:python3-boto3-1.17.9-19.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:python3-pycparser-2.17-3.2.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:python3-asn1crypto-0.24.0-3.2.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:python3-boto3-1.17.9-19.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:python3-pycparser-2.17-3.2.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:python3-asn1crypto-0.24.0-3.2.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:python3-boto3-1.17.9-19.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:python3-pycparser-2.17-3.2.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:python3-asn1crypto-0.24.0-3.2.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:python3-boto3-1.17.9-19.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:python3-pycparser-2.17-3.2.1",
