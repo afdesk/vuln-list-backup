@@ -1,8 +1,7 @@
 {
   "name": "AVG-768",
   "packages": [
-    "bitcoin-tx",
-    "bitcoin-cli"
+    "bitcoin-tx"
   ],
   "status": "Not affected",
   "severity": "Medium",
