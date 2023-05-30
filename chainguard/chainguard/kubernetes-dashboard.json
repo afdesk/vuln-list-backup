@@ -1,11 +1,8 @@
 {
-  "name": "gnupg",
+  "name": "kubernetes-dashboard",
   "secfixes": {
-    "2.2.41-r0": [
-      "CVE-2018-12020",
-      "CVE-2019-14855",
-      "CVE-2020-25125",
-      "CVE-2022-34903"
+    "2.7.0-r2": [
+      "CVE-2023-2253"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
