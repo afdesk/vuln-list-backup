@@ -10381,6 +10381,21 @@
       "Name": "eclipse-birt"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20232602001",
+      "Version": "636",
+      "Name": "compat-libcap1"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232602002",
+      "Version": "636",
+      "Name": "libcap-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232602003",
+      "Version": "636",
+      "Name": "libcap"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202326112001",
       "Version": "636",
       "Name": "python-configobj"
@@ -11109,16 +11124,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20111615001",
       "Version": "647",
       "Name": "virt-v2v"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20111694001",
-      "Version": "643",
-      "Name": "libcap"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20111694002",
-      "Version": "643",
-      "Name": "libcap-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20111814001",

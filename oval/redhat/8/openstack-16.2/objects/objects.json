@@ -424,6 +424,16 @@
       "ID": "oval:com.redhat.rhsa:obj:20231281001",
       "Version": "635",
       "Name": "python3-werkzeug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233158014",
+      "Version": "635",
+      "Name": "python3-glance-store"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233158015",
+      "Version": "635",
+      "Name": "python3-os-brick"
     }
   ],
   "RpmverifyfileObjects": [

@@ -338,19 +338,19 @@
     },
     {
       "Check": "at least one",
-      "Comment": "microshift-networking is earlier than 0:4.13.0-202305161335.p0.g17cae44.assembly.4.13.0.el9",
+      "Comment": "microshift-greenboot is earlier than 0:4.13.0-202305161335.p0.g17cae44.assembly.4.13.0.el9",
       "ID": "oval:com.redhat.rhsa:tst:20231329003",
       "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20231329002"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20231329001"
+        "StateRef": "oval:com.redhat.rhsa:ste:20231329003"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "microshift-networking is signed with Red Hat redhatrelease2 key",
+      "Comment": "microshift-greenboot is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20231329004",
       "Version": "637",
       "Object": {
@@ -362,19 +362,19 @@
     },
     {
       "Check": "at least one",
-      "Comment": "microshift-release-info is earlier than 0:4.13.0-202305161335.p0.g17cae44.assembly.4.13.0.el9",
+      "Comment": "microshift-networking is earlier than 0:4.13.0-202305161335.p0.g17cae44.assembly.4.13.0.el9",
       "ID": "oval:com.redhat.rhsa:tst:20231329005",
       "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20231329003"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20231329003"
+        "StateRef": "oval:com.redhat.rhsa:ste:20231329001"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "microshift-release-info is signed with Red Hat redhatrelease2 key",
+      "Comment": "microshift-networking is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20231329006",
       "Version": "637",
       "Object": {
@@ -386,7 +386,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "microshift-selinux is earlier than 0:4.13.0-202305161335.p0.g17cae44.assembly.4.13.0.el9",
+      "Comment": "microshift-release-info is earlier than 0:4.13.0-202305161335.p0.g17cae44.assembly.4.13.0.el9",
       "ID": "oval:com.redhat.rhsa:tst:20231329007",
       "Version": "637",
       "Object": {
@@ -398,11 +398,35 @@
     },
     {
       "Check": "at least one",
-      "Comment": "microshift-selinux is signed with Red Hat redhatrelease2 key",
+      "Comment": "microshift-release-info is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20231329008",
       "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20231329004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20231325002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "microshift-selinux is earlier than 0:4.13.0-202305161335.p0.g17cae44.assembly.4.13.0.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20231329009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20231329005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20231329003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "microshift-selinux is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20231329010",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20231329005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20231325002"

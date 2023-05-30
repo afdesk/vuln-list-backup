@@ -241,6 +241,21 @@
       "Name": "python3-werkzeug"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20233157012",
+      "Version": "635",
+      "Name": "tripleo-ansible"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233157013",
+      "Version": "635",
+      "Name": "python3-glance-store"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233157014",
+      "Version": "635",
+      "Name": "python3-os-brick"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:202223491001",
       "Version": "635",
       "Name": "python3-certifi"

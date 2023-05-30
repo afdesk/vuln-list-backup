@@ -4146,11 +4146,11 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openstack-cinder is earlier than 1:15.4.0-1.20230510003501.58f0e73.el8ost",
+      "Comment": "openstack-nova is earlier than 1:20.4.1-1.20221005193232.el8ost",
       "ID": "oval:com.redhat.rhsa:tst:20233156001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20204283001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
@@ -4158,14 +4158,206 @@
     },
     {
       "Check": "at least one",
-      "Comment": "python3-cinder is earlier than 1:15.4.0-1.20230510003501.58f0e73.el8ost",
+      "Comment": "openstack-nova-api is earlier than 1:20.4.1-1.20221005193232.el8ost",
       "ID": "oval:com.redhat.rhsa:tst:20233156003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-common is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-compute is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-conductor is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-console is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-migration is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-novncproxy is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-scheduler is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-serialproxy is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-spicehtml5proxy is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-nova is earlier than 1:20.4.1-1.20221005193232.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156023",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202237394008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-glance-store is earlier than 0:1.0.2-1.20220219073735.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156025",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233156013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-glance-store is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233156026",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233156013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20178761001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-os-brick is earlier than 0:2.10.5-1.20220112193420.634fb4a.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156027",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233156014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-os-brick is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233156028",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233156014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20178761001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-cinder is earlier than 1:15.4.0-1.20230510003501.58f0e73.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156029",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20204283001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-cinder is earlier than 1:15.4.0-1.20230510003501.58f0e73.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20233156031",
       "Version": "635",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20204283002"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20233156001"
+        "StateRef": "oval:com.redhat.rhsa:ste:20233156005"
       }
     },
     {

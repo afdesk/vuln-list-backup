@@ -11192,6 +11192,174 @@
     },
     {
       "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang is earlier than 0:1.19.9-1.el7_9",
+      "ID": "oval:com.redhat.rhsa:tst:20233323001",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233323001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233323002",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:202011987001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-bin is earlier than 0:1.19.9-1.el7_9",
+      "ID": "oval:com.redhat.rhsa:tst:20233323003",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233323001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-bin is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233323004",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:202011987001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-docs is earlier than 0:1.19.9-1.el7_9",
+      "ID": "oval:com.redhat.rhsa:tst:20233323005",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233323003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-docs is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233323006",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:202011987001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-misc is earlier than 0:1.19.9-1.el7_9",
+      "ID": "oval:com.redhat.rhsa:tst:20233323007",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233323001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-misc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233323008",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:202011987001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-race is earlier than 0:1.19.9-1.el7_9",
+      "ID": "oval:com.redhat.rhsa:tst:20233323009",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233323004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-race is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233323010",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:202011987001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-src is earlier than 0:1.19.9-1.el7_9",
+      "ID": "oval:com.redhat.rhsa:tst:20233323011",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233323001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-src is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233323012",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:202011987001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-tests is earlier than 0:1.19.9-1.el7_9",
+      "ID": "oval:com.redhat.rhsa:tst:20233323013",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233323001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset-1.19-golang-tests is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233323014",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233323007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:202011987001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "rh-eclipse-jetty-servlet is not installed",
       "ID": "oval:com.redhat.unaffected:tst:201917638002",
       "Version": "635",

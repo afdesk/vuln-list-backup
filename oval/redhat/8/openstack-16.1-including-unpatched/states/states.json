@@ -625,6 +625,39 @@
       "Version": "635",
       "Arch": {},
       "Evr": {
+        "Text": "1:20.4.1-1.20221005193232.el8ost",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20233156003",
+      "Version": "635",
+      "Arch": {},
+      "Evr": {
+        "Text": "0:1.0.2-1.20220219073735.el8ost",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20233156004",
+      "Version": "635",
+      "Arch": {},
+      "Evr": {
+        "Text": "0:2.10.5-1.20220112193420.634fb4a.el8ost",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20233156005",
+      "Version": "635",
+      "Arch": {},
+      "Evr": {
         "Text": "1:15.4.0-1.20230510003501.58f0e73.el8ost",
         "Datatype": "evr_string",
         "Operation": "less than"

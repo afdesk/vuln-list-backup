@@ -161,11 +161,6 @@
       "Name": "libguestfs-java"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20231668001",
-      "Version": "636",
-      "Name": "ovirt-openvswitch"
-    },
-    {
       "ID": "oval:com.redhat.rhba:obj:20172529001",
       "Version": "636",
       "Name": "ovirt-node-ng-nodectl"
@@ -779,6 +774,11 @@
       "ID": "oval:com.redhat.unaffected:obj:20231667001",
       "Version": "635",
       "Name": "ansible-collection-ansible-netcommon"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20231668001",
+      "Version": "635",
+      "Name": "ovirt-openvswitch"
     }
   ],
   "RpmverifyfileObjects": [

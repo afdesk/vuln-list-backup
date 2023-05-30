@@ -376,6 +376,16 @@
       "Name": "skopeo-tests"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202324539001",
+      "Version": "636",
+      "Name": "microshift-greenboot"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202328370001",
+      "Version": "636",
+      "Name": "python-tornado"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202330608001",
       "Version": "636",
       "Name": "python-sqlparse"
@@ -423,7 +433,7 @@
     {
       "ID": "oval:com.redhat.unaffected:obj:20231668001",
       "Version": "635",
-      "Name": "openvswitch3.1"
+      "Name": "openvswitch3.1-test"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20231668002",
@@ -433,7 +443,7 @@
     {
       "ID": "oval:com.redhat.unaffected:obj:20231668003",
       "Version": "635",
-      "Name": "openvswitch3.1-test"
+      "Name": "openvswitch3.1"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20231668004",

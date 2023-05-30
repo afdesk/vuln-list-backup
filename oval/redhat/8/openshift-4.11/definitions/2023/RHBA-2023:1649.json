@@ -3,7 +3,7 @@
   "ID": "oval:com.redhat.rhba:def:20231649",
   "Version": "635",
   "Metadata": {
-    "Title": "RHBA-2023:1649: OpenShift Container Platform 4.11.35 packages and security update (Moderate)",
+    "Title": "RHBA-2023:1649: OpenShift Container Platform 4.11.35 packages and security update (Important)",
     "AffectedList": [
       {
         "Family": "unix",
@@ -27,7 +27,7 @@
     "Description": "Red Hat OpenShift Container Platform is Red Hat's cloud computing Kubernetes application platform solution designed for on-premise or private\ncloud deployments.\n\nThis advisory contains the RPM packages for Red Hat OpenShift Container\nPlatform 4.11.35. See the following advisory for the container images for\nthis release:\n\nhttps://access.redhat.com/errata/RHBA-2023:1650\n\nAll OpenShift Container Platform 4.11 users are advised to upgrade to these\nupdated packages and images when they are available in the appropriate\nrelease channel. To check for available updates, use the OpenShift Console\nor the CLI oc command. Instructions for upgrading a cluster are available\nat\nhttps://docs.openshift.com/container-platform/4.11/updating/updating-cluster-cli.html",
     "Advisory": {
       "From": "secalert@redhat.com",
-      "Severity": "Moderate",
+      "Severity": "Important",
       "Rights": "Copyright 2023 Red Hat, Inc.",
       "Issued": {
         "Date": "2023-04-12"
@@ -40,7 +40,7 @@
           "CveID": "CVE-2023-25725",
           "Cvss3": "8.2/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
           "Cwe": "CWE-444",
-          "Impact": "moderate",
+          "Impact": "important",
           "Href": "https://access.redhat.com/security/cve/CVE-2023-25725",
           "Public": "20230214:1620"
         }

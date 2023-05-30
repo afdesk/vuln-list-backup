@@ -1944,6 +1944,41 @@
       "ID": "oval:com.redhat.rhsa:obj:20230445011",
       "Version": "637",
       "Name": "go-toolset-1.18-golang-tests"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233323001",
+      "Version": "638",
+      "Name": "go-toolset-1.19-golang"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233323002",
+      "Version": "638",
+      "Name": "go-toolset-1.19-golang-bin"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233323003",
+      "Version": "638",
+      "Name": "go-toolset-1.19-golang-docs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233323004",
+      "Version": "638",
+      "Name": "go-toolset-1.19-golang-misc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233323005",
+      "Version": "638",
+      "Name": "go-toolset-1.19-golang-race"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233323006",
+      "Version": "638",
+      "Name": "go-toolset-1.19-golang-src"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233323007",
+      "Version": "638",
+      "Name": "go-toolset-1.19-golang-tests"
     }
   ],
   "RpmverifyfileObjects": [

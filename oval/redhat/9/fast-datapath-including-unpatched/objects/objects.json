@@ -33,7 +33,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:20231668001",
       "Version": "636",
-      "Name": "openvswitch3.0-test"
+      "Name": "openvswitch3.0-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20231668002",
@@ -43,12 +43,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20231668003",
       "Version": "636",
-      "Name": "python3-openvswitch3.0"
+      "Name": "openvswitch3.0-test"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20231668004",
       "Version": "636",
-      "Name": "openvswitch3.0-devel"
+      "Name": "python3-openvswitch3.0"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20231668005",

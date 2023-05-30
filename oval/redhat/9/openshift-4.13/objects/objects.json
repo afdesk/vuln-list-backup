@@ -73,15 +73,20 @@
     {
       "ID": "oval:com.redhat.rhsa:obj:20231329002",
       "Version": "637",
-      "Name": "microshift-networking"
+      "Name": "microshift-greenboot"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20231329003",
       "Version": "637",
-      "Name": "microshift-release-info"
+      "Name": "microshift-networking"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20231329004",
+      "Version": "637",
+      "Name": "microshift-release-info"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20231329005",
       "Version": "637",
       "Name": "microshift-selinux"
     }

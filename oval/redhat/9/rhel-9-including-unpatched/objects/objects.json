@@ -6021,11 +6021,6 @@
       "Name": "gnupg2-smime"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20223219003",
-      "Version": "636",
-      "Name": "gnupg2-debugsource"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202233068001",
       "Version": "636",
       "Name": "java-11-openjdk-headless"
@@ -6548,17 +6543,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202241854001",
       "Version": "636",
+      "Name": "jackson-jaxrs-providers"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202241854002",
+      "Version": "636",
       "Name": "pki-jackson-jaxrs-json-provider"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241854003",
+      "ID": "oval:com.redhat.cve:obj:202241854004",
       "Version": "636",
       "Name": "pki-jackson-jaxrs-providers"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202241854005",
-      "Version": "636",
-      "Name": "jackson-jaxrs-providers"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202241862001",
@@ -7041,134 +7036,109 @@
       "Name": "pkgconf-m4"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202324329001",
-      "Version": "636",
-      "Name": "python3.11-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202324329002",
-      "Version": "636",
-      "Name": "python3.11-idle"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202324329005",
       "Version": "636",
       "Name": "python3.11-debug"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202324329007",
-      "Version": "636",
-      "Name": "python3.11"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202324329013",
-      "Version": "636",
-      "Name": "python3.11-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202324329014",
-      "Version": "636",
-      "Name": "python3.11-tkinter"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202324329015",
+      "ID": "oval:com.redhat.cve:obj:202324329008",
       "Version": "636",
       "Name": "python3.11-test"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202324329010",
+      "Version": "636",
+      "Name": "python3.11-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202324329012",
+      "Version": "636",
+      "Name": "python3.11-libs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202324329013",
+      "Version": "636",
+      "Name": "python3.11"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202324329014",
+      "Version": "636",
+      "Name": "python3.11-idle"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202324329016",
+      "Version": "636",
+      "Name": "python3.11-tkinter"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20232454001",
-      "Version": "636",
-      "Name": "postgresql-plperl"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232454002",
-      "Version": "636",
-      "Name": "postgresql-plpython3"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232454003",
-      "Version": "636",
-      "Name": "postgresql-static"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232454004",
       "Version": "636",
       "Name": "postgresql-upgrade"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232454005",
-      "Version": "636",
-      "Name": "postgresql-private-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232454006",
-      "Version": "636",
-      "Name": "postgresql-upgrade-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232454007",
-      "Version": "636",
-      "Name": "postgresql-pltcl"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232454008",
+      "ID": "oval:com.redhat.cve:obj:20232454002",
       "Version": "636",
       "Name": "postgresql-contrib"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232454009",
+      "ID": "oval:com.redhat.cve:obj:20232454003",
       "Version": "636",
-      "Name": "postgresql"
+      "Name": "postgresql-upgrade-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232454010",
-      "Version": "636",
-      "Name": "postgresql-docs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232454011",
-      "Version": "636",
-      "Name": "postgresql-server-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232454012",
+      "ID": "oval:com.redhat.cve:obj:20232454004",
       "Version": "636",
       "Name": "postgresql-private-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232454013",
+      "ID": "oval:com.redhat.cve:obj:20232454005",
       "Version": "636",
       "Name": "postgresql-server"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232454014",
+      "ID": "oval:com.redhat.cve:obj:20232454006",
+      "Version": "636",
+      "Name": "postgresql-server-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232454007",
       "Version": "636",
       "Name": "postgresql-test"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202324593001",
+      "ID": "oval:com.redhat.cve:obj:20232454008",
       "Version": "636",
-      "Name": "glib2-devel"
+      "Name": "postgresql-docs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202324593002",
+      "ID": "oval:com.redhat.cve:obj:20232454009",
       "Version": "636",
-      "Name": "glib2-tests"
+      "Name": "postgresql-private-libs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202324593003",
+      "ID": "oval:com.redhat.cve:obj:20232454010",
       "Version": "636",
-      "Name": "glib2-static"
+      "Name": "postgresql-plpython3"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202324593004",
+      "ID": "oval:com.redhat.cve:obj:20232454011",
       "Version": "636",
-      "Name": "glib2"
+      "Name": "postgresql-plperl"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202324593005",
+      "ID": "oval:com.redhat.cve:obj:20232454012",
       "Version": "636",
-      "Name": "glib2-doc"
+      "Name": "postgresql"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232454013",
+      "Version": "636",
+      "Name": "postgresql-pltcl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232454014",
+      "Version": "636",
+      "Name": "postgresql-static"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202324805001",
@@ -7206,9 +7176,34 @@
       "Name": "harfbuzz-devel"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20232602001",
+      "Version": "636",
+      "Name": "libcap-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232602002",
+      "Version": "636",
+      "Name": "libcap"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202326112001",
       "Version": "636",
       "Name": "python3-configobj"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232650005",
+      "Version": "636",
+      "Name": "edk2-tools-doc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232650011",
+      "Version": "636",
+      "Name": "edk2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232650013",
+      "Version": "636",
+      "Name": "edk2-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202326917001",
@@ -7358,57 +7353,57 @@
     {
       "ID": "oval:com.redhat.cve:obj:202327522001",
       "Version": "636",
-      "Name": "httpd-core"
+      "Name": "httpd-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522002",
       "Version": "636",
-      "Name": "mod_lua"
+      "Name": "httpd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522003",
       "Version": "636",
-      "Name": "mod_ldap"
+      "Name": "mod_session"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522004",
       "Version": "636",
-      "Name": "httpd-tools"
+      "Name": "mod_lua"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522005",
       "Version": "636",
-      "Name": "httpd-filesystem"
+      "Name": "httpd-manual"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522006",
       "Version": "636",
-      "Name": "httpd-devel"
+      "Name": "mod_proxy_html"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522007",
       "Version": "636",
-      "Name": "httpd-manual"
+      "Name": "mod_ldap"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522008",
       "Version": "636",
-      "Name": "mod_ssl"
+      "Name": "httpd-core"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522009",
       "Version": "636",
-      "Name": "httpd"
+      "Name": "mod_ssl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522010",
       "Version": "636",
-      "Name": "mod_proxy_html"
+      "Name": "httpd-filesystem"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327522011",
       "Version": "636",
-      "Name": "mod_session"
+      "Name": "httpd-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327533003",
@@ -7458,12 +7453,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202328204003",
       "Version": "636",
-      "Name": "webkit2gtk3-devel"
+      "Name": "webkit2gtk3-jsc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202328204004",
       "Version": "636",
-      "Name": "webkit2gtk3-jsc"
+      "Name": "webkit2gtk3-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202328370001",
+      "Version": "636",
+      "Name": "python3-tornado"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202328450001",
@@ -7488,12 +7488,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202328484002",
       "Version": "636",
-      "Name": "libxml2-devel"
+      "Name": "python3-libxml2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202328484003",
       "Version": "636",
-      "Name": "python3-libxml2"
+      "Name": "libxml2-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202328486001",
@@ -7596,6 +7596,26 @@
       "Name": "openslp"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20232977001",
+      "Version": "636",
+      "Name": "opensc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202330571001",
+      "Version": "636",
+      "Name": "bsdtar"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202330571002",
+      "Version": "636",
+      "Name": "libarchive-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202330571003",
+      "Version": "636",
+      "Name": "libarchive"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202330630001",
       "Version": "636",
       "Name": "dmidecode"
@@ -7603,12 +7623,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202331124002",
       "Version": "636",
-      "Name": "c-ares"
+      "Name": "c-ares-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202331124004",
+      "ID": "oval:com.redhat.cve:obj:202331124006",
       "Version": "636",
-      "Name": "c-ares-devel"
+      "Name": "c-ares"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202332681001",
@@ -7814,21 +7834,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20225251005",
       "Version": "635",
       "Name": "pcre2-utf32"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225252001",
-      "Version": "634",
-      "Name": "bsdtar"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225252002",
-      "Version": "634",
-      "Name": "libarchive"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225252003",
-      "Version": "634",
-      "Name": "libarchive-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20225257001",
@@ -8939,16 +8944,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20232120001",
       "Version": "635",
       "Name": "libreswan"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20232165003",
-      "Version": "636",
-      "Name": "edk2-tools"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20232165004",
-      "Version": "636",
-      "Name": "edk2-tools-doc"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20232166001",
@@ -10636,14 +10631,39 @@
       "Name": "glibc-langpack-st"
     },
     {
+      "ID": "oval:com.redhat.unaffected:obj:201925085001",
+      "Version": "635",
+      "Name": "glib2"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:201925085002",
+      "Version": "635",
+      "Name": "glib2-devel"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:201925085003",
       "Version": "635",
       "Name": "dconf"
     },
     {
+      "ID": "oval:com.redhat.unaffected:obj:201925085004",
+      "Version": "635",
+      "Name": "glib2-tests"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:201925085005",
+      "Version": "635",
+      "Name": "glib2-doc"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:201925085006",
       "Version": "635",
       "Name": "dconf-editor"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:201925085007",
+      "Version": "635",
+      "Name": "glib2-static"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:201925085008",
@@ -13271,11 +13291,6 @@
       "Name": "inkscape-view"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202142778001",
-      "Version": "635",
-      "Name": "opensc"
-    },
-    {
       "ID": "oval:com.redhat.unaffected:obj:202144225001",
       "Version": "635",
       "Name": "keepalived"
@@ -13511,11 +13526,6 @@
       "Name": "rhsm-icons"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20223358002",
-      "Version": "635",
-      "Name": "edk2"
-    },
-    {
       "ID": "oval:com.redhat.unaffected:obj:202234903001",
       "Version": "635",
       "Name": "gpgmepp-devel"
@@ -13601,7 +13611,7 @@
       "Name": "ha-openstack-support"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202245063005",
+      "ID": "oval:com.redhat.unaffected:obj:202245063008",
       "Version": "635",
       "Name": "cockpit-podman"
     },

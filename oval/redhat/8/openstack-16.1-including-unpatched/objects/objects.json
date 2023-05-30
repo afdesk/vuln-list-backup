@@ -636,6 +636,16 @@
       "Name": "python3-oslo-utils"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20233156013",
+      "Version": "635",
+      "Name": "python3-glance-store"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233156014",
+      "Version": "635",
+      "Name": "python3-os-brick"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:20193866001",
       "Version": "635",
       "Name": "python3-mistral"

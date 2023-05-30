@@ -12448,22 +12448,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:20199928002",
       "Version": "636",
+      "Name": "gstreamer1-plugins-base-devel-docs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20199928005",
+      "Version": "636",
       "Name": "gstreamer1-plugins-base-tools"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20199928004",
+      "ID": "oval:com.redhat.cve:obj:20199928006",
       "Version": "636",
-      "Name": "gstreamer1-plugins-base-devel"
+      "Name": "gstreamer1-plugins-base"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20199928007",
       "Version": "636",
-      "Name": "gstreamer1-plugins-base-devel-docs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20199928008",
-      "Version": "636",
-      "Name": "gstreamer1-plugins-base"
+      "Name": "gstreamer1-plugins-base-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20200256001",
@@ -12484,11 +12484,6 @@
       "ID": "oval:com.redhat.cve:obj:20200499003",
       "Version": "636",
       "Name": "flac"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010713001",
-      "Version": "636",
-      "Name": "dbxtool"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202010730001",
@@ -14949,6 +14944,21 @@
       "ID": "oval:com.redhat.cve:obj:202323934001",
       "Version": "636",
       "Name": "python-werkzeug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232602001",
+      "Version": "636",
+      "Name": "libcap-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232602002",
+      "Version": "636",
+      "Name": "libcap"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232602003",
+      "Version": "636",
+      "Name": "compat-libcap1"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202326112001",
