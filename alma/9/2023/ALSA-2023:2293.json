@@ -8,9 +8,21 @@
     "$date": 1683590400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-aarch64-appstream-rpms__9_2_default",
-    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_2_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
     "packages": [
+      {
+        "name": "idm-pki-tools",
+        "version": "11.3.0",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "pki-core-11.3.0-1.el9.src.rpm",
+        "filename": "idm-pki-tools-11.3.0-1.el9.ppc64le.rpm",
+        "sum": "08d5f027ba24395cbea459913ffd318b944860aaf337255a7c1cccb8336493df",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "idm-pki-ca",
         "version": "11.3.0",
@@ -112,6 +124,18 @@
         "version": "11.3.0",
         "release": "1.el9",
         "epoch": "0",
+        "arch": "x86_64",
+        "src": "pki-core-11.3.0-1.el9.src.rpm",
+        "filename": "idm-pki-tools-11.3.0-1.el9.x86_64.rpm",
+        "sum": "3b6c0687528089adb063d7aaa9634e2427c8e37f8e5d72e71c95e32fd227c3f7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "idm-pki-tools",
+        "version": "11.3.0",
+        "release": "1.el9",
+        "epoch": "0",
         "arch": "aarch64",
         "src": "pki-core-11.3.0-1.el9.src.rpm",
         "filename": "idm-pki-tools-11.3.0-1.el9.aarch64.rpm",
@@ -128,30 +152,6 @@
         "src": "pki-core-11.3.0-1.el9.src.rpm",
         "filename": "idm-pki-tools-11.3.0-1.el9.s390x.rpm",
         "sum": "2eda3f2e8979a6b723d7664d784b696847775edbc46327848f80ebfc6244c982",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "idm-pki-tools",
-        "version": "11.3.0",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pki-core-11.3.0-1.el9.src.rpm",
-        "filename": "idm-pki-tools-11.3.0-1.el9.x86_64.rpm",
-        "sum": "3b6c0687528089adb063d7aaa9634e2427c8e37f8e5d72e71c95e32fd227c3f7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "idm-pki-tools",
-        "version": "11.3.0",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "pki-core-11.3.0-1.el9.src.rpm",
-        "filename": "idm-pki-tools-11.3.0-1.el9.ppc64le.rpm",
-        "sum": "08d5f027ba24395cbea459913ffd318b944860aaf337255a7c1cccb8336493df",
         "sum_type": 5,
         "reboot_suggested": 0
       }

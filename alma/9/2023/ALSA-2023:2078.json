@@ -8,9 +8,33 @@
     "$date": 1682985600000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "libwebp",
+        "version": "1.2.0",
+        "release": "6.el9_1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
+        "filename": "libwebp-1.2.0-6.el9_1.ppc64le.rpm",
+        "sum": "2cf05f737395ca06292128afc7ac91fb6a965711eddcdee5437939a15b62c8da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwebp-devel",
+        "version": "1.2.0",
+        "release": "6.el9_1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
+        "filename": "libwebp-devel-1.2.0-6.el9_1.ppc64le.rpm",
+        "sum": "44b2654868922eaa3924ab3cc85703467d322fdef60d2154260f92832fd618fe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libwebp",
         "version": "1.2.0",
@@ -32,6 +56,30 @@
         "src": "libwebp-1.2.0-6.el9_1.src.rpm",
         "filename": "libwebp-devel-1.2.0-6.el9_1.i686.rpm",
         "sum": "f45f4e8ec54191ed1b58a0b5c64d74aa75edf7ea8e676f3cf5635f4ee5cbabb3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwebp-devel",
+        "version": "1.2.0",
+        "release": "6.el9_1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
+        "filename": "libwebp-devel-1.2.0-6.el9_1.x86_64.rpm",
+        "sum": "1ee01df7a0917cf82d83d7a4776a66335eef88d924221a002def737e4996b64e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwebp",
+        "version": "1.2.0",
+        "release": "6.el9_1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
+        "filename": "libwebp-1.2.0-6.el9_1.x86_64.rpm",
+        "sum": "f44edbd1c7777252b7ac7840f606759b23016107a4c22a8a3bf63f66cfe18d39",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -80,54 +128,6 @@
         "src": "libwebp-1.2.0-6.el9_1.src.rpm",
         "filename": "libwebp-devel-1.2.0-6.el9_1.s390x.rpm",
         "sum": "d1b813e0ed40aa7b7c705ca5663129290a91f56350664645e5b238eba4682725",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp-devel",
-        "version": "1.2.0",
-        "release": "6.el9_1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-devel-1.2.0-6.el9_1.x86_64.rpm",
-        "sum": "1ee01df7a0917cf82d83d7a4776a66335eef88d924221a002def737e4996b64e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp",
-        "version": "1.2.0",
-        "release": "6.el9_1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-1.2.0-6.el9_1.x86_64.rpm",
-        "sum": "f44edbd1c7777252b7ac7840f606759b23016107a4c22a8a3bf63f66cfe18d39",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp",
-        "version": "1.2.0",
-        "release": "6.el9_1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-1.2.0-6.el9_1.ppc64le.rpm",
-        "sum": "2cf05f737395ca06292128afc7ac91fb6a965711eddcdee5437939a15b62c8da",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp-devel",
-        "version": "1.2.0",
-        "release": "6.el9_1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-devel-1.2.0-6.el9_1.ppc64le.rpm",
-        "sum": "44b2654868922eaa3924ab3cc85703467d322fdef60d2154260f92832fd618fe",
         "sum_type": 5,
         "reboot_suggested": 0
       }

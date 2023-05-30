@@ -8,57 +8,9 @@
     "$date": 1666656000000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
-    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
     "packages": [
-      {
-        "name": "kpartx",
-        "version": "0.8.4",
-        "release": "22.el8_6.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
-        "filename": "kpartx-0.8.4-22.el8_6.2.x86_64.rpm",
-        "sum": "6e9cf59ce5be7ccf936759a8e830c9da94566319755271fb628fc8459484578c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "device-mapper-multipath",
-        "version": "0.8.4",
-        "release": "22.el8_6.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
-        "filename": "device-mapper-multipath-0.8.4-22.el8_6.2.x86_64.rpm",
-        "sum": "b80a983c08014b871662010e8ab5d30c85a2ef09940f55a88dcf5105f1e0a083",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "device-mapper-multipath-libs",
-        "version": "0.8.4",
-        "release": "22.el8_6.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
-        "filename": "device-mapper-multipath-libs-0.8.4-22.el8_6.2.x86_64.rpm",
-        "sum": "fa192d6bda20c83fe75b4c229345a152bb23405e446faa81cdc9260fb4056675",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libdmmp",
-        "version": "0.8.4",
-        "release": "22.el8_6.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
-        "filename": "libdmmp-0.8.4-22.el8_6.2.x86_64.rpm",
-        "sum": "fc0a75184735956e9274b0aefebfbefe68ed37decc0e1b43ada4539b905cd0e9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libdmmp",
         "version": "0.8.4",
@@ -112,10 +64,58 @@
         "version": "0.8.4",
         "release": "22.el8_6.2",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
-        "filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.aarch64.rpm",
-        "sum": "b45e6f95c6f815d6d71a1eb3084dbd62748094d78da77242afc9bf16363797ef",
+        "filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.x86_64.rpm",
+        "sum": "b2548d3fec20373058486d892a8c94773d21813a3ad8aedcae918be6156d9f04",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kpartx",
+        "version": "0.8.4",
+        "release": "22.el8_6.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
+        "filename": "kpartx-0.8.4-22.el8_6.2.x86_64.rpm",
+        "sum": "6e9cf59ce5be7ccf936759a8e830c9da94566319755271fb628fc8459484578c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "device-mapper-multipath",
+        "version": "0.8.4",
+        "release": "22.el8_6.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
+        "filename": "device-mapper-multipath-0.8.4-22.el8_6.2.x86_64.rpm",
+        "sum": "b80a983c08014b871662010e8ab5d30c85a2ef09940f55a88dcf5105f1e0a083",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "device-mapper-multipath-libs",
+        "version": "0.8.4",
+        "release": "22.el8_6.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
+        "filename": "device-mapper-multipath-libs-0.8.4-22.el8_6.2.x86_64.rpm",
+        "sum": "fa192d6bda20c83fe75b4c229345a152bb23405e446faa81cdc9260fb4056675",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libdmmp",
+        "version": "0.8.4",
+        "release": "22.el8_6.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
+        "filename": "libdmmp-0.8.4-22.el8_6.2.x86_64.rpm",
+        "sum": "fc0a75184735956e9274b0aefebfbefe68ed37decc0e1b43ada4539b905cd0e9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -124,10 +124,10 @@
         "version": "0.8.4",
         "release": "22.el8_6.2",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
-        "filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.x86_64.rpm",
-        "sum": "b2548d3fec20373058486d892a8c94773d21813a3ad8aedcae918be6156d9f04",
+        "filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.aarch64.rpm",
+        "sum": "b45e6f95c6f815d6d71a1eb3084dbd62748094d78da77242afc9bf16363797ef",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -290,7 +290,7 @@
   "title": "Important: device-mapper-multipath security update",
   "type": "security",
   "updated_date": {
-    "$date": 1666765457000
+    "$date": 1666765455000
   },
   "version": "1"
 }

@@ -8,8 +8,8 @@
     "$date": 1683590400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_2_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_2_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
     "packages": [
       {
         "name": "postgresql-jdbc",
@@ -62,7 +62,7 @@
   "title": "Moderate: postgresql-jdbc security update",
   "type": "security",
   "updated_date": {
-    "$date": 1683866121000
+    "$date": 1683866120000
   },
   "version": "1"
 }

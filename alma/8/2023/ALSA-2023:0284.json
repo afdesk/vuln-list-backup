@@ -8,21 +8,9 @@
     "$date": 1674432000000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-baseos-rpms__8_7_default",
-    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_7_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_7_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_7_default",
     "packages": [
-      {
-        "name": "sudo",
-        "version": "1.8.29",
-        "release": "8.el8_7.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
-        "filename": "sudo-1.8.29-8.el8_7.1.x86_64.rpm",
-        "sum": "526348643a9e784c55e63ee963ce63182565ed25fde1ba077c89ac432e162bc8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "sudo",
         "version": "1.8.29",
@@ -32,6 +20,18 @@
         "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
         "filename": "sudo-1.8.29-8.el8_7.1.aarch64.rpm",
         "sum": "d0e47a84aba9cfa0ffefd3693553157c7399dfc64b5110de3f7d695879dab392",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "sudo",
+        "version": "1.8.29",
+        "release": "8.el8_7.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
+        "filename": "sudo-1.8.29-8.el8_7.1.x86_64.rpm",
+        "sum": "526348643a9e784c55e63ee963ce63182565ed25fde1ba077c89ac432e162bc8",
         "sum_type": 5,
         "reboot_suggested": 0
       },

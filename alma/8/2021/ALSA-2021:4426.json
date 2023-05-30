@@ -8,9 +8,93 @@
     "$date": 1636449677000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
     "packages": [
+      {
+        "name": "ncurses-libs",
+        "version": "6.1",
+        "release": "9.20180224.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
+        "filename": "ncurses-libs-6.1-9.20180224.el8.aarch64.rpm",
+        "sum": "1db3a780b8cc0e2fa0b836fe736a34f1b4836e86c4753afd4ba5e1096246f1bc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ncurses-c++-libs",
+        "version": "6.1",
+        "release": "9.20180224.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
+        "filename": "ncurses-c++-libs-6.1-9.20180224.el8.aarch64.rpm",
+        "sum": "2d09c7810b1a74bd020fa5e9709a09ff928ae57ab778b181fe8cd96bce1e5c3d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ncurses-base",
+        "version": "6.1",
+        "release": "9.20180224.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
+        "filename": "ncurses-base-6.1-9.20180224.el8.noarch.rpm",
+        "sum": "3a6bf123e3269fde1da217c8d914ef53e88a3fdaeda5efd009fd3d385004ea62",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ncurses-devel",
+        "version": "6.1",
+        "release": "9.20180224.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
+        "filename": "ncurses-devel-6.1-9.20180224.el8.aarch64.rpm",
+        "sum": "5ee89972c397ba8567b0f57b967eab0e9992c0d7169684c5de0da099a0193961",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ncurses-compat-libs",
+        "version": "6.1",
+        "release": "9.20180224.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
+        "filename": "ncurses-compat-libs-6.1-9.20180224.el8.aarch64.rpm",
+        "sum": "70cbe7cb528ff29abd6888074c20460fbc6b110e99ca068499d816c4c157f049",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ncurses",
+        "version": "6.1",
+        "release": "9.20180224.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
+        "filename": "ncurses-6.1-9.20180224.el8.aarch64.rpm",
+        "sum": "9dce9d78069693f419bb83ff245a6623d5b924cf963b39fa12553acc79e416f8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ncurses-term",
+        "version": "6.1",
+        "release": "9.20180224.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
+        "filename": "ncurses-term-6.1-9.20180224.el8.noarch.rpm",
+        "sum": "b9491dab8e29411dcf22fefd4093ec631dc7268612b9ef7ad2ea8e1e8d8f9372",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "ncurses-compat-libs",
         "version": "6.1",
@@ -48,30 +132,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "ncurses-base",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-base-6.1-9.20180224.el8.noarch.rpm",
-        "sum": "3a6bf123e3269fde1da217c8d914ef53e88a3fdaeda5efd009fd3d385004ea62",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ncurses-compat-libs",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-compat-libs-6.1-9.20180224.el8.x86_64.rpm",
-        "sum": "3f4a4259899e391dc2487073f4952d229b643b5f05f274c3f2ae5a92de50540d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "ncurses-compat-libs",
         "version": "6.1",
         "release": "9.20180224.el8",
@@ -96,18 +156,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "ncurses-devel",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-devel-6.1-9.20180224.el8.x86_64.rpm",
-        "sum": "4309ddfd6a0aae4af6b96d7c5f66e395eec3c888ba22818cd29aacb614731925",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "ncurses-c++-libs",
         "version": "6.1",
         "release": "9.20180224.el8",
@@ -116,42 +164,6 @@
         "src": "ncurses-6.1-9.20180224.el8.src.rpm",
         "filename": "ncurses-c++-libs-6.1-9.20180224.el8.x86_64.rpm",
         "sum": "6788f7416de9a03413c6ea206f8539ac93704bca34c2183b2c55cbdb9cf1aaad",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ncurses-c++-libs",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-c++-libs-6.1-9.20180224.el8.x86_64.rpm",
-        "sum": "6788f7416de9a03413c6ea206f8539ac93704bca34c2183b2c55cbdb9cf1aaad",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ncurses-term",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-term-6.1-9.20180224.el8.noarch.rpm",
-        "sum": "b9491dab8e29411dcf22fefd4093ec631dc7268612b9ef7ad2ea8e1e8d8f9372",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ncurses-libs",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-libs-6.1-9.20180224.el8.x86_64.rpm",
-        "sum": "de7d3fef2b420025f993efb273cfc98a654a7edf605fce7f9ad8c5a3d20bfc03",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -188,66 +200,6 @@
         "src": "ncurses-6.1-9.20180224.el8.src.rpm",
         "filename": "Packages/ncurses-c++-libs-6.1-9.20180224.el8.i686.rpm",
         "sum": "f6b5576e5e162ba8767736ff17cfe6994f0155d6819aeef6006270f3a1405677",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ncurses-libs",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-libs-6.1-9.20180224.el8.aarch64.rpm",
-        "sum": "1db3a780b8cc0e2fa0b836fe736a34f1b4836e86c4753afd4ba5e1096246f1bc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ncurses-c++-libs",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-c++-libs-6.1-9.20180224.el8.aarch64.rpm",
-        "sum": "2d09c7810b1a74bd020fa5e9709a09ff928ae57ab778b181fe8cd96bce1e5c3d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ncurses-devel",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-devel-6.1-9.20180224.el8.aarch64.rpm",
-        "sum": "5ee89972c397ba8567b0f57b967eab0e9992c0d7169684c5de0da099a0193961",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ncurses-compat-libs",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-compat-libs-6.1-9.20180224.el8.aarch64.rpm",
-        "sum": "70cbe7cb528ff29abd6888074c20460fbc6b110e99ca068499d816c4c157f049",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ncurses",
-        "version": "6.1",
-        "release": "9.20180224.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ncurses-6.1-9.20180224.el8.src.rpm",
-        "filename": "ncurses-6.1-9.20180224.el8.aarch64.rpm",
-        "sum": "9dce9d78069693f419bb83ff245a6623d5b924cf963b39fa12553acc79e416f8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -344,7 +296,7 @@
   "title": "Moderate: ncurses security update",
   "type": "security",
   "updated_date": {
-    "$date": 1678725231000
+    "$date": 1636463623000
   },
   "version": "2"
 }

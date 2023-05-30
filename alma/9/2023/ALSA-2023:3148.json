@@ -8,9 +8,33 @@
     "$date": 1684195200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-aarch64-appstream-rpms__9_2_default",
-    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_2_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
     "packages": [
+      {
+        "name": "libreswan",
+        "version": "4.9",
+        "release": "4.el9_2",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libreswan-4.9-4.el9_2.src.rpm",
+        "filename": "libreswan-4.9-4.el9_2.ppc64le.rpm",
+        "sum": "5ac8225242f7ade9dc43d57229ddbe694be276a85c47210e58f4df24dbf459bd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libreswan",
+        "version": "4.9",
+        "release": "4.el9_2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libreswan-4.9-4.el9_2.src.rpm",
+        "filename": "libreswan-4.9-4.el9_2.x86_64.rpm",
+        "sum": "b1f8d3a7b9d8425eab84d16c0c94975a473967fa708ebea05edb24c7ffb198b8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libreswan",
         "version": "4.9",
@@ -32,30 +56,6 @@
         "src": "libreswan-4.9-4.el9_2.src.rpm",
         "filename": "libreswan-4.9-4.el9_2.s390x.rpm",
         "sum": "9a8ffca77532c19993941385c8dfe1a2bd544d99953c8115b6a0234ccbb1de4f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libreswan",
-        "version": "4.9",
-        "release": "4.el9_2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libreswan-4.9-4.el9_2.src.rpm",
-        "filename": "libreswan-4.9-4.el9_2.x86_64.rpm",
-        "sum": "b1f8d3a7b9d8425eab84d16c0c94975a473967fa708ebea05edb24c7ffb198b8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libreswan",
-        "version": "4.9",
-        "release": "4.el9_2",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libreswan-4.9-4.el9_2.src.rpm",
-        "filename": "libreswan-4.9-4.el9_2.ppc64le.rpm",
-        "sum": "5ac8225242f7ade9dc43d57229ddbe694be276a85c47210e58f4df24dbf459bd",
         "sum_type": 5,
         "reboot_suggested": 0
       }

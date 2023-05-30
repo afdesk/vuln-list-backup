@@ -8,21 +8,9 @@
     "$date": 1680566400000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_7_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_7_default",
     "packages": [
-      {
-        "name": "pesign",
-        "version": "0.112",
-        "release": "27.el8_7",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pesign-0.112-27.el8_7.src.rpm",
-        "filename": "pesign-0.112-27.el8_7.aarch64.rpm",
-        "sum": "0d534a0f85e00d6ad37b065ea6cba864c7c04078891a16df892186669312d91a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "pesign",
         "version": "0.112",
@@ -32,6 +20,18 @@
         "src": "pesign-0.112-27.el8_7.src.rpm",
         "filename": "pesign-0.112-27.el8_7.x86_64.rpm",
         "sum": "d353df3aeae2e9f44ca54333376dee222da40630c95a2549384ccdb7ca0df390",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pesign",
+        "version": "0.112",
+        "release": "27.el8_7",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pesign-0.112-27.el8_7.src.rpm",
+        "filename": "pesign-0.112-27.el8_7.aarch64.rpm",
+        "sum": "0d534a0f85e00d6ad37b065ea6cba864c7c04078891a16df892186669312d91a",
         "sum_type": 5,
         "reboot_suggested": 0
       }

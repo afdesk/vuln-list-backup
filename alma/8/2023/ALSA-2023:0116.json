@@ -8,21 +8,9 @@
     "$date": 1673481600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-baseos-rpms__8_7_default",
-    "shortname": "almalinux-8-for-i686-baseos-rpms__8_7_default",
+    "name": "almalinux-8-for-i686-appstream-rpms__8_7_default",
+    "shortname": "almalinux-8-for-i686-appstream-rpms__8_7_default",
     "packages": [
-      {
-        "name": "libtasn1",
-        "version": "4.13",
-        "release": "4.el8_7",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libtasn1-4.13-4.el8_7.src.rpm",
-        "filename": "libtasn1-4.13-4.el8_7.i686.rpm",
-        "sum": "925e97c30c301c790d9dce2b8c918b61f5664eb9fe3b64a366fd2488db07c200",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libtasn1-devel",
         "version": "4.13",
@@ -40,10 +28,10 @@
         "version": "4.13",
         "release": "4.el8_7",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "i686",
         "src": "libtasn1-4.13-4.el8_7.src.rpm",
-        "filename": "libtasn1-4.13-4.el8_7.x86_64.rpm",
-        "sum": "fa7eb0b4e9546444b2b679ff31c3254158a24923acfd1d49d1f19814e2c95e6d",
+        "filename": "libtasn1-4.13-4.el8_7.i686.rpm",
+        "sum": "925e97c30c301c790d9dce2b8c918b61f5664eb9fe3b64a366fd2488db07c200",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,10 +52,46 @@
         "version": "4.13",
         "release": "4.el8_7",
         "epoch": "0",
+        "arch": "x86_64",
+        "src": "libtasn1-4.13-4.el8_7.src.rpm",
+        "filename": "libtasn1-4.13-4.el8_7.x86_64.rpm",
+        "sum": "fa7eb0b4e9546444b2b679ff31c3254158a24923acfd1d49d1f19814e2c95e6d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libtasn1",
+        "version": "4.13",
+        "release": "4.el8_7",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "libtasn1-4.13-4.el8_7.src.rpm",
         "filename": "libtasn1-4.13-4.el8_7.ppc64le.rpm",
         "sum": "e0a1136f3622707f413dc1bca591d8a87622d9d3cd560bdcf65107af62d48c68",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libtasn1-tools",
+        "version": "4.13",
+        "release": "4.el8_7",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libtasn1-4.13-4.el8_7.src.rpm",
+        "filename": "libtasn1-tools-4.13-4.el8_7.x86_64.rpm",
+        "sum": "a2b03e5d2aa5a2d4de0995fc46b8585667c394d1cbee9b6d7368da227fe47df4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libtasn1-devel",
+        "version": "4.13",
+        "release": "4.el8_7",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libtasn1-4.13-4.el8_7.src.rpm",
+        "filename": "libtasn1-devel-4.13-4.el8_7.x86_64.rpm",
+        "sum": "bfb07ef5e2f6e61345dfbee6e6f63c4ac77da16f56afd3d208ea79fd0a53dfcc",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -108,26 +132,26 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libtasn1-tools",
-        "version": "4.13",
-        "release": "4.el8_7",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libtasn1-4.13-4.el8_7.src.rpm",
-        "filename": "libtasn1-tools-4.13-4.el8_7.x86_64.rpm",
-        "sum": "a2b03e5d2aa5a2d4de0995fc46b8585667c394d1cbee9b6d7368da227fe47df4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libtasn1-devel",
         "version": "4.13",
         "release": "4.el8_7",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "libtasn1-4.13-4.el8_7.src.rpm",
-        "filename": "libtasn1-devel-4.13-4.el8_7.x86_64.rpm",
-        "sum": "bfb07ef5e2f6e61345dfbee6e6f63c4ac77da16f56afd3d208ea79fd0a53dfcc",
+        "filename": "libtasn1-devel-4.13-4.el8_7.ppc64le.rpm",
+        "sum": "1192556d2cac600a840ebd4abeb2436a239a7c602375a7e6360a06cb02151166",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libtasn1-tools",
+        "version": "4.13",
+        "release": "4.el8_7",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libtasn1-4.13-4.el8_7.src.rpm",
+        "filename": "libtasn1-tools-4.13-4.el8_7.ppc64le.rpm",
+        "sum": "a4dad3a8e41aa6a1eab027da91cbb340f2500d6c3bc0be60cb508bc96dfa941f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -152,30 +176,6 @@
         "src": "libtasn1-4.13-4.el8_7.src.rpm",
         "filename": "libtasn1-devel-4.13-4.el8_7.s390x.rpm",
         "sum": "58c3825c2ebf96ab2ec6606dde3fdee8f2110a6cc31a936b9393564ac89f1fcf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libtasn1-devel",
-        "version": "4.13",
-        "release": "4.el8_7",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libtasn1-4.13-4.el8_7.src.rpm",
-        "filename": "libtasn1-devel-4.13-4.el8_7.ppc64le.rpm",
-        "sum": "1192556d2cac600a840ebd4abeb2436a239a7c602375a7e6360a06cb02151166",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libtasn1-tools",
-        "version": "4.13",
-        "release": "4.el8_7",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libtasn1-4.13-4.el8_7.src.rpm",
-        "filename": "libtasn1-tools-4.13-4.el8_7.ppc64le.rpm",
-        "sum": "a4dad3a8e41aa6a1eab027da91cbb340f2500d6c3bc0be60cb508bc96dfa941f",
         "sum_type": 5,
         "reboot_suggested": 0
       }

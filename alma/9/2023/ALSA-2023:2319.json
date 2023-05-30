@@ -8,8 +8,8 @@
     "$date": 1683590400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_2_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_2_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
     "packages": [
       {
         "name": "git-email",
@@ -20,6 +20,18 @@
         "src": "git-2.39.1-1.el9.src.rpm",
         "filename": "git-email-2.39.1-1.el9.noarch.rpm",
         "sum": "06c5197bbb46f5f456332cf8ec8e64c088e7d9c7bd7fbd3f5be6febe4c10e3d3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "git-credential-libsecret",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-credential-libsecret-2.39.1-1.el9.ppc64le.rpm",
+        "sum": "0c66252879ed5e6273969cc32495205993786e90cb843932357b25847f89a75f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,6 +56,18 @@
         "src": "git-2.39.1-1.el9.src.rpm",
         "filename": "git-core-doc-2.39.1-1.el9.noarch.rpm",
         "sum": "18987b26a87ea025b06738f7228b549aae2c7a10d66faff4920937e1f1662fda",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "git",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-2.39.1-1.el9.ppc64le.rpm",
+        "sum": "25dd5f3215e0ffde05d2330bf72394ef70954d28d54a167ba40dcf4b1f5af7de",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -108,6 +132,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "git-daemon",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-daemon-2.39.1-1.el9.ppc64le.rpm",
+        "sum": "a33752bb0b01228c239b8bc93124268e01ee7d915dde2230582b12c78d9d629a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "perl-Git",
         "version": "2.39.1",
         "release": "1.el9",
@@ -120,6 +156,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "git-core",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-core-2.39.1-1.el9.ppc64le.rpm",
+        "sum": "ba65d0fdac89f21df1f576185ca265f78e7b7721e84c4c94ccba58b0271ce769",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "git-subtree",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-subtree-2.39.1-1.el9.ppc64le.rpm",
+        "sum": "c214f59c52862b63be2b2a71bfd1bb8ef954b0a8078337da995fb833205d9110",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "gitk",
         "version": "2.39.1",
         "release": "1.el9",
@@ -128,6 +188,66 @@
         "src": "git-2.39.1-1.el9.src.rpm",
         "filename": "gitk-2.39.1-1.el9.noarch.rpm",
         "sum": "cb1e0cb42193227d09ed0a15c9124493df822c8ed8aad5ee6c09965bc71287a6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "git-daemon",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-daemon-2.39.1-1.el9.x86_64.rpm",
+        "sum": "56372fd6ea200b809b1d511bbda1655ac70b59a5f27de44c44a9b1f2c89b7378",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "git-core",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-core-2.39.1-1.el9.x86_64.rpm",
+        "sum": "63dcd68c23e1e37c71cca5e88bedd9ac3e2340691c6ba19fcc7f85949ca391a1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "git",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-2.39.1-1.el9.x86_64.rpm",
+        "sum": "755d55a3303e83733332fdec32bb85729cdfb0fe7d66894903ea0e8bbe8e4f2d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "git-subtree",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-subtree-2.39.1-1.el9.x86_64.rpm",
+        "sum": "b7e148727ea05edc96981dc6438a469bd80ddd12b16d6bb68ada2e9dd5cd9f0d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "git-credential-libsecret",
+        "version": "2.39.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "git-2.39.1-1.el9.src.rpm",
+        "filename": "git-credential-libsecret-2.39.1-1.el9.x86_64.rpm",
+        "sum": "d80d4f81b32a1a30e8bb683373178cdcbb0a38763c20dcde71197d9262ea051c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -250,126 +370,6 @@
         "sum": "f7ff1a64abea940a8bc80ae46a1caecf95b38f060735957f4d3a82ebbb6940de",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "git-daemon",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-daemon-2.39.1-1.el9.x86_64.rpm",
-        "sum": "56372fd6ea200b809b1d511bbda1655ac70b59a5f27de44c44a9b1f2c89b7378",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "git-core",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-core-2.39.1-1.el9.x86_64.rpm",
-        "sum": "63dcd68c23e1e37c71cca5e88bedd9ac3e2340691c6ba19fcc7f85949ca391a1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "git",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-2.39.1-1.el9.x86_64.rpm",
-        "sum": "755d55a3303e83733332fdec32bb85729cdfb0fe7d66894903ea0e8bbe8e4f2d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "git-subtree",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-subtree-2.39.1-1.el9.x86_64.rpm",
-        "sum": "b7e148727ea05edc96981dc6438a469bd80ddd12b16d6bb68ada2e9dd5cd9f0d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "git-credential-libsecret",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-credential-libsecret-2.39.1-1.el9.x86_64.rpm",
-        "sum": "d80d4f81b32a1a30e8bb683373178cdcbb0a38763c20dcde71197d9262ea051c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "git-credential-libsecret",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-credential-libsecret-2.39.1-1.el9.ppc64le.rpm",
-        "sum": "0c66252879ed5e6273969cc32495205993786e90cb843932357b25847f89a75f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "git",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-2.39.1-1.el9.ppc64le.rpm",
-        "sum": "25dd5f3215e0ffde05d2330bf72394ef70954d28d54a167ba40dcf4b1f5af7de",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "git-daemon",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-daemon-2.39.1-1.el9.ppc64le.rpm",
-        "sum": "a33752bb0b01228c239b8bc93124268e01ee7d915dde2230582b12c78d9d629a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "git-core",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-core-2.39.1-1.el9.ppc64le.rpm",
-        "sum": "ba65d0fdac89f21df1f576185ca265f78e7b7721e84c4c94ccba58b0271ce769",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "git-subtree",
-        "version": "2.39.1",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "git-2.39.1-1.el9.src.rpm",
-        "filename": "git-subtree-2.39.1-1.el9.ppc64le.rpm",
-        "sum": "c214f59c52862b63be2b2a71bfd1bb8ef954b0a8078337da995fb833205d9110",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -446,7 +446,7 @@
   "title": "Moderate: git security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1683874909000
+    "$date": 1683874911000
   },
   "version": "1"
 }

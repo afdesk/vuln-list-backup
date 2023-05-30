@@ -24,42 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "dpdk-tools",
-        "version": "21.11",
-        "release": "2.el8_7",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "dpdk-21.11-2.el8_7.src.rpm",
-        "filename": "dpdk-tools-21.11-2.el8_7.aarch64.rpm",
-        "sum": "7055b15d31b58319f06e08e7423750582d3141f1848cd6cc1add45ad4e4a40d8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dpdk",
-        "version": "21.11",
-        "release": "2.el8_7",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "dpdk-21.11-2.el8_7.src.rpm",
-        "filename": "dpdk-21.11-2.el8_7.aarch64.rpm",
-        "sum": "8bdff9dedf2b7de406b89849c72a137c8dfa1e491c6af7f61e02ca04016bd560",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dpdk-devel",
-        "version": "21.11",
-        "release": "2.el8_7",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "dpdk-21.11-2.el8_7.src.rpm",
-        "filename": "dpdk-devel-21.11-2.el8_7.aarch64.rpm",
-        "sum": "e43f1770fd2d2ca1f351e126cbbaac668482f287d8dd4898d0f60b365b359c62",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "dpdk",
         "version": "21.11",
         "release": "2.el8_7",
@@ -92,6 +56,42 @@
         "src": "dpdk-21.11-2.el8_7.src.rpm",
         "filename": "dpdk-devel-21.11-2.el8_7.x86_64.rpm",
         "sum": "7b75cb3c38ca7074da410a3b98644ae354176fcdae3029191ab5852d82a554b3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dpdk-tools",
+        "version": "21.11",
+        "release": "2.el8_7",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "dpdk-21.11-2.el8_7.src.rpm",
+        "filename": "dpdk-tools-21.11-2.el8_7.aarch64.rpm",
+        "sum": "7055b15d31b58319f06e08e7423750582d3141f1848cd6cc1add45ad4e4a40d8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dpdk",
+        "version": "21.11",
+        "release": "2.el8_7",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "dpdk-21.11-2.el8_7.src.rpm",
+        "filename": "dpdk-21.11-2.el8_7.aarch64.rpm",
+        "sum": "8bdff9dedf2b7de406b89849c72a137c8dfa1e491c6af7f61e02ca04016bd560",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dpdk-devel",
+        "version": "21.11",
+        "release": "2.el8_7",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "dpdk-21.11-2.el8_7.src.rpm",
+        "filename": "dpdk-devel-21.11-2.el8_7.aarch64.rpm",
+        "sum": "e43f1770fd2d2ca1f351e126cbbaac668482f287d8dd4898d0f60b365b359c62",
         "sum_type": 5,
         "reboot_suggested": 0
       },

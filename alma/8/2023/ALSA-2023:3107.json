@@ -8,21 +8,9 @@
     "$date": 1684195200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_8_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_8_default",
     "packages": [
-      {
-        "name": "libreswan",
-        "version": "4.9",
-        "release": "3.el8_8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libreswan-4.9-3.el8_8.src.rpm",
-        "filename": "libreswan-4.9-3.el8_8.aarch64.rpm",
-        "sum": "adfdbc5587d0aed50b2e9711f56a8827c1cebd60773de8b1e60a30fa7781a489",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libreswan",
         "version": "4.9",
@@ -40,10 +28,10 @@
         "version": "4.9",
         "release": "3.el8_8",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "aarch64",
         "src": "libreswan-4.9-3.el8_8.src.rpm",
-        "filename": "libreswan-4.9-3.el8_8.s390x.rpm",
-        "sum": "f52dd92560cb99c0412870a0a34b908b3daa3987b3088adaf2344871f2147cbb",
+        "filename": "libreswan-4.9-3.el8_8.aarch64.rpm",
+        "sum": "adfdbc5587d0aed50b2e9711f56a8827c1cebd60773de8b1e60a30fa7781a489",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -56,6 +44,18 @@
         "src": "libreswan-4.9-3.el8_8.src.rpm",
         "filename": "libreswan-4.9-3.el8_8.ppc64le.rpm",
         "sum": "b243f099d839bc234911f63b5e4161b270f0116dd9c95a1984cde58dbc72a653",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libreswan",
+        "version": "4.9",
+        "release": "3.el8_8",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "libreswan-4.9-3.el8_8.src.rpm",
+        "filename": "libreswan-4.9-3.el8_8.s390x.rpm",
+        "sum": "f52dd92560cb99c0412870a0a34b908b3daa3987b3088adaf2344871f2147cbb",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -98,7 +98,7 @@
   "title": "Important: libreswan security update",
   "type": "security",
   "updated_date": {
-    "$date": 1684533611000
+    "$date": 1684533612000
   },
   "version": "1"
 }

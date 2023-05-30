@@ -28,18 +28,6 @@
         "version": "7.5.1",
         "release": "7.el8",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "frr-7.5.1-7.el8.src.rpm",
-        "filename": "frr-7.5.1-7.el8.aarch64.rpm",
-        "sum": "c949764c4c8d93ea907aa82d091737f67a25df4b04e277e28d99afb0f586b304",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "frr",
-        "version": "7.5.1",
-        "release": "7.el8",
-        "epoch": "0",
         "arch": "x86_64",
         "src": "frr-7.5.1-7.el8.src.rpm",
         "filename": "frr-7.5.1-7.el8.x86_64.rpm",
@@ -52,10 +40,10 @@
         "version": "7.5.1",
         "release": "7.el8",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "aarch64",
         "src": "frr-7.5.1-7.el8.src.rpm",
-        "filename": "frr-7.5.1-7.el8.s390x.rpm",
-        "sum": "e0a72fad220d9b563396256e3f1479969eb648a7dedb291b57698668c1bae113",
+        "filename": "frr-7.5.1-7.el8.aarch64.rpm",
+        "sum": "c949764c4c8d93ea907aa82d091737f67a25df4b04e277e28d99afb0f586b304",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,6 +56,18 @@
         "src": "frr-7.5.1-7.el8.src.rpm",
         "filename": "frr-7.5.1-7.el8.ppc64le.rpm",
         "sum": "d1a21f437abb4d80dc98334176d93bb6fa77f7dbb80b73be80fb55a21ea00a73",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "frr",
+        "version": "7.5.1",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "frr-7.5.1-7.el8.src.rpm",
+        "filename": "frr-7.5.1-7.el8.s390x.rpm",
+        "sum": "e0a72fad220d9b563396256e3f1479969eb648a7dedb291b57698668c1bae113",
         "sum_type": 5,
         "reboot_suggested": 0
       }

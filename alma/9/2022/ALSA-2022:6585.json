@@ -8,8 +8,8 @@
     "$date": 1663632000000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
     "packages": [
       {
         "name": "rubygem-typeprof",
@@ -20,6 +20,18 @@
         "src": "ruby-3.0.4-160.el9_0.src.rpm",
         "filename": "rubygem-typeprof-0.15.2-160.el9_0.noarch.rpm",
         "sum": "0e4ebca19523f0dd89c46c21b776d45379ff1f7965dd423b1bcd5edd4c25760e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-bigdecimal",
+        "version": "3.0.0",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "rubygem-bigdecimal-3.0.0-160.el9_0.ppc64le.rpm",
+        "sum": "12dbdc0f92222163fd4a153ea660f1ffeefecb3d141869d212d8f3d7f535b683",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -48,14 +60,26 @@
         "reboot_suggested": 0
       },
       {
-        "name": "ruby-libs",
+        "name": "rubygem-psych",
+        "version": "3.3.2",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "rubygem-psych-3.3.2-160.el9_0.ppc64le.rpm",
+        "sum": "5a8b4ca71c7e8bcc2a62c81383f7000005447f30eb2812066d7059e34886b0e6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby",
         "version": "3.0.4",
         "release": "160.el9_0",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "ppc64le",
         "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "ruby-libs-3.0.4-160.el9_0.i686.rpm",
-        "sum": "50f2e8fda32cb670ade83ab3e894d21286919b44766bacc284a1d1b12ed37ce3",
+        "filename": "ruby-3.0.4-160.el9_0.ppc64le.rpm",
+        "sum": "5f030023047b2df4f4e67f5e8ae1bea58c4008c0504f53e265ef119746a814d5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -72,18 +96,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "ruby",
-        "version": "3.0.4",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "ruby-3.0.4-160.el9_0.i686.rpm",
-        "sum": "6fc27241dc2b85efa1af32c1f749bb3c148b322c5797c829f76367ae91f07c9a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "rubygem-test-unit",
         "version": "3.3.7",
         "release": "160.el9_0",
@@ -92,6 +104,18 @@
         "src": "ruby-3.0.4-160.el9_0.src.rpm",
         "filename": "rubygem-test-unit-3.3.7-160.el9_0.noarch.rpm",
         "sum": "7024ae2f1fa78bc46be4bfe7431a70487ddc3cd7b2e14fd87b6cf84f73509b07",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-json",
+        "version": "2.5.1",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "rubygem-json-2.5.1-160.el9_0.ppc64le.rpm",
+        "sum": "8c5fecaaf41163c2007198982ee55cc26e7b5e5f98248d1d3ca8a02e9860b69d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -144,6 +168,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "rubygem-io-console",
+        "version": "0.5.7",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "rubygem-io-console-0.5.7-160.el9_0.ppc64le.rpm",
+        "sum": "cbc084a9018ba01cb34eaa0571d24457444ae06ba606744f590deb8180ad699c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "rubygem-bundler",
         "version": "2.2.33",
         "release": "160.el9_0",
@@ -164,6 +200,18 @@
         "src": "ruby-3.0.4-160.el9_0.src.rpm",
         "filename": "ruby-default-gems-3.0.4-160.el9_0.noarch.rpm",
         "sum": "d6ff792d62fb767eafc17c3adb6ab2508483465114145d720cd973c80b4678a3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby-devel",
+        "version": "3.0.4",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "ruby-devel-3.0.4-160.el9_0.ppc64le.rpm",
+        "sum": "d75c542b59f07dd7eaa235a2f31d48c32cc2df3ba7d3b1bbb219567b598562f6",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -204,6 +252,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "ruby-libs",
+        "version": "3.0.4",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "ruby-libs-3.0.4-160.el9_0.ppc64le.rpm",
+        "sum": "ed4b09a395f557498c39d0d7af715acc3522cca1065dfea160663f082b6a23ef",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby-libs",
+        "version": "3.0.4",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "ruby-libs-3.0.4-160.el9_0.i686.rpm",
+        "sum": "50f2e8fda32cb670ade83ab3e894d21286919b44766bacc284a1d1b12ed37ce3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby",
+        "version": "3.0.4",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "ruby-3.0.4-160.el9_0.i686.rpm",
+        "sum": "6fc27241dc2b85efa1af32c1f749bb3c148b322c5797c829f76367ae91f07c9a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "ruby-devel",
         "version": "3.0.4",
         "release": "160.el9_0",
@@ -212,6 +296,90 @@
         "src": "ruby-3.0.4-160.el9_0.src.rpm",
         "filename": "ruby-devel-3.0.4-160.el9_0.i686.rpm",
         "sum": "f71e8769eb2acfefc8077cc64681e0a494990840a7c51aaf5191606162aa8d83",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby-libs",
+        "version": "3.0.4",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "ruby-libs-3.0.4-160.el9_0.x86_64.rpm",
+        "sum": "0a855cb8437b664960deec1d6f5be9ec95d6e6661f754a60b391700382a5ec6a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby-devel",
+        "version": "3.0.4",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "ruby-devel-3.0.4-160.el9_0.x86_64.rpm",
+        "sum": "30a72b804c7d1f685fe6b4a942d1e147d59414aef4eda49498e9eae85d647c49",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-bigdecimal",
+        "version": "3.0.0",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "rubygem-bigdecimal-3.0.0-160.el9_0.x86_64.rpm",
+        "sum": "67242c280ac3459ac26800d4ed975837eab87c5c9ba0cf408cd20d2b623a73c2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-json",
+        "version": "2.5.1",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "rubygem-json-2.5.1-160.el9_0.x86_64.rpm",
+        "sum": "963d71c649dec454c85e42956a27e16d2b5d875003533484bb9fdeac42e0b63f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-io-console",
+        "version": "0.5.7",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "rubygem-io-console-0.5.7-160.el9_0.x86_64.rpm",
+        "sum": "9e64e79bb3fef7bd97bf9f6edb82d5f36bccaa114f73bc8f1a621a53f3778a1d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby",
+        "version": "3.0.4",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "ruby-3.0.4-160.el9_0.x86_64.rpm",
+        "sum": "bd844b8b8913c1c5222bc70a6ddeae8e76f656ef50a8f6863a6882f67ba02680",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-psych",
+        "version": "3.3.2",
+        "release": "160.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "ruby-3.0.4-160.el9_0.src.rpm",
+        "filename": "rubygem-psych-3.3.2-160.el9_0.x86_64.rpm",
+        "sum": "d399f79009f660b14470e99a7528fc0c42cf96e205152081bf68bcdc1ccbbc3b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -384,174 +552,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "ruby-libs",
-        "version": "3.0.4",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "ruby-libs-3.0.4-160.el9_0.x86_64.rpm",
-        "sum": "0a855cb8437b664960deec1d6f5be9ec95d6e6661f754a60b391700382a5ec6a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ruby-devel",
-        "version": "3.0.4",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "ruby-devel-3.0.4-160.el9_0.x86_64.rpm",
-        "sum": "30a72b804c7d1f685fe6b4a942d1e147d59414aef4eda49498e9eae85d647c49",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-bigdecimal",
-        "version": "3.0.0",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "rubygem-bigdecimal-3.0.0-160.el9_0.x86_64.rpm",
-        "sum": "67242c280ac3459ac26800d4ed975837eab87c5c9ba0cf408cd20d2b623a73c2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-json",
-        "version": "2.5.1",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "rubygem-json-2.5.1-160.el9_0.x86_64.rpm",
-        "sum": "963d71c649dec454c85e42956a27e16d2b5d875003533484bb9fdeac42e0b63f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-io-console",
-        "version": "0.5.7",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "rubygem-io-console-0.5.7-160.el9_0.x86_64.rpm",
-        "sum": "9e64e79bb3fef7bd97bf9f6edb82d5f36bccaa114f73bc8f1a621a53f3778a1d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ruby",
-        "version": "3.0.4",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "ruby-3.0.4-160.el9_0.x86_64.rpm",
-        "sum": "bd844b8b8913c1c5222bc70a6ddeae8e76f656ef50a8f6863a6882f67ba02680",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-psych",
-        "version": "3.3.2",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "rubygem-psych-3.3.2-160.el9_0.x86_64.rpm",
-        "sum": "d399f79009f660b14470e99a7528fc0c42cf96e205152081bf68bcdc1ccbbc3b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-bigdecimal",
-        "version": "3.0.0",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "rubygem-bigdecimal-3.0.0-160.el9_0.ppc64le.rpm",
-        "sum": "12dbdc0f92222163fd4a153ea660f1ffeefecb3d141869d212d8f3d7f535b683",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-psych",
-        "version": "3.3.2",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "rubygem-psych-3.3.2-160.el9_0.ppc64le.rpm",
-        "sum": "5a8b4ca71c7e8bcc2a62c81383f7000005447f30eb2812066d7059e34886b0e6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ruby",
-        "version": "3.0.4",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "ruby-3.0.4-160.el9_0.ppc64le.rpm",
-        "sum": "5f030023047b2df4f4e67f5e8ae1bea58c4008c0504f53e265ef119746a814d5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-json",
-        "version": "2.5.1",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "rubygem-json-2.5.1-160.el9_0.ppc64le.rpm",
-        "sum": "8c5fecaaf41163c2007198982ee55cc26e7b5e5f98248d1d3ca8a02e9860b69d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-io-console",
-        "version": "0.5.7",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "rubygem-io-console-0.5.7-160.el9_0.ppc64le.rpm",
-        "sum": "cbc084a9018ba01cb34eaa0571d24457444ae06ba606744f590deb8180ad699c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ruby-devel",
-        "version": "3.0.4",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "ruby-devel-3.0.4-160.el9_0.ppc64le.rpm",
-        "sum": "d75c542b59f07dd7eaa235a2f31d48c32cc2df3ba7d3b1bbb219567b598562f6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ruby-libs",
-        "version": "3.0.4",
-        "release": "160.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ruby-3.0.4-160.el9_0.src.rpm",
-        "filename": "ruby-libs-3.0.4-160.el9_0.ppc64le.rpm",
-        "sum": "ed4b09a395f557498c39d0d7af715acc3522cca1065dfea160663f082b6a23ef",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "ruby-doc",
         "version": "3.0.4",
         "release": "160.el9_0",
@@ -614,7 +614,7 @@
   "title": "Moderate: ruby security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1666163890000
+    "$date": 1666163896000
   },
   "version": "1"
 }

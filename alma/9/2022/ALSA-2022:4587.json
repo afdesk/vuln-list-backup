@@ -108,54 +108,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "pcs-snmp",
-        "version": "0.11.1",
-        "release": "10.el9_0.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcs-0.11.1-10.el9_0.1.src.rpm",
-        "filename": "pcs-snmp-0.11.1-10.el9_0.1.aarch64.rpm",
-        "sum": "3ab1cfb93ff2654d95438e6c9b56b3988567e9c9f8a410165606bb91cdf0b0a6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.11.1",
-        "release": "10.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcs-0.11.1-10.el9.src.rpm",
-        "filename": "pcs-0.11.1-10.el9.aarch64.rpm",
-        "sum": "57b60d8498d496cbaf8a91d91f457025dc69ea781beb75b2934967f817f2f8b1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.11.1",
-        "release": "10.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcs-0.11.1-10.el9.src.rpm",
-        "filename": "pcs-snmp-0.11.1-10.el9.aarch64.rpm",
-        "sum": "79f4fafd7ed3142626efa6f9bf59d84a0b9bf643b2f03180ddace1657dabf42d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.11.1",
-        "release": "10.el9_0.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcs-0.11.1-10.el9_0.1.src.rpm",
-        "filename": "pcs-0.11.1-10.el9_0.1.aarch64.rpm",
-        "sum": "eccfb777b33555d7352556f99a94e77fb253a4af8cb939a754ebb8f59e94024b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pcs",
         "version": "0.11.1",
         "release": "10.el9",
@@ -200,6 +152,54 @@
         "src": "pcs-0.11.1-10.el9.src.rpm",
         "filename": "pcs-snmp-0.11.1-10.el9.s390x.rpm",
         "sum": "dd8d9f7d15a6e692d9527db57e188bb603dc28284ed91be7810a4d93b6a282cb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs-snmp",
+        "version": "0.11.1",
+        "release": "10.el9_0.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.11.1-10.el9_0.1.src.rpm",
+        "filename": "pcs-snmp-0.11.1-10.el9_0.1.aarch64.rpm",
+        "sum": "3ab1cfb93ff2654d95438e6c9b56b3988567e9c9f8a410165606bb91cdf0b0a6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.11.1",
+        "release": "10.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.11.1-10.el9.src.rpm",
+        "filename": "pcs-0.11.1-10.el9.aarch64.rpm",
+        "sum": "57b60d8498d496cbaf8a91d91f457025dc69ea781beb75b2934967f817f2f8b1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs-snmp",
+        "version": "0.11.1",
+        "release": "10.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.11.1-10.el9.src.rpm",
+        "filename": "pcs-snmp-0.11.1-10.el9.aarch64.rpm",
+        "sum": "79f4fafd7ed3142626efa6f9bf59d84a0b9bf643b2f03180ddace1657dabf42d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.11.1",
+        "release": "10.el9_0.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.11.1-10.el9_0.1.src.rpm",
+        "filename": "pcs-0.11.1-10.el9_0.1.aarch64.rpm",
+        "sum": "eccfb777b33555d7352556f99a94e77fb253a4af8cb939a754ebb8f59e94024b",
         "sum_type": 5,
         "reboot_suggested": 0
       }

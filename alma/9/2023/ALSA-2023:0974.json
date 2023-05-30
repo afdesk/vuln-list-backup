@@ -60,30 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "pcs",
-        "version": "0.11.3",
-        "release": "4.el9_1.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
-        "filename": "pcs-0.11.3-4.el9_1.2.aarch64.rpm",
-        "sum": "68e3c9e4006d1f510893189bd04607fb69b61a7e817c4759fac2b3b9002e3d39",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.11.3",
-        "release": "4.el9_1.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
-        "filename": "pcs-snmp-0.11.3-4.el9_1.2.aarch64.rpm",
-        "sum": "878affc3ef7204cc9f6594b615b91e5e7049f97506a638960199da53d906e965",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pcs-snmp",
         "version": "0.11.3",
         "release": "4.el9_1.2",
@@ -104,6 +80,30 @@
         "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
         "filename": "pcs-0.11.3-4.el9_1.2.s390x.rpm",
         "sum": "eaaacd1d3e6df4da98b03cbcd8ff6cac3afc3fb372b008526f124686576553bb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.11.3",
+        "release": "4.el9_1.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
+        "filename": "pcs-0.11.3-4.el9_1.2.aarch64.rpm",
+        "sum": "68e3c9e4006d1f510893189bd04607fb69b61a7e817c4759fac2b3b9002e3d39",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs-snmp",
+        "version": "0.11.3",
+        "release": "4.el9_1.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
+        "filename": "pcs-snmp-0.11.3-4.el9_1.2.aarch64.rpm",
+        "sum": "878affc3ef7204cc9f6594b615b91e5e7049f97506a638960199da53d906e965",
         "sum_type": 5,
         "reboot_suggested": 0
       }

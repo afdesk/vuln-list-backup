@@ -8,8 +8,8 @@
     "$date": 1683590400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_2_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_2_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
     "packages": [
       {
         "name": "frr-selinux",
@@ -20,6 +20,30 @@
         "src": "frr-8.3.1-5.el9.src.rpm",
         "filename": "frr-selinux-8.3.1-5.el9.noarch.rpm",
         "sum": "48dd31748b80d33523d32a8bf40f0b9b0890940de43306fca30e429d7f8b5832",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "frr",
+        "version": "8.3.1",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "frr-8.3.1-5.el9.src.rpm",
+        "filename": "frr-8.3.1-5.el9.ppc64le.rpm",
+        "sum": "55b688cc61eda2066b2bfb84a4cb51e7eab25054101d83ee12d8aaf94eee6f56",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "frr",
+        "version": "8.3.1",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "frr-8.3.1-5.el9.src.rpm",
+        "filename": "frr-8.3.1-5.el9.x86_64.rpm",
+        "sum": "15c8594038d83e43481a563bb372ba880154428a0eb7a706c48a1f62f5553b22",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,30 +68,6 @@
         "src": "frr-8.3.1-5.el9.src.rpm",
         "filename": "frr-8.3.1-5.el9.s390x.rpm",
         "sum": "eadd4dcb234ea7d276c4c6a37417dcf2124be5ff07156d50fa9dff2cc5439e37",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "frr",
-        "version": "8.3.1",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "frr-8.3.1-5.el9.src.rpm",
-        "filename": "frr-8.3.1-5.el9.x86_64.rpm",
-        "sum": "15c8594038d83e43481a563bb372ba880154428a0eb7a706c48a1f62f5553b22",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "frr",
-        "version": "8.3.1",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "frr-8.3.1-5.el9.src.rpm",
-        "filename": "frr-8.3.1-5.el9.ppc64le.rpm",
-        "sum": "55b688cc61eda2066b2bfb84a4cb51e7eab25054101d83ee12d8aaf94eee6f56",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -8,9 +8,33 @@
     "$date": 1683590400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-aarch64-appstream-rpms__9_2_default",
-    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_2_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
     "packages": [
+      {
+        "name": "containernetworking-plugins",
+        "version": "1.2.0",
+        "release": "1.el9",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "containernetworking-plugins-1.2.0-1.el9.src.rpm",
+        "filename": "containernetworking-plugins-1.2.0-1.el9.ppc64le.rpm",
+        "sum": "abfd41c3f9ab3be2d1e53521bb8f633eb2030f4def54fe105e185d958af9e381",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "containernetworking-plugins",
+        "version": "1.2.0",
+        "release": "1.el9",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "containernetworking-plugins-1.2.0-1.el9.src.rpm",
+        "filename": "containernetworking-plugins-1.2.0-1.el9.x86_64.rpm",
+        "sum": "e65dd2ee6a03110099f869a80b900c12c797b1815e9bfcbe18c911ca2d35c7bd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "containernetworking-plugins",
         "version": "1.2.0",
@@ -32,30 +56,6 @@
         "src": "containernetworking-plugins-1.2.0-1.el9.src.rpm",
         "filename": "containernetworking-plugins-1.2.0-1.el9.s390x.rpm",
         "sum": "371920f2903d6d063d5a338ae7432138d375febf19e658210707d257225f4ea6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "containernetworking-plugins",
-        "version": "1.2.0",
-        "release": "1.el9",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "containernetworking-plugins-1.2.0-1.el9.src.rpm",
-        "filename": "containernetworking-plugins-1.2.0-1.el9.x86_64.rpm",
-        "sum": "e65dd2ee6a03110099f869a80b900c12c797b1815e9bfcbe18c911ca2d35c7bd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "containernetworking-plugins",
-        "version": "1.2.0",
-        "release": "1.el9",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "containernetworking-plugins-1.2.0-1.el9.src.rpm",
-        "filename": "containernetworking-plugins-1.2.0-1.el9.ppc64le.rpm",
-        "sum": "abfd41c3f9ab3be2d1e53521bb8f633eb2030f4def54fe105e185d958af9e381",
         "sum_type": 5,
         "reboot_suggested": 0
       }

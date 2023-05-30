@@ -8,165 +8,9 @@
     "$date": 1588065203000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
     "packages": [
-      {
-        "name": "clutter",
-        "version": "1.26.2",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "clutter-1.26.2-8.el8.src.rpm",
-        "filename": "clutter-1.26.2-8.el8.x86_64.rpm",
-        "sum": "050d78b1b3946460e64b18ab90f478a167ce90d2f859204092267ff5c7b09ac4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnome-menus",
-        "version": "3.13.3",
-        "release": "11.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gnome-menus-3.13.3-11.el8.src.rpm",
-        "filename": "gnome-menus-3.13.3-11.el8.x86_64.rpm",
-        "sum": "3a6ca94d54398f89805817c5334a355124c152e04ad6eb911200aa2609947687",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "baobab",
-        "version": "3.28.0",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "baobab-3.28.0-4.el8.src.rpm",
-        "filename": "baobab-3.28.0-4.el8.x86_64.rpm",
-        "sum": "4e03ef70171dafc26c25d849cf08161a21eb5201c2d0c5d136c74b1b4bcae76b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mozjs52-devel",
-        "version": "52.9.0",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mozjs52-52.9.0-2.el8.src.rpm",
-        "filename": "mozjs52-devel-52.9.0-2.el8.x86_64.rpm",
-        "sum": "685f009107485ec920db4360c44f01cb33cfff984d678ef986b2f9e164983641",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnome-menus",
-        "version": "3.13.3",
-        "release": "11.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gnome-menus-3.13.3-11.el8.src.rpm",
-        "filename": "gnome-menus-3.13.3-11.el8.i686.rpm",
-        "sum": "6c59842308b6b391a551e0ffd865784cd353276d796b6e76680423b2f49f3281",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mozjs60-devel",
-        "version": "60.9.0",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mozjs60-60.9.0-4.el8.src.rpm",
-        "filename": "mozjs60-devel-60.9.0-4.el8.x86_64.rpm",
-        "sum": "7189aecf72771dde71b651298db93160cf15d46cefa98d93db6c311db728c90a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnome-menus-devel",
-        "version": "3.13.3",
-        "release": "11.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gnome-menus-3.13.3-11.el8.src.rpm",
-        "filename": "gnome-menus-devel-3.13.3-11.el8.x86_64.rpm",
-        "sum": "81620071d46e3d94c1d28c452ca3f7d71960c1143306d6d4582c31e9dc0410bc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mozjs52",
-        "version": "52.9.0",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mozjs52-52.9.0-2.el8.src.rpm",
-        "filename": "mozjs52-52.9.0-2.el8.x86_64.rpm",
-        "sum": "872a1d732e93a341ec5eb320bfd2ec17f9cee5f83ef71971798c91cfbc06c93e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "clutter",
-        "version": "1.26.2",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "clutter-1.26.2-8.el8.src.rpm",
-        "filename": "clutter-1.26.2-8.el8.i686.rpm",
-        "sum": "96e35afd6d534cb044440bd87ea947f063ae677cf8694c279b5652c78712b7df",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "clutter-doc",
-        "version": "1.26.2",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "clutter-1.26.2-8.el8.src.rpm",
-        "filename": "clutter-doc-1.26.2-8.el8.x86_64.rpm",
-        "sum": "b181d866166cde2078f089da89a27c928def4c1197693f7cb9ff9134bb4a7732",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnome-tweaks",
-        "version": "3.28.1",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "gnome-tweaks-3.28.1-7.el8.src.rpm",
-        "filename": "gnome-tweaks-3.28.1-7.el8.noarch.rpm",
-        "sum": "c81e864ff35743514cd46f380b65bec1ebcb28fc261a0ccb1e1567113872546a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mozjs60",
-        "version": "60.9.0",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mozjs60-60.9.0-4.el8.src.rpm",
-        "filename": "mozjs60-60.9.0-4.el8.x86_64.rpm",
-        "sum": "e09a084e686fa4f90a7a6658215421ce9ada1b443b13d117c6ee47e19eae6a7c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "clutter-devel",
-        "version": "1.26.2",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "clutter-1.26.2-8.el8.src.rpm",
-        "filename": "clutter-devel-1.26.2-8.el8.x86_64.rpm",
-        "sum": "e3a9a98dd74f8dbbcf5b859be5f43b13720fe3bbd90e60af9f151a34437d7152",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "clutter-doc",
         "version": "1.26.2",
@@ -252,6 +96,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "gnome-tweaks",
+        "version": "3.28.1",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "gnome-tweaks-3.28.1-7.el8.src.rpm",
+        "filename": "gnome-tweaks-3.28.1-7.el8.noarch.rpm",
+        "sum": "c81e864ff35743514cd46f380b65bec1ebcb28fc261a0ccb1e1567113872546a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "mozjs60",
         "version": "60.9.0",
         "release": "4.el8",
@@ -284,6 +140,18 @@
         "src": "gnome-menus-3.13.3-11.el8.src.rpm",
         "filename": "gnome-menus-devel-3.13.3-11.el8.aarch64.rpm",
         "sum": "f135d21d3dbd44f1e0bd762d1530df90fb77f3b6c2a1893f8cac586ef6140cb7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "clutter",
+        "version": "1.26.2",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "clutter-1.26.2-8.el8.src.rpm",
+        "filename": "clutter-1.26.2-8.el8.x86_64.rpm",
+        "sum": "050d78b1b3946460e64b18ab90f478a167ce90d2f859204092267ff5c7b09ac4",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -324,6 +192,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "gnome-menus",
+        "version": "3.13.3",
+        "release": "11.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gnome-menus-3.13.3-11.el8.src.rpm",
+        "filename": "gnome-menus-3.13.3-11.el8.x86_64.rpm",
+        "sum": "3a6ca94d54398f89805817c5334a355124c152e04ad6eb911200aa2609947687",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "baobab",
+        "version": "3.28.0",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "baobab-3.28.0-4.el8.src.rpm",
+        "filename": "baobab-3.28.0-4.el8.x86_64.rpm",
+        "sum": "4e03ef70171dafc26c25d849cf08161a21eb5201c2d0c5d136c74b1b4bcae76b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mozjs52-devel",
+        "version": "52.9.0",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mozjs52-52.9.0-2.el8.src.rpm",
+        "filename": "mozjs52-devel-52.9.0-2.el8.x86_64.rpm",
+        "sum": "685f009107485ec920db4360c44f01cb33cfff984d678ef986b2f9e164983641",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "mozjs52-devel",
         "version": "52.9.0",
         "release": "2.el8",
@@ -344,6 +248,42 @@
         "src": "clutter-1.26.2-8.el8.src.rpm",
         "filename": "clutter-devel-1.26.2-8.el8.i686.rpm",
         "sum": "6bcdd54bf1856e09f47d34870851fbb9ff50ad2dafe67254d1f183a89ef3af8c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mozjs60-devel",
+        "version": "60.9.0",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mozjs60-60.9.0-4.el8.src.rpm",
+        "filename": "mozjs60-devel-60.9.0-4.el8.x86_64.rpm",
+        "sum": "7189aecf72771dde71b651298db93160cf15d46cefa98d93db6c311db728c90a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gnome-menus-devel",
+        "version": "3.13.3",
+        "release": "11.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gnome-menus-3.13.3-11.el8.src.rpm",
+        "filename": "gnome-menus-devel-3.13.3-11.el8.x86_64.rpm",
+        "sum": "81620071d46e3d94c1d28c452ca3f7d71960c1143306d6d4582c31e9dc0410bc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mozjs52",
+        "version": "52.9.0",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mozjs52-52.9.0-2.el8.src.rpm",
+        "filename": "mozjs52-52.9.0-2.el8.x86_64.rpm",
+        "sum": "872a1d732e93a341ec5eb320bfd2ec17f9cee5f83ef71971798c91cfbc06c93e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -380,6 +320,18 @@
         "src": "accountsservice-0.6.50-8.el8.src.rpm",
         "filename": "accountsservice-devel-0.6.50-8.el8.i686.rpm",
         "sum": "b08cd92df783298a6bb23cff26171e6be307736ffd5954433f0c54b0b116e005",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "clutter-doc",
+        "version": "1.26.2",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "clutter-1.26.2-8.el8.src.rpm",
+        "filename": "clutter-doc-1.26.2-8.el8.x86_64.rpm",
+        "sum": "b181d866166cde2078f089da89a27c928def4c1197693f7cb9ff9134bb4a7732",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -428,6 +380,54 @@
         "src": "gnome-menus-3.13.3-11.el8.src.rpm",
         "filename": "gnome-menus-devel-3.13.3-11.el8.i686.rpm",
         "sum": "d01446861f2e5b46f66e7a0d3cad782d42cc204d16309f4cf08a1518e1c8dd29",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mozjs60",
+        "version": "60.9.0",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mozjs60-60.9.0-4.el8.src.rpm",
+        "filename": "mozjs60-60.9.0-4.el8.x86_64.rpm",
+        "sum": "e09a084e686fa4f90a7a6658215421ce9ada1b443b13d117c6ee47e19eae6a7c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "clutter-devel",
+        "version": "1.26.2",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "clutter-1.26.2-8.el8.src.rpm",
+        "filename": "clutter-devel-1.26.2-8.el8.x86_64.rpm",
+        "sum": "e3a9a98dd74f8dbbcf5b859be5f43b13720fe3bbd90e60af9f151a34437d7152",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gnome-menus",
+        "version": "3.13.3",
+        "release": "11.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gnome-menus-3.13.3-11.el8.src.rpm",
+        "filename": "gnome-menus-3.13.3-11.el8.i686.rpm",
+        "sum": "6c59842308b6b391a551e0ffd865784cd353276d796b6e76680423b2f49f3281",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "clutter",
+        "version": "1.26.2",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "clutter-1.26.2-8.el8.src.rpm",
+        "filename": "clutter-1.26.2-8.el8.i686.rpm",
+        "sum": "96e35afd6d534cb044440bd87ea947f063ae677cf8694c279b5652c78712b7df",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -557,6 +557,12 @@
   "pushcount": "6",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-1766.html",
+      "type": "self",
+      "id": "ALSA-2020-1766",
+      "title": "ALSA-2020-1766"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2018-20337",
       "type": "cve",
       "id": "CVE-2018-20337",
@@ -588,7 +594,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -596,7 +602,7 @@
   "title": "Moderate: GNOME security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712455000
+    "$date": 1588065194000
   },
   "version": "2"
 }

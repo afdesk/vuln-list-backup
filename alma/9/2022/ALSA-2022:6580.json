@@ -100,30 +100,6 @@
         "version": "1.0",
         "release": "251.3.bfb2f92.git.el9_0.1",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "booth-1.0-251.3.bfb2f92.git.el9_0.1.src.rpm",
-        "filename": "booth-core-1.0-251.3.bfb2f92.git.el9_0.1.aarch64.rpm",
-        "sum": "39191e64e9f97442c24306f5d8e46f2af51d10acb65dc72f7f99e553051fcbe6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "booth",
-        "version": "1.0",
-        "release": "251.3.bfb2f92.git.el9_0.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "booth-1.0-251.3.bfb2f92.git.el9_0.1.src.rpm",
-        "filename": "booth-1.0-251.3.bfb2f92.git.el9_0.1.aarch64.rpm",
-        "sum": "5a8091a1545d77a173b383c8c07db13200ca7d80abca136801a7b98861cae3b2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "booth-core",
-        "version": "1.0",
-        "release": "251.3.bfb2f92.git.el9_0.1",
-        "epoch": "0",
         "arch": "s390x",
         "src": "booth-1.0-251.3.bfb2f92.git.el9_0.1.src.rpm",
         "filename": "booth-core-1.0-251.3.bfb2f92.git.el9_0.1.s390x.rpm",
@@ -140,6 +116,30 @@
         "src": "booth-1.0-251.3.bfb2f92.git.el9_0.1.src.rpm",
         "filename": "booth-1.0-251.3.bfb2f92.git.el9_0.1.s390x.rpm",
         "sum": "b82d7c5cb9a67dc78224b7805fb0db7266dee2f93261e5c2f74871ff7ead1684",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "booth-core",
+        "version": "1.0",
+        "release": "251.3.bfb2f92.git.el9_0.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "booth-1.0-251.3.bfb2f92.git.el9_0.1.src.rpm",
+        "filename": "booth-core-1.0-251.3.bfb2f92.git.el9_0.1.aarch64.rpm",
+        "sum": "39191e64e9f97442c24306f5d8e46f2af51d10acb65dc72f7f99e553051fcbe6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "booth",
+        "version": "1.0",
+        "release": "251.3.bfb2f92.git.el9_0.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "booth-1.0-251.3.bfb2f92.git.el9_0.1.src.rpm",
+        "filename": "booth-1.0-251.3.bfb2f92.git.el9_0.1.aarch64.rpm",
+        "sum": "5a8091a1545d77a173b383c8c07db13200ca7d80abca136801a7b98861cae3b2",
         "sum_type": 5,
         "reboot_suggested": 0
       }
