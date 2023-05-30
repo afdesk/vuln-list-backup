@@ -2,6 +2,126 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package vim is earlier than 9.0.1562-1, affected by CVE-2023-2609",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26686000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26686001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26686002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package hyperv-daemons is earlier than 5.10.179.1-1, affected by CVE-2023-2513",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26681000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26681001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26681002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package hyperv-daemons is earlier than 5.10.179.1-1, affected by CVE-2023-31436",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26659000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26659001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26659002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package vim is earlier than 9.0.1562-1, affected by CVE-2023-2610",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26651000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26651001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26651002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.10.179.1-1, affected by CVE-2023-0458",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26412000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26412001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26412002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package vim is earlier than 9.0.1562-1, affected by CVE-2023-2426",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26403000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26403001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26403002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.10.179.1-1, affected by CVE-2023-2248",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26384000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26384001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26384002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.10.179.1-1, affected by CVE-2023-1998",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26372000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26372001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26372002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.10.179.1-1, affected by CVE-2023-30772",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26309000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26309001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26309002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package redis is earlier than 6.2.12-1, affected by CVE-2023-28856",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26267000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26267001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26267002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-30772",
       "ID": "oval:com.microsoft.cbl-mariner:tst:26260000",
       "Version": "1",
@@ -10,6 +130,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:26260002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package ncurses is earlier than 6.4-1, affected by CVE-2023-29491",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26225000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26225001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26225002"
       }
     },
     {
@@ -86,6 +218,30 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package fluent-bit is earlier than 1.5.2-3, affected by CVE-2021-46879",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26126000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26126001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26126002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package fluent-bit is earlier than 1.5.2-3, affected by CVE-2021-46878",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26125000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26125001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26125002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package tcl is earlier than 8.6.13-1, affected by CVE-2018-25032",
       "ID": "oval:com.microsoft.cbl-mariner:tst:26118000",
       "Version": "1",
@@ -98,7 +254,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package python2 is earlier than  2.7.18-13, affected by CVE-2018-25032",
+      "Comment": "Package python2 is earlier than 2.7.18-13, affected by CVE-2018-25032",
       "ID": "oval:com.microsoft.cbl-mariner:tst:26116000",
       "Version": "0",
       "Object": {
@@ -130,6 +286,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:26092002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package freetype is earlier than 2.13.0-1, affected by CVE-2023-2004",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26091000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26091001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26091002"
       }
     },
     {
@@ -1022,7 +1190,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.18.8-2 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13720000",
       "Version": "0",
       "Object": {
@@ -1034,7 +1202,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.18.8-2 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13719000",
       "Version": "0",
       "Object": {
@@ -1046,7 +1214,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.18.8-2 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13718000",
       "Version": "0",
       "Object": {
@@ -4418,7 +4586,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.18.8-2 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11156000",
       "Version": "0",
       "Object": {
@@ -4430,7 +4598,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.18.8-2 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11155000",
       "Version": "0",
       "Object": {
@@ -4442,7 +4610,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.18.8-2 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11154000",
       "Version": "0",
       "Object": {
@@ -5198,7 +5366,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.18.8-2 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10873000",
       "Version": "0",
       "Object": {
@@ -20054,7 +20222,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.18.8-2 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:3677000",
       "Version": "0",
       "Object": {
@@ -20066,7 +20234,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.18.8-2 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:3676000",
       "Version": "0",
       "Object": {

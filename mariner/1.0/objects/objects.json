@@ -1,9 +1,64 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26686001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26681001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26659001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26651001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26412001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26403001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26384001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26372001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26309001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26267001",
+      "Version": "1",
+      "Name": "redis"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26260001",
       "Version": "1",
       "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26225001",
+      "Version": "1",
+      "Name": "ncurses"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26222001",
@@ -36,6 +91,16 @@
       "Name": "hyperv-daemons"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26126001",
+      "Version": "1",
+      "Name": "fluent-bit"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26125001",
+      "Version": "1",
+      "Name": "fluent-bit"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26118001",
       "Version": "1",
       "Name": "tcl"
@@ -54,6 +119,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26092001",
       "Version": "0",
       "Name": "grpc"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26091001",
+      "Version": "1",
+      "Name": "freetype"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26089001",
