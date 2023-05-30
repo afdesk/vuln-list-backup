@@ -29,6 +29,9 @@
         "Url": "https://www.rfc-editor.org/rfc/rfc6265"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230526-0001/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-p26g-97m4-6q7c"
       }
     ],
@@ -47,7 +50,7 @@
     "PublishedAt": "2023-04-18T22:19:57Z",
     "Severity": "LOW",
     "Summary": "Eclipse Jetty's cookie parsing of quoted values can exfiltrate values from other cookies",
-    "UpdatedAt": "2023-04-18T22:19:59Z",
+    "UpdatedAt": "2023-05-26T21:48:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 2.4,

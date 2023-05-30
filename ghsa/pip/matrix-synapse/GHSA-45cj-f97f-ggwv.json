@@ -20,6 +20,9 @@
         "Url": "https://github.com/matrix-org/synapse/pull/13823"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-39335"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-45cj-f97f-ggwv"
       }
     ],
@@ -38,11 +41,11 @@
     "PublishedAt": "2023-05-24T17:20:43Z",
     "Severity": "MODERATE",
     "Summary": "Synapse does not apply enough checks to servers requesting auth events of events in a room",
-    "UpdatedAt": "2023-05-24T17:20:43Z",
+    "UpdatedAt": "2023-05-26T17:57:45Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L"
     }
   },
   "Versions": [

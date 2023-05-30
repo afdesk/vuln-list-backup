@@ -41,11 +41,11 @@
     "PublishedAt": "2023-05-12T20:55:36Z",
     "Severity": "MODERATE",
     "Summary": "Planet's secret file is created with excessive permissions",
-    "UpdatedAt": "2023-05-15T13:43:58Z",
+    "UpdatedAt": "2023-05-26T19:10:06Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 5.2,
-      "VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N"
+      "Score": 5.5,
+      "VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [

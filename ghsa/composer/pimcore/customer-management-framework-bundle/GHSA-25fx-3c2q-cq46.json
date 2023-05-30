@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-05-17T15:48:05Z",
   "Package": {
     "Ecosystem": "COMPOSER",
@@ -39,13 +39,13 @@
     "Description": "### Impact\nAn administrator user can use the inheritable segments feature to execute his own blind SQL queries.\n\nA user with administrator privileges can run any SQL query on database. This can be used to retrieve sensitive data, change database information or any other malicious activity against the database.\n\n### Patches\nUpdate to version 3.3.10 or apply this patch manually https://github.com/pimcore/customer-data-framework/commit/76df151737b7964ce5169fdf9e27a0ad801757fe.patch\n\n### Workarounds\nApply https://github.com/pimcore/customer-data-framework/commit/76df151737b7964ce5169fdf9e27a0ad801757fe.patch manually.\n\n### References\nhttps://huntr.dev/bounties/cf398528-819f-456e-88e7-c06d268d3f44/\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-05-17T15:48:04Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "pimcore/customer-management-framework-bundle has SQL Injection vulnerability in Segment Assignment query",
-    "UpdatedAt": "2023-05-17T15:48:05Z",
+    "UpdatedAt": "2023-05-25T21:32:03Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 6.5,
-      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N"
+      "Score": 7.2,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [

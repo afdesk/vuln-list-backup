@@ -20,6 +20,9 @@
         "Url": "https://github.com/django-ses/django-ses/blob/3d627067935876487f9938310d5e1fbb249a7778/CVE/001-cert-url-signature-verification.md"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-33185"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-qg36-9jxh-fj25"
       }
     ],
@@ -27,6 +30,10 @@
       {
         "Type": "GHSA",
         "Value": "GHSA-qg36-9jxh-fj25"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2023-33185"
       }
     ],
     "Description": "The django_ses library implements a mail backend for Django using AWS Simple Email Service. The library exports the `SESEventWebhookView class` intended to receive signed requests from AWS to handle email bounces, subscriptions, etc. These requests are signed by AWS and are verified by django_ses, however the verification of this signature was found to be flawed as it allowed users to specify arbitrary public certificates.",
@@ -34,11 +41,11 @@
     "PublishedAt": "2023-05-22T19:41:56Z",
     "Severity": "MODERATE",
     "Summary": "Incorrect signature verification in django-ses",
-    "UpdatedAt": "2023-05-22T19:41:57Z",
+    "UpdatedAt": "2023-05-26T21:50:47Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 4.6,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L"
     }
   },
   "Versions": [

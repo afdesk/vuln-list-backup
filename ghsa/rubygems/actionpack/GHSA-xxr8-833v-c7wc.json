@@ -1,9 +1,9 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:38Z",
+  "UpdatedAt": "2023-05-26T21:06:31Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
-    "Name": "rails"
+    "Name": "actionpack"
   },
   "Advisory": {
     "DatabaseId": 174,
@@ -17,9 +17,6 @@
         "Url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/71364"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-xxr8-833v-c7wc"
-      },
-      {
         "Url": "http://groups.google.com/group/rubyonrails-security/browse_thread/thread/2b61d70fb73c7cc5?pli=1"
       },
       {
@@ -29,19 +26,31 @@
         "Url": "http://openwall.com/lists/oss-security/2011/11/18/8"
       },
       {
-        "Url": "http://osvdb.org/77199"
-      },
-      {
         "Url": "http://weblog.rubyonrails.org/2011/11/18/rails-3-0-11-has-been-released"
       },
       {
         "Url": "http://weblog.rubyonrails.org/2011/11/18/rails-3-1-2-has-been-released"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/50722"
+        "Url": "https://github.com/rails/rails/commit/2d5b105d4bcb652550dda8b5613376d1b8beb70c"
       },
       {
-        "Url": "http://www.securitytracker.com/id?1026342"
+        "Url": "https://github.com/rails/rails/commit/ba2d85012088fd0db0fab98b2e512c77c83cbade"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2011-4319.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/rubyonrails-security/K2HXD7c8fMU"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200228155840/http://www.securityfocus.com/bid/50722"
+      },
+      {
+        "Url": "https://web.archive.org/web/20210307005941/http://www.securitytracker.com/id?1026342"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-xxr8-833v-c7wc"
       }
     ],
     "Identifiers": [
@@ -58,8 +67,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
-    "Summary": "Cross-site Scripting vulnerability in  i18n translations helper method",
-    "UpdatedAt": "2023-01-18T21:56:52Z",
+    "Summary": "Cross-site Scripting vulnerability in i18n translations helper method",
+    "UpdatedAt": "2023-05-26T21:06:31Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

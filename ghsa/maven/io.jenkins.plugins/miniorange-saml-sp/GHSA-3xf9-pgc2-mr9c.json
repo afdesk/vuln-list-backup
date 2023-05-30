@@ -35,7 +35,7 @@
     "PublishedAt": "2023-05-16T18:30:16Z",
     "Severity": "HIGH",
     "Summary": "Jenkins SAML Single Sign On(SSO) Plugin missing permission checks",
-    "UpdatedAt": "2023-05-17T03:32:35Z",
+    "UpdatedAt": "2023-05-26T17:56:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.1,

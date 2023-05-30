@@ -20,6 +20,12 @@
         "Url": "https://github.com/codeigniter4/CodeIgniter4/blob/develop/CHANGELOG.md#v435-2023-05-21"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32692"
+      },
+      {
+        "Url": "https://github.com/codeigniter4/CodeIgniter4/blob/develop/CHANGELOG.md"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-m6m8-6gq8-c9fj"
       }
     ],
@@ -38,7 +44,7 @@
     "PublishedAt": "2023-05-22T19:49:11Z",
     "Severity": "CRITICAL",
     "Summary": "Remote Code Execution Vulnerability in Validation Placeholders in CodeIgniter4",
-    "UpdatedAt": "2023-05-23T16:22:59Z",
+    "UpdatedAt": "2023-05-30T06:42:11Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -1,9 +1,9 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:38Z",
+  "UpdatedAt": "2023-05-26T17:12:21Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
-    "Name": "rails"
+    "Name": "activesupport"
   },
   "Advisory": {
     "DatabaseId": 193,
@@ -14,13 +14,7 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2009-3086"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-fg9w-g6m4-557j"
-      },
-      {
         "Url": "http://lists.opensuse.org/opensuse-security-announce/2009-10/msg00004.html"
-      },
-      {
-        "Url": "http://secunia.com/advisories/36600"
       },
       {
         "Url": "http://weblog.rubyonrails.org/2009/9/4/timing-weakness-in-ruby-on-rails"
@@ -29,13 +23,28 @@
         "Url": "http://www.debian.org/security/2011/dsa-2260"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/37427"
-      },
-      {
-        "Url": "http://www.vupen.com/english/advisories/2009/2544"
-      },
-      {
         "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2009-3086.yml"
+      },
+      {
+        "Url": "https://github.com/rails/rails/commit/1f07a89c5946910fc28ea5ccd1da6af8a0f972a0"
+      },
+      {
+        "Url": "https://github.com/rails/rails/commit/674f780d59a5a7ec0301755d43a7b277a3ad2978"
+      },
+      {
+        "Url": "https://github.com/rails/rails/commit/d460c9a25560f43e7c3789abadf7b455053eb686"
+      },
+      {
+        "Url": "https://web.archive.org/web/20090906010200/http://www.vupen.com/english/advisories/2009/2544"
+      },
+      {
+        "Url": "https://web.archive.org/web/20090907001716/http://secunia.com/advisories/36600"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200229150042/http://www.securityfocus.com/bid/37427"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-fg9w-g6m4-557j"
       }
     ],
     "Identifiers": [
@@ -52,8 +61,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects rails",
-    "UpdatedAt": "2023-05-11T13:39:24Z",
+    "Summary": "actionpack and activesupport vulnerable to information leaks",
+    "UpdatedAt": "2023-05-26T17:12:21Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
@@ -66,12 +75,6 @@
         "Identifier": "2.3.4"
       },
       "VulnerableVersionRange": "\u003e= 2.3.0, \u003c 2.3.4"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.2.3"
-      },
-      "VulnerableVersionRange": "\u003e= 2.1.0, \u003c 2.2.3"
     }
   ]
 }

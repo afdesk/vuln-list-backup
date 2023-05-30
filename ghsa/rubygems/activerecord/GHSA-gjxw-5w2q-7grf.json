@@ -1,9 +1,9 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:38Z",
+  "UpdatedAt": "2023-05-26T16:50:53Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
-    "Name": "rails"
+    "Name": "activerecord"
   },
   "Advisory": {
     "DatabaseId": 189,
@@ -23,6 +23,18 @@
         "Url": "https://web.archive.org/web/20101129225633/http://securitytracker.com/alerts/2010/Oct/1024624.html"
       },
       {
+        "Url": "https://github.com/rails/rails/commit/2d96bccb1e8b62e3e11ca0c5d38aaa8cece889ae"
+      },
+      {
+        "Url": "https://github.com/rails/rails/commit/96183e0f284bab27667e5a38fa6a1578eb029585"
+      },
+      {
+        "Url": "https://web.archive.org/web/20111225083933/http://secunia.com/advisories/41930"
+      },
+      {
+        "Url": "https://web.archive.org/web/20201208053819/http://securitytracker.com/id?1024624"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-gjxw-5w2q-7grf"
       }
     ],
@@ -40,8 +52,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
-    "Summary": "rails Improper Input Validation vulnerability",
-    "UpdatedAt": "2023-05-12T17:12:22Z",
+    "Summary": "Rails activerecord gem has Improper Input Validation vulnerability",
+    "UpdatedAt": "2023-05-26T16:50:53Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

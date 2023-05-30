@@ -20,6 +20,9 @@
         "Url": "https://github.com/PostHog/posthog-js/commit/67e07eb8bb271a3a6f4aa251382e4d25abb385a0"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32325"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8775-5hwv-wr6v"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2023-05-22T20:35:03Z",
     "Severity": "MODERATE",
     "Summary": "Potential for cross-site scripting in PostHog-js",
-    "UpdatedAt": "2023-05-22T20:35:06Z",
+    "UpdatedAt": "2023-05-29T16:13:03Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

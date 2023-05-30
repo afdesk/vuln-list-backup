@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-05-15T20:51:52Z",
   "Package": {
     "Ecosystem": "PIP",
@@ -39,13 +39,13 @@
     "Description": "giturlparse (aka git-url-parse) through 1.2.2, as used in Semgrep through 1.21.0, is vulnerable to ReDoS (Regular Expression Denial of Service) if parsing untrusted URLs. This might be relevant if Semgrep is analyzing an untrusted package (for example, to check whether it accesses any Git repository at an http:// URL), and that package's author placed a ReDoS attack payload in a URL used by the package.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-05-15T06:30:19Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "git-url-parse Regular Expression Denial of Service",
-    "UpdatedAt": "2023-05-15T20:51:52Z",
+    "UpdatedAt": "2023-05-26T21:50:57Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   },
   "Versions": [

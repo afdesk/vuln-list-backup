@@ -1,9 +1,9 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:38Z",
+  "UpdatedAt": "2023-05-26T16:08:07Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
-    "Name": "rails"
+    "Name": "actionpack"
   },
   "Advisory": {
     "DatabaseId": 187,
@@ -41,6 +41,18 @@
         "Url": "https://web.archive.org/web/20200812054342/http://www.securitytracker.com/id?1025064"
       },
       {
+        "Url": "https://github.com/rails/rails/commit/abe97736b8316f1b714cac56c115c0779aa73217"
+      },
+      {
+        "Url": "https://github.com/rails/rails/commit/e3dd2107c57a8efaaea5d61cf8da65f7444760b2"
+      },
+      {
+        "Url": "https://web.archive.org/web/20111225083933/http://secunia.com/advisories/43274"
+      },
+      {
+        "Url": "https://web.archive.org/web/20111225083933/http://secunia.com/advisories/43666"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-75w6-p6mg-vh8j"
       }
     ],
@@ -54,12 +66,12 @@
         "Value": "CVE-2011-0446"
       }
     ],
-    "Description": "Multiple cross-site scripting (XSS) vulnerabilities in the mail_to helper in Ruby on Rails before 2.3.11, and 3.x before 3.0.4, when javascript encoding is used, allow remote attackers to inject arbitrary web script or HTML via a crafted (1) name or (2) email value.",
+    "Description": "Multiple cross-site scripting (XSS) vulnerabilities in the `mail_to` helper in Ruby on Rails before 2.3.11, and 3.x before 3.0.4, when javascript encoding is used, allow remote attackers to inject arbitrary web script or HTML via a crafted (1) name or (2) email value.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
-    "Summary": "rails vulnerable to Cross-site Scripting",
-    "UpdatedAt": "2023-05-12T17:02:42Z",
+    "Summary": "Rails actionpack gem vulnerable to Cross-site Scripting",
+    "UpdatedAt": "2023-05-26T16:09:52Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

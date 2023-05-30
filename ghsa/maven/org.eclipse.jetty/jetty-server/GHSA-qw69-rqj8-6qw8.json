@@ -29,6 +29,9 @@
         "Url": "https://github.com/jakartaee/servlet/blob/6.0.0/spec/src/main/asciidoc/servlet-spec-body.adoc#32-file-upload"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230526-0001/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-qw69-rqj8-6qw8"
       }
     ],
@@ -47,7 +50,7 @@
     "PublishedAt": "2023-04-19T18:15:45Z",
     "Severity": "MODERATE",
     "Summary": "OutOfMemoryError for large multipart without filename in Eclipse Jetty",
-    "UpdatedAt": "2023-04-28T22:06:13Z",
+    "UpdatedAt": "2023-05-26T21:48:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,

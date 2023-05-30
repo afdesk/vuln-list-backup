@@ -35,7 +35,7 @@
     "PublishedAt": "2023-05-16T18:30:16Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Email Extension Plugin missing permission check",
-    "UpdatedAt": "2023-05-17T02:59:03Z",
+    "UpdatedAt": "2023-05-25T16:56:11Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,

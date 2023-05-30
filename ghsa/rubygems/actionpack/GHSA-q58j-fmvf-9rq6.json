@@ -1,9 +1,9 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-17T21:31:06Z",
+  "UpdatedAt": "2023-05-26T21:13:24Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
-    "Name": "rails"
+    "Name": "actionpack"
   },
   "Advisory": {
     "DatabaseId": 16270,
@@ -23,6 +23,9 @@
         "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2011-1497.yml"
       },
       {
+        "Url": "https://github.com/rails/rails/commit/61ee3449674c591747db95f9b3472c5c3bd9e84d"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-q58j-fmvf-9rq6"
       }
     ],
@@ -40,8 +43,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-04-22T00:24:28Z",
     "Severity": "MODERATE",
-    "Summary": "Cross site scripting in rails",
-    "UpdatedAt": "2023-05-12T17:25:13Z",
+    "Summary": "Cross site scripting in actionpack Rubygem",
+    "UpdatedAt": "2023-05-26T21:13:24Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

@@ -38,11 +38,11 @@
     "PublishedAt": "2023-05-18T18:30:35Z",
     "Severity": "MODERATE",
     "Summary": "transformers has Insecure Temporary File",
-    "UpdatedAt": "2023-05-19T13:27:43Z",
+    "UpdatedAt": "2023-05-26T19:30:41Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.7,
-      "VectorString": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+      "VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
     }
   },
   "Versions": [

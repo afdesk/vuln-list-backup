@@ -35,7 +35,7 @@
     "PublishedAt": "2023-05-16T18:30:16Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Code Dx Plugin displays API keys in plain text",
-    "UpdatedAt": "2023-05-17T03:39:07Z",
+    "UpdatedAt": "2023-05-25T19:08:03Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
