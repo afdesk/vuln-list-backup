@@ -1,9 +1,11 @@
 {
-  "name": "nettle",
+  "name": "c-ares",
   "secfixes": {
-    "3.8.1-r0": [
-      "CVE-2021-20305",
-      "CVE-2021-3580"
+    "1.19.1-r0": [
+      "CVE-2023-31124",
+      "CVE-2023-31130",
+      "CVE-2023-31147",
+      "CVE-2023-32067"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
