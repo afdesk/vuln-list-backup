@@ -1,6 +1,6 @@
 {
   "id": "GHSA-45cj-f97f-ggwv",
-  "modified": "2023-05-24T17:35:10.162197Z",
+  "modified": "2023-05-26T18:04:07.819100Z",
   "published": "2023-05-24T17:20:43Z",
   "aliases": [
     "CVE-2022-39335"
@@ -322,6 +322,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/matrix-org/synapse/security/advisories/GHSA-45cj-f97f-ggwv"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-39335"
     },
     {
       "type": "WEB",

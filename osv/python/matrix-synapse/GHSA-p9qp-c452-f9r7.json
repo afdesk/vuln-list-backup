@@ -1,6 +1,6 @@
 {
   "id": "GHSA-p9qp-c452-f9r7",
-  "modified": "2023-05-24T17:34:23.685718Z",
+  "modified": "2023-05-26T18:05:37.242599Z",
   "published": "2023-05-24T17:21:33Z",
   "aliases": [
     "CVE-2022-39374"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/matrix-org/synapse/security/advisories/GHSA-p9qp-c452-f9r7"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-39374"
     },
     {
       "type": "WEB",

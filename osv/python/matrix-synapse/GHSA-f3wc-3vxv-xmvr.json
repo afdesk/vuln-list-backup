@@ -1,6 +1,6 @@
 {
   "id": "GHSA-f3wc-3vxv-xmvr",
-  "modified": "2023-05-24T17:34:54.690960Z",
+  "modified": "2023-05-26T18:20:28.669509Z",
   "published": "2023-05-24T17:28:26Z",
   "aliases": [
     "CVE-2023-32323"
@@ -335,6 +335,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/matrix-org/synapse/security/advisories/GHSA-f3wc-3vxv-xmvr"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32323"
     },
     {
       "type": "WEB",

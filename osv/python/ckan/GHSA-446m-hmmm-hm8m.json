@@ -1,6 +1,6 @@
 {
   "id": "GHSA-446m-hmmm-hm8m",
-  "modified": "2023-05-24T17:34:38.973398Z",
+  "modified": "2023-05-29T16:28:01.706615Z",
   "published": "2023-05-24T17:24:56Z",
   "aliases": [
     "CVE-2023-32321"
@@ -167,6 +167,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ckan/ckan/security/advisories/GHSA-446m-hmmm-hm8m"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32321"
     },
     {
       "type": "PACKAGE",
