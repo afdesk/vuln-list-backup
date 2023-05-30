@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[11 May 2008] DSA-1573-1 rdesktop - several vulnerabilities",
-    "Line": 12989,
+    "Line": 13007,
     "ID": "DSA-1573-1",
     "Description": "rdesktop - several vulnerabilities"
   },
   "Annotations": [
     {
       "Original": "{CVE-2008-1801 CVE-2008-1802 CVE-2008-1803}",
-      "Line": 12990,
+      "Line": 13008,
       "Type": "xref",
       "Bugs": [
         "CVE-2008-1801",
@@ -18,7 +18,7 @@
     },
     {
       "Original": "[etch] - rdesktop 1.5.0-1etch2",
-      "Line": 12991,
+      "Line": 13009,
       "Type": "package",
       "Release": "etch",
       "Package": "rdesktop",

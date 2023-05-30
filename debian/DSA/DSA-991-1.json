@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[10 Mar 2006] DSA-991-1 zoo - buffer overflow",
-    "Line": 15008,
+    "Line": 15026,
     "ID": "DSA-991-1",
     "Description": "zoo - buffer overflow"
   },
   "Annotations": [
     {
       "Original": "{CVE-2006-0855}",
-      "Line": 15009,
+      "Line": 15027,
       "Type": "xref",
       "Bugs": [
         "CVE-2006-0855"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[woody] - zoo 2.10-9woody0",
-      "Line": 15010,
+      "Line": 15028,
       "Type": "package",
       "Release": "woody",
       "Package": "zoo",
@@ -25,7 +25,7 @@
     },
     {
       "Original": "[sarge] - zoo 2.10-11sarge0",
-      "Line": 15011,
+      "Line": 15029,
       "Type": "package",
       "Release": "sarge",
       "Package": "zoo",
@@ -34,7 +34,7 @@
     },
     {
       "Original": "NOTE: not fixed in testing at the time of DSA (too young)",
-      "Line": 15012,
+      "Line": 15030,
       "Type": "NOTE",
       "Description": "not fixed in testing at the time of DSA (too young)"
     }

@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[01 Jun 2009] DSA-1809-1 linux-2.6 user-mode-linux - several vulnerabilities",
-    "Line": 12195,
+    "Line": 12213,
     "ID": "DSA-1809-1",
     "Description": "linux-2.6 user-mode-linux - several vulnerabilities"
   },
   "Annotations": [
     {
       "Original": "{CVE-2009-1184 CVE-2009-1630 CVE-2009-1633 CVE-2009-1758}",
-      "Line": 12196,
+      "Line": 12214,
       "Type": "xref",
       "Bugs": [
         "CVE-2009-1184",
@@ -19,7 +19,7 @@
     },
     {
       "Original": "[lenny] - user-mode-linux 2.6.26-1um-2+15lenny3",
-      "Line": 12197,
+      "Line": 12215,
       "Type": "package",
       "Release": "lenny",
       "Package": "user-mode-linux",
@@ -28,7 +28,7 @@
     },
     {
       "Original": "[lenny] - linux-2.6 2.6.26-15lenny3",
-      "Line": 12198,
+      "Line": 12216,
       "Type": "package",
       "Release": "lenny",
       "Package": "linux-2.6",

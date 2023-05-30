@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[01 Jul 2016] DSA-3612-1 gimp - security update",
-    "Line": 5994,
+    "Line": 6012,
     "ID": "DSA-3612-1",
     "Description": "gimp - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2016-4994}",
-      "Line": 5995,
+      "Line": 6013,
       "Type": "xref",
       "Bugs": [
         "CVE-2016-4994"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[jessie] - gimp 2.8.14-1+deb8u1",
-      "Line": 5996,
+      "Line": 6014,
       "Type": "package",
       "Release": "jessie",
       "Package": "gimp",

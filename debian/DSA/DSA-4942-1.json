@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[20 Jul 2021] DSA-4942-1 systemd - security update",
-    "Line": 1555,
+    "Line": 1573,
     "ID": "DSA-4942-1",
     "Description": "systemd - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2021-33910}",
-      "Line": 1556,
+      "Line": 1574,
       "Type": "xref",
       "Bugs": [
         "CVE-2021-33910"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[buster] - systemd 241-7~deb10u8",
-      "Line": 1557,
+      "Line": 1575,
       "Type": "package",
       "Release": "buster",
       "Package": "systemd",

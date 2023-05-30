@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[27 Apr 2021] DLA-2642-1 gst-plugins-bad1.0 - security update",
-    "Line": 2387,
+    "Line": 2405,
     "ID": "DLA-2642-1",
     "Description": "gst-plugins-bad1.0 - security update"
   },
   "Annotations": [
     {
       "Original": "[stretch] - gst-plugins-bad1.0 1.10.4-1+deb9u2",
-      "Line": 2388,
+      "Line": 2406,
       "Type": "package",
       "Release": "stretch",
       "Package": "gst-plugins-bad1.0",

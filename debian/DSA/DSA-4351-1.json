@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[07 Dec 2018] DSA-4351-1 libphp-phpmailer - security update",
-    "Line": 3513,
+    "Line": 3531,
     "ID": "DSA-4351-1",
     "Description": "libphp-phpmailer - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2018-19296}",
-      "Line": 3514,
+      "Line": 3532,
       "Type": "xref",
       "Bugs": [
         "CVE-2018-19296"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[stretch] - libphp-phpmailer 5.2.14+dfsg-2.3+deb9u1",
-      "Line": 3515,
+      "Line": 3533,
       "Type": "package",
       "Release": "stretch",
       "Package": "libphp-phpmailer",

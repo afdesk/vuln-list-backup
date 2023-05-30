@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[10 Jan 2012] DSA-2385-1 pdns - packet loop",
-    "Line": 10150,
+    "Line": 10168,
     "ID": "DSA-2385-1",
     "Description": "pdns - packet loop"
   },
   "Annotations": [
     {
       "Original": "{CVE-2012-0206}",
-      "Line": 10151,
+      "Line": 10169,
       "Type": "xref",
       "Bugs": [
         "CVE-2012-0206"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[lenny] - pdns 2.9.21.2-1+lenny1",
-      "Line": 10152,
+      "Line": 10170,
       "Type": "package",
       "Release": "lenny",
       "Package": "pdns",
@@ -25,7 +25,7 @@
     },
     {
       "Original": "[squeeze] - pdns 2.9.22-8+squeeze1",
-      "Line": 10153,
+      "Line": 10171,
       "Type": "package",
       "Release": "squeeze",
       "Package": "pdns",

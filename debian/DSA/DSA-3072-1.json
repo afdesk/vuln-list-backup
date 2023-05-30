@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[11 Nov 2014] DSA-3072-1 file - security update",
-    "Line": 7877,
+    "Line": 7895,
     "ID": "DSA-3072-1",
     "Description": "file - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2014-3710}",
-      "Line": 7878,
+      "Line": 7896,
       "Type": "xref",
       "Bugs": [
         "CVE-2014-3710"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[wheezy] - file 5.11-2+deb7u6",
-      "Line": 7879,
+      "Line": 7897,
       "Type": "package",
       "Release": "wheezy",
       "Package": "file",

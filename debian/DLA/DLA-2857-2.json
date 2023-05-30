@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[29 Dec 2021] DLA-2857-2 postgis - regression update",
-    "Line": 1699,
+    "Line": 1717,
     "ID": "DLA-2857-2",
     "Description": "postgis - regression update"
   },
   "Annotations": [
     {
       "Original": "[stretch] - postgis 2.3.1+dfsg-2+deb9u2",
-      "Line": 1700,
+      "Line": 1718,
       "Type": "package",
       "Release": "stretch",
       "Package": "postgis",

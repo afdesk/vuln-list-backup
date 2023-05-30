@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[18 Oct 2016] DSA-3695-1 quagga - security update",
-    "Line": 5738,
+    "Line": 5756,
     "ID": "DSA-3695-1",
     "Description": "quagga - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2016-1245}",
-      "Line": 5739,
+      "Line": 5757,
       "Type": "xref",
       "Bugs": [
         "CVE-2016-1245"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[jessie] - quagga 0.99.23.1-1+deb8u3",
-      "Line": 5740,
+      "Line": 5758,
       "Type": "package",
       "Release": "jessie",
       "Package": "quagga",

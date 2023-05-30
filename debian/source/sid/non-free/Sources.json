@@ -5385,65 +5385,6 @@
       "debhelper-compat (= 13), cmake, libusb-1.0-0-dev"
     ],
     "Checksums-Sha256": [
-      "904c704e394c61186e614c9b27af260958bcaf56427e959879a2323309891988 2358 libricohcamerasdk_1.1.0-3.dsc c1006c3463f0ab9a7d391b6d07ab4598c394a81055e8a13fe04f203928a062ef 3344255 libricohcamerasdk_1.1.0.orig.tar.gz c42f8627b713fe7f7167e4c44975eac70713f4950167153ebbb5ecebedf52e8e 7696 libricohcamerasdk_1.1.0-3.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/non-free/libr/libricohcamerasdk"
-    ],
-    "Files": [
-      "c61f6f2ec4e3abfeacc2ad77ff5b6cc1 2358 libricohcamerasdk_1.1.0-3.dsc 0796f8bdf25735f77f707f240d6d6cdc 3344255 libricohcamerasdk_1.1.0.orig.tar.gz 7cc3820a27930bd22503e7e31c6d59da 7696 libricohcamerasdk_1.1.0-3.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://github.com/indilib/indi-3rdparty"
-    ],
-    "Maintainer": [
-      "Debian Astronomy Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "libricohcamerasdk"
-    ],
-    "Package-List": [
-      "libricohcamerasdk deb non-free/libs optional arch=amd64,armhf libricohcamerasdk-dev deb non-free/libdevel optional arch=amd64,armhf"
-    ],
-    "Priority": [
-      "optional"
-    ],
-    "Section": [
-      "non-free/misc"
-    ],
-    "Standards-Version": [
-      "4.6.0"
-    ],
-    "Uploaders": [
-      "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/debian-astro-team/libricohcamerasdk"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/debian-astro-team/libricohcamerasdk.git"
-    ],
-    "Version": [
-      "1.1.0-3"
-    ]
-  },
-  {
-    "Architecture": [
-      "amd64 armhf"
-    ],
-    "Autobuild": [
-      "yes"
-    ],
-    "Binary": [
-      "libricohcamerasdk-dev, libricohcamerasdk"
-    ],
-    "Build-Depends": [
-      "debhelper-compat (= 13), cmake, libusb-1.0-0-dev"
-    ],
-    "Checksums-Sha256": [
       "274168829e6d59087ab1e1fb721a375eadcf8c13c4dbe305d2aa2cf02eeb7d10 2358 libricohcamerasdk_1.1.0-4.dsc c1006c3463f0ab9a7d391b6d07ab4598c394a81055e8a13fe04f203928a062ef 3344255 libricohcamerasdk_1.1.0.orig.tar.gz caae811aa5a28b1daae5793b2355b850035d57fa4523d24e659031557ed92e24 8112 libricohcamerasdk_1.1.0-4.debian.tar.xz"
     ],
     "Directory": [
@@ -10783,16 +10724,16 @@
       "nvidia-legacy-340xx-driver, nvidia-legacy-340xx-alternative, nvidia-legacy-340xx-kernel-support, nvidia-legacy-340xx-kernel-dkms, nvidia-legacy-340xx-kernel-source, xserver-xorg-video-nvidia-legacy-340xx, nvidia-legacy-340xx-driver-bin, libnvidia-legacy-340xx-cfg1, nvidia-legacy-340xx-driver-libs, nvidia-legacy-340xx-driver-libs-i386, libgl1-nvidia-legacy-340xx-glx, libnvidia-legacy-340xx-glcore, libegl1-nvidia-legacy-340xx, libgles1-nvidia-legacy-340xx, libgles2-nvidia-legacy-340xx, libnvidia-legacy-340xx-eglcore, nvidia-legacy-340xx-vdpau-driver, nvidia-legacy-340xx-smi, libnvidia-legacy-340xx-ml1, libnvidia-legacy-340xx-cuda1, libnvidia-legacy-340xx-cuda1-i386, libnvidia-legacy-340xx-compiler, libnvidia-legacy-340xx-nvcuvid1, libnvidia-legacy-340xx-encode1, libnvidia-legacy-340xx-ifr1, libnvidia-legacy-340xx-fbc1, nvidia-legacy-340xx-opencl-icd"
     ],
     "Build-Depends": [
-      "debhelper (\u003e= 10), dpkg-dev (\u003e= 1.18.8), dh-dkms, libxext6, po-debconf, quilt, xz-utils, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-686 [i386] \u003c!nocheck\u003e, linux-headers-armmp [armhf] \u003c!nocheck\u003e"
+      "debhelper (\u003e= 10), dpkg-dev (\u003e= 1.18.8), dh-dkms, libxext6, patchelf, po-debconf, quilt, xz-utils, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-686 [i386] \u003c!nocheck\u003e, linux-headers-armmp [armhf] \u003c!nocheck\u003e"
     ],
     "Checksums-Sha256": [
-      "ecef58b93b0d9cb2079a2398366b5b898e247ee04d1ec1c1681f54cbdceec5ba 6866 nvidia-graphics-drivers-legacy-340xx_340.108-18.dsc 645fb578dbf76396a99a62ec8a1a3cf574ccc7c3a4e71ca7323f5c5c4ef509e5 70135162 nvidia-graphics-drivers-legacy-340xx_340.108.orig-amd64.tar.gz e85303bac9540f59e864adbf82f45794c47256b53be5013ce1ccc62c35eb2e78 23533259 nvidia-graphics-drivers-legacy-340xx_340.108.orig-armhf.tar.gz 6ae38bc060caa28006765c4100423d3a3267ee130e1f4f89690b0a4215e93b9b 38870067 nvidia-graphics-drivers-legacy-340xx_340.108.orig-i386.tar.gz f8d4226b693508a5ddec36ea2e1b02b0cfefb0d554f7c71f501332313a12ee0b 137 nvidia-graphics-drivers-legacy-340xx_340.108.orig.tar.gz 17d5f0f210c34686acc54e3e472cb8061de3ce91e4944ebd6ff5088c65662230 142768 nvidia-graphics-drivers-legacy-340xx_340.108-18.debian.tar.xz"
+      "39188e86c085bdb351cca62584877e50ee677c772dc0b507a6695bbf3187c14b 6876 nvidia-graphics-drivers-legacy-340xx_340.108-19.dsc 645fb578dbf76396a99a62ec8a1a3cf574ccc7c3a4e71ca7323f5c5c4ef509e5 70135162 nvidia-graphics-drivers-legacy-340xx_340.108.orig-amd64.tar.gz e85303bac9540f59e864adbf82f45794c47256b53be5013ce1ccc62c35eb2e78 23533259 nvidia-graphics-drivers-legacy-340xx_340.108.orig-armhf.tar.gz 6ae38bc060caa28006765c4100423d3a3267ee130e1f4f89690b0a4215e93b9b 38870067 nvidia-graphics-drivers-legacy-340xx_340.108.orig-i386.tar.gz f8d4226b693508a5ddec36ea2e1b02b0cfefb0d554f7c71f501332313a12ee0b 137 nvidia-graphics-drivers-legacy-340xx_340.108.orig.tar.gz fc948464a9635a77003711e050030129ff451673a1e129c3b8438f944eff1526 144132 nvidia-graphics-drivers-legacy-340xx_340.108-19.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-graphics-drivers-legacy-340xx"
     ],
     "Files": [
-      "4c2445fe757da7af7ade311905f2dc3b 6866 nvidia-graphics-drivers-legacy-340xx_340.108-18.dsc e6a5fdc432d7905816b55605b0dc8f3f 70135162 nvidia-graphics-drivers-legacy-340xx_340.108.orig-amd64.tar.gz 176c76aedbbf73e626c2b2a359669df0 23533259 nvidia-graphics-drivers-legacy-340xx_340.108.orig-armhf.tar.gz c37794a30675a7680c7afb01bdadc77b 38870067 nvidia-graphics-drivers-legacy-340xx_340.108.orig-i386.tar.gz d4dac827b22c9dd9f26fdfe1d1c80649 137 nvidia-graphics-drivers-legacy-340xx_340.108.orig.tar.gz 6e964919916d85096801f0ea59ce59e7 142768 nvidia-graphics-drivers-legacy-340xx_340.108-18.debian.tar.xz"
+      "da0ee7e9335f195ae33a6b20fe95c893 6876 nvidia-graphics-drivers-legacy-340xx_340.108-19.dsc e6a5fdc432d7905816b55605b0dc8f3f 70135162 nvidia-graphics-drivers-legacy-340xx_340.108.orig-amd64.tar.gz 176c76aedbbf73e626c2b2a359669df0 23533259 nvidia-graphics-drivers-legacy-340xx_340.108.orig-armhf.tar.gz c37794a30675a7680c7afb01bdadc77b 38870067 nvidia-graphics-drivers-legacy-340xx_340.108.orig-i386.tar.gz d4dac827b22c9dd9f26fdfe1d1c80649 137 nvidia-graphics-drivers-legacy-340xx_340.108.orig.tar.gz e26034bb5f7600cb74036cb73c86fe1e 144132 nvidia-graphics-drivers-legacy-340xx_340.108-19.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -10834,7 +10775,7 @@
       "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b 340xx/main"
     ],
     "Version": [
-      "340.108-18"
+      "340.108-19"
     ]
   },
   {

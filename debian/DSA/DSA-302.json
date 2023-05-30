@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[07 May 2003] DSA-302 fuzz - privilege escalation",
-    "Line": 17719,
+    "Line": 17737,
     "ID": "DSA-302",
     "Description": "fuzz - privilege escalation"
   },
   "Annotations": [
     {
       "Original": "{CVE-2003-0261}",
-      "Line": 17720,
+      "Line": 17738,
       "Type": "xref",
       "Bugs": [
         "CVE-2003-0261"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[woody] - fuzz 0.6-6woody1",
-      "Line": 17721,
+      "Line": 17739,
       "Type": "package",
       "Release": "woody",
       "Package": "fuzz",

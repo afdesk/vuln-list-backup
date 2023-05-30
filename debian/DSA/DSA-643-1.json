@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[18 Jan 2005] DSA-643-1 queue - buffer overflows",
-    "Line": 16601,
+    "Line": 16619,
     "ID": "DSA-643-1",
     "Description": "queue - buffer overflows"
   },
   "Annotations": [
     {
       "Original": "{CVE-2004-0555}",
-      "Line": 16602,
+      "Line": 16620,
       "Type": "xref",
       "Bugs": [
         "CVE-2004-0555"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[woody] - queue 1.30.1-4woody2",
-      "Line": 16603,
+      "Line": 16621,
       "Type": "package",
       "Release": "woody",
       "Package": "queue",
@@ -25,7 +25,7 @@
     },
     {
       "Original": "NOTE: not fixed in testing at time of DSA",
-      "Line": 16604,
+      "Line": 16622,
       "Type": "NOTE",
       "Description": "not fixed in testing at time of DSA"
     }

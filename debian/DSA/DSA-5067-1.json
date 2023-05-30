@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[03 Feb 2022] DSA-5067-1 ruby2.7 - security update",
-    "Line": 1114,
+    "Line": 1132,
     "ID": "DSA-5067-1",
     "Description": "ruby2.7 - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2021-41816 CVE-2021-41817 CVE-2021-41819}",
-      "Line": 1115,
+      "Line": 1133,
       "Type": "xref",
       "Bugs": [
         "CVE-2021-41816",
@@ -18,7 +18,7 @@
     },
     {
       "Original": "[bullseye] - ruby2.7 2.7.4-1+deb11u1",
-      "Line": 1116,
+      "Line": 1134,
       "Type": "package",
       "Release": "bullseye",
       "Package": "ruby2.7",

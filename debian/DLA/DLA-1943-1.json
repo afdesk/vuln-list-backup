@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[02 Oct 2019] DLA-1943-1 jackson-databind - security update",
-    "Line": 4540,
+    "Line": 4558,
     "ID": "DLA-1943-1",
     "Description": "jackson-databind - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2019-14540 CVE-2019-16335 CVE-2019-16942 CVE-2019-16943}",
-      "Line": 4541,
+      "Line": 4559,
       "Type": "xref",
       "Bugs": [
         "CVE-2019-14540",
@@ -19,7 +19,7 @@
     },
     {
       "Original": "[jessie] - jackson-databind 2.4.2-2+deb8u9",
-      "Line": 4542,
+      "Line": 4560,
       "Type": "package",
       "Release": "jessie",
       "Package": "jackson-databind",

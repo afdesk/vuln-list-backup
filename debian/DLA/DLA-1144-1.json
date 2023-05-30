@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[26 Oct 2017] DLA-1144-1 git-annex - security update",
-    "Line": 6978,
+    "Line": 6996,
     "ID": "DLA-1144-1",
     "Description": "git-annex - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2017-12976}",
-      "Line": 6979,
+      "Line": 6997,
       "Type": "xref",
       "Bugs": [
         "CVE-2017-12976"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[wheezy] - git-annex 3.20120629+deb7u1",
-      "Line": 6980,
+      "Line": 6998,
       "Type": "package",
       "Release": "wheezy",
       "Package": "git-annex",

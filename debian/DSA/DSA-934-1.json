@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[09 Jan 2006] DSA-934-1 pound - remote",
-    "Line": 15266,
+    "Line": 15284,
     "ID": "DSA-934-1",
     "Description": "pound - remote"
   },
   "Annotations": [
     {
       "Original": "{CVE-2005-1391 CVE-2005-3751}",
-      "Line": 15267,
+      "Line": 15285,
       "Type": "xref",
       "Bugs": [
         "CVE-2005-1391",
@@ -17,7 +17,7 @@
     },
     {
       "Original": "[sarge] - pound 1.8.2-1sarge1",
-      "Line": 15268,
+      "Line": 15286,
       "Type": "package",
       "Release": "sarge",
       "Package": "pound",
@@ -26,7 +26,7 @@
     },
     {
       "Original": "NOTE: Fixed in testing at time of DSA",
-      "Line": 15269,
+      "Line": 15287,
       "Type": "NOTE",
       "Description": "Fixed in testing at time of DSA"
     }

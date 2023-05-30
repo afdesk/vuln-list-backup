@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[17 Dec 2017] DSA-4067-1 openafs - security update",
-    "Line": 4474,
+    "Line": 4492,
     "ID": "DSA-4067-1",
     "Description": "openafs - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2017-17432}",
-      "Line": 4475,
+      "Line": 4493,
       "Type": "xref",
       "Bugs": [
         "CVE-2017-17432"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[stretch] - openafs 1.6.20-2+deb9u1",
-      "Line": 4476,
+      "Line": 4494,
       "Type": "package",
       "Release": "stretch",
       "Package": "openafs",
@@ -25,7 +25,7 @@
     },
     {
       "Original": "[jessie] - openafs 1.6.9-2+deb8u6",
-      "Line": 4477,
+      "Line": 4495,
       "Type": "package",
       "Release": "jessie",
       "Package": "openafs",

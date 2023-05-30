@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[15 Sep 2009] DSA-1887-1 rails - cross-site scripting",
-    "Line": 11893,
+    "Line": 11911,
     "ID": "DSA-1887-1",
     "Description": "rails - cross-site scripting"
   },
   "Annotations": [
     {
       "Original": "{CVE-2009-3009}",
-      "Line": 11894,
+      "Line": 11912,
       "Type": "xref",
       "Bugs": [
         "CVE-2009-3009"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[lenny] - rails 2.1.0-7",
-      "Line": 11895,
+      "Line": 11913,
       "Type": "package",
       "Release": "lenny",
       "Package": "rails",
