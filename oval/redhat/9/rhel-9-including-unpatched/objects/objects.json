@@ -7191,17 +7191,17 @@
       "Name": "python3-configobj"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232650005",
-      "Version": "636",
-      "Name": "edk2-tools-doc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232650011",
+      "ID": "oval:com.redhat.cve:obj:20232650001",
       "Version": "636",
       "Name": "edk2"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232650013",
+      "ID": "oval:com.redhat.cve:obj:20232650002",
+      "Version": "636",
+      "Name": "edk2-tools-doc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232650004",
       "Version": "636",
       "Name": "edk2-tools"
     },

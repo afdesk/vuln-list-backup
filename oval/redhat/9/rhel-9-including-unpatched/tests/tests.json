@@ -31638,21 +31638,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2-tools-doc is installed",
-      "ID": "oval:com.redhat.cve:tst:20232650009",
+      "Comment": "edk2 is installed",
+      "ID": "oval:com.redhat.cve:tst:20232650001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650005"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "edk2-tools-doc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20232650010",
+      "Comment": "edk2 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20232650002",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650005"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -31660,21 +31660,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2 is installed",
-      "ID": "oval:com.redhat.cve:tst:20232650021",
+      "Comment": "edk2-tools-doc is installed",
+      "ID": "oval:com.redhat.cve:tst:20232650003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650011"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650002"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "edk2 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20232650022",
+      "Comment": "edk2-tools-doc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20232650004",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650011"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650002"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -31683,20 +31683,20 @@
     {
       "Check": "at least one",
       "Comment": "edk2-tools is installed",
-      "ID": "oval:com.redhat.cve:tst:20232650025",
+      "ID": "oval:com.redhat.cve:tst:20232650007",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650013"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650004"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "edk2-tools is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20232650026",
+      "ID": "oval:com.redhat.cve:tst:20232650008",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650013"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650004"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -60826,7 +60826,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20232165005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650013"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20232165003"
@@ -60838,7 +60838,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20232165007",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650005"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20232165001"
@@ -97494,7 +97494,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650011"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650001"
       },
       "State": {}
     },
@@ -97505,7 +97505,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650013"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650004"
       },
       "State": {}
     },
@@ -97516,7 +97516,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232650005"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232650002"
       },
       "State": {}
     },

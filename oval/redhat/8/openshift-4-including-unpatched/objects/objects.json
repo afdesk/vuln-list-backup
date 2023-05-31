@@ -191,29 +191,14 @@
       "Name": "future"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241722005",
-      "Version": "636",
-      "Name": "ignition"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202241722007",
-      "Version": "636",
-      "Name": "butane"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202241722008",
-      "Version": "636",
-      "Name": "conmon-rs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202241722010",
-      "Version": "636",
-      "Name": "conmon"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202241722014",
+      "ID": "oval:com.redhat.cve:obj:202241722003",
       "Version": "636",
       "Name": "runc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202241722011",
+      "Version": "636",
+      "Name": "conmon"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20230836001",
@@ -296,6 +281,11 @@
       "Name": "machine-config-daemon"
     },
     {
+      "ID": "oval:com.redhat.unaffected:obj:202024553014",
+      "Version": "635",
+      "Name": "ignition"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:202024553015",
       "Version": "635",
       "Name": "kubefed-client"
@@ -334,6 +324,11 @@
       "ID": "oval:com.redhat.unaffected:obj:202221658001",
       "Version": "635",
       "Name": "kata-containers"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202241717003",
+      "Version": "635",
+      "Name": "butane"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20231668002",
