@@ -33,12 +33,12 @@
         "Value": "CVE-2022-3866"
       }
     ],
-    "Description": "HashiCorp Nomad and Nomad Enterprise 1.4.0 up to 1.4.1 workload identity token can list non-sensitive metadata for paths under nomad/ that belong to other jobs in the same namespace. Fixed in 1.4.2.",
+    "Description": "HashiCorp Nomad and Nomad Enterprise 1.4.0 up to 1.4.1 workload identity token can list non-sensitive metadata for paths under `nomad/` that belong to other jobs in the same namespace. Fixed in 1.4.2.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-11-10T12:01:03Z",
     "Severity": "MODERATE",
     "Summary": "HashiCorp Nomad vulnerable to non-sensitive metadata exposure",
-    "UpdatedAt": "2023-05-22T18:33:42Z",
+    "UpdatedAt": "2023-05-31T05:01:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5,
