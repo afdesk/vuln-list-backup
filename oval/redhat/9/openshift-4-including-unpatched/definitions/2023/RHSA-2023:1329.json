@@ -103,7 +103,7 @@
                   },
                   {
                     "Comment": "microshift-greenboot is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202241722004"
+                    "TestRef": "oval:com.redhat.cve:tst:202241722010"
                   }
                 ]
               },
@@ -116,7 +116,7 @@
                   },
                   {
                     "Comment": "microshift-networking is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202241722018"
+                    "TestRef": "oval:com.redhat.cve:tst:202241722046"
                   }
                 ]
               },
@@ -129,7 +129,7 @@
                   },
                   {
                     "Comment": "microshift-release-info is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202241722032"
+                    "TestRef": "oval:com.redhat.cve:tst:202241722048"
                   }
                 ]
               },
@@ -142,7 +142,7 @@
                   },
                   {
                     "Comment": "microshift-selinux is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202241722040"
+                    "TestRef": "oval:com.redhat.cve:tst:202241722006"
                   }
                 ]
               }

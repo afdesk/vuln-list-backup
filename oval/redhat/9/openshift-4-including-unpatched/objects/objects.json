@@ -316,6 +316,16 @@
       "Name": "python-oslo-utils"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202224675005",
+      "Version": "636",
+      "Name": "buildah-tests"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202224675012",
+      "Version": "636",
+      "Name": "skopeo-tests"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202227650001",
       "Version": "636",
       "Name": "crun"
@@ -341,39 +351,29 @@
       "Name": "future"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241722002",
+      "ID": "oval:com.redhat.cve:obj:202241722003",
+      "Version": "636",
+      "Name": "microshift-selinux"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202241722005",
       "Version": "636",
       "Name": "microshift-greenboot"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241722009",
-      "Version": "636",
-      "Name": "microshift-networking"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202241722013",
-      "Version": "636",
-      "Name": "buildah-tests"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202241722015",
+      "ID": "oval:com.redhat.cve:obj:202241722019",
       "Version": "636",
       "Name": "conmon-rs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241722016",
+      "ID": "oval:com.redhat.cve:obj:202241722023",
+      "Version": "636",
+      "Name": "microshift-networking"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202241722024",
       "Version": "636",
       "Name": "microshift-release-info"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202241722017",
-      "Version": "636",
-      "Name": "skopeo-tests"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202241722020",
-      "Version": "636",
-      "Name": "microshift-selinux"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202323934001",

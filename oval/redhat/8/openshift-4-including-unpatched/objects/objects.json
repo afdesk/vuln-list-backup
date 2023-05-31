@@ -191,14 +191,14 @@
       "Name": "future"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241722003",
-      "Version": "636",
-      "Name": "runc"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202241722011",
       "Version": "636",
       "Name": "conmon"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202241722012",
+      "Version": "636",
+      "Name": "runc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20230836001",
