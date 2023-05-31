@@ -1,9 +1,9 @@
 {
   "Severity": "LOW",
-  "UpdatedAt": "2022-06-03T22:27:01Z",
+  "UpdatedAt": "2023-05-30T18:47:59Z",
   "Package": {
-    "Ecosystem": "NPM",
-    "Name": "jquery-validation"
+    "Ecosystem": "NUGET",
+    "Name": "jQuery.Validation"
   },
   "Advisory": {
     "DatabaseId": 177505,

@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-05-22T19:37:12Z",
   "Package": {
     "Ecosystem": "NPM",
@@ -36,13 +36,13 @@
     "Description": "iden3 snarkjs through 0.6.11 allows double spending because there is no validation that the publicSignals length is less than the field modulus.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-05-22T00:30:20Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Double spend in snarkjs",
-    "UpdatedAt": "2023-05-22T19:37:12Z",
+    "UpdatedAt": "2023-05-30T23:12:13Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
     }
   },
   "Versions": [
